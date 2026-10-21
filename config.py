@@ -20,6 +20,10 @@ PORT = int(os.environ.get("PORT", "8000"))
 MAX_RETRIES = 3
 RETRY_BACKOFF = 2          # seconds, multiplied by the attempt number
 
+# This kit runs from your own machine, so it may contact XING directly when
+# XING_PROXY is unset (the hosted service never does).
+XING_ALLOW_DIRECT = True
+
 XING_MAX_ATTEMPTS = MAX_RETRIES          # tries per call before giving up
 XING_GEO_FENCE_HOLD_SECONDS = 900        # after a geo-fenced answer, start every call on the proxy for this long
 XING_WORKERS = 4                         # parallel upstream calls inside one request (jobs/batch, company page)

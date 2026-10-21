@@ -59,8 +59,8 @@ def test_job_details():
 
 
 def test_job_batch():
-    body = call("/xing/jobs/batch", jobs="155730561,156019027,999999999")
-    assert {j["id"] for j in body["jobs"]} == {155730561, 156019027} and body["not_found"] == [999999999] and body["errors"] == []
+    body = call("/xing/jobs/batch", jobs="158622557,158623221,999999999")
+    assert {j["id"] for j in body["jobs"]} == {158622557, 158623221} and body["not_found"] == [999999999] and body["errors"] == []
 
 
 def test_similar_jobs():

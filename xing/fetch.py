@@ -1,5 +1,5 @@
 """XING transport: plain curl_cffi POSTs to the site's own GraphQL API,
-validated 2026-10-19 from this Mac (direct egress, no cookies, no login).
+validated 2026-10-19 (no cookies, no login).
 
 Surface: https://www.xing.com/xing-one/api — the API behind xing.com's
 React frontend. Every operation this package sends (xing/gql.py) answers
@@ -17,10 +17,14 @@ Two things the API wants from a logged-out client:
   * an egress the site is happy to show jobs to: from an Indian office IP
     about two thirds of the search hits come back as UnauthorizedJob
     {reason: GEO_FENCED}, while DE / AT / CH / US residential exits see
-    all of them. A geo-fenced answer is therefore retried on a sticky
-    residential exit in config.XING_FALLBACK_PROXY_COUNTRY (de), like any
-    transport failure (the Airbnb / Indeed / JobStreet policy); set
-    config.XING_PROXY_COUNTRY to ride exits for every call.
+    all of them.
+
+Egress (2026-10-21): every call rides a proxy exit (config.xing_proxy(): a
+sticky residential exit in config.XING_PROXY_COUNTRY, de); a
+failed or geo-fenced call is retried on a fresh exit. XING never sees the
+server's own IP: with no proxy the call fails, unless the config opts in
+to direct egress (config.XING_ALLOW_DIRECT — the open-source kit, which
+runs from the user's own machine, sets it).
 
 The headful patchright click-through (indeed/fetch.py _browser_page) is
 the escalation after that — not built while plain HTTP works.
@@ -142,6 +146,15 @@ def _drop_session(key):
             pass
 
 
+def _proxy(fallback=False):
+    """The exit for a session; refuses to go on without one (XING never sees
+    the server's own IP) unless the config opts in to direct egress."""
+    proxy = config.xing_proxy(fallback=fallback)
+    if not proxy and not getattr(config, "XING_ALLOW_DIRECT", False):
+        raise XingUpstreamError("no XING proxy configured (XING is never contacted from the server's IP)")
+    return proxy
+
+
 # After a geo-fenced answer on direct egress every call starts on the
 # fallback exit until this deadline (config.XING_GEO_FENCE_HOLD_SECONDS):
 # the fence is per egress IP, so the next direct attempt would only waste
@@ -170,7 +183,7 @@ def _attempts(label, send):
     last = None
     fenced = None           # the last geo-fenced answer: served when no exit sees more
     for attempt in range(1, attempts + 1):
-        proxy = config.xing_proxy(fallback=attempt > 1 or _hold_fallback())
+        proxy = _proxy(fallback=attempt > 1 or _hold_fallback())
         key = f"{attempt if proxy else 0}:{proxy or 'direct'}"
         sess = _session(key, proxy)
         try:

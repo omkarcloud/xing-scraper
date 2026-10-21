@@ -281,3 +281,19 @@ def test_schemas():
     ok, err = load_query(schemas.LocationSuggestSchema, {"query": "Mün", "countries": "de,AT"})
     assert ok["countries"] == ["DE", "AT"]
     assert load_query(schemas.NewsSchema, {"company": "sap", "before": "yesterday"})[1]
+
+
+# ---- egress ---------------------------------------------------------------------------------------
+
+def test_never_direct_without_opt_in(monkeypatch):
+    # XING is never contacted from the server's own IP: no proxy -> the call fails
+    import config
+    from xing import fetch
+    monkeypatch.setattr(config, "xing_proxy", lambda fallback=False: None)
+    monkeypatch.delattr(config, "XING_ALLOW_DIRECT", raising=False)
+    with pytest.raises(fetch.XingUpstreamError):
+        fetch._proxy()
+    monkeypatch.setattr(config, "XING_ALLOW_DIRECT", True, raising=False)   # the open-source kit
+    assert fetch._proxy() is None
+    monkeypatch.setattr(config, "xing_proxy", lambda fallback=False: "http://u:p@exit:1")
+    assert fetch._proxy() == "http://u:p@exit:1"
