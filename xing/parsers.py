@@ -152,7 +152,7 @@ def application(item):
 
 
 def _text_list(value):
-    """The AI summary's bullet fields: XING sends a list of strings (a lone
+    """The summary's bullet fields: XING sends a list of strings (a lone
     string is tolerated) -> list of clean strings, None when empty."""
     if isinstance(value, list):
         out = [line for line in (multiline(v) for v in value) if line]
