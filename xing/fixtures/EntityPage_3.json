@@ -1,0 +1,117 @@
+{
+ "operationName": "EntityPage",
+ "variables": {
+  "id": "sap"
+ },
+ "data": {
+  "entityPageEX": {
+   "__typename": "EntityPage",
+   "id": "210.d5ee28",
+   "title": "SAP",
+   "slug": "sap",
+   "slogan": null,
+   "context": {
+    "companyId": "30276.2e5e9c"
+   },
+   "links": {
+    "self": "https://www.xing.com/pages/sap"
+   },
+   "coverImage": [
+    {
+     "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNTk3OTgzN2YtMTZlNS00ZTdlLWE4N2UtMDBkNGU0MTgwODc2IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjE4NzIsIm1heF9oZWlnaHQiOjQ2OH0?signature=b998836fb1d80d728ab7b846cedf23ca4ab28bafb133b0cec3cb5d0f42b121d0"
+    }
+   ],
+   "logoImage": [
+    {
+     "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjNkYTAxOTAtZjViYy00NTI3LWEzNzEtOWMxMWJhNDQ3MmM3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjMyMCwibWF4X2hlaWdodCI6MzIwfQ?signature=28a135834ce62bcb81a1a34e0ed0d6be1c98fadad44f47a98be3362e45bad60a"
+    }
+   ],
+   "publicationStatus": "PUBLISHED",
+   "modules": {
+    "collection": [
+     {
+      "type": "header"
+     },
+     {
+      "type": "news"
+     },
+     {
+      "type": "company_recommendations"
+     },
+     {
+      "type": "about_us"
+     },
+     {
+      "type": "jobs"
+     },
+     {
+      "type": "employees"
+     },
+     {
+      "type": "contacts"
+     },
+     {
+      "type": "locations"
+     }
+    ]
+   }
+  },
+  "headerModule": {
+   "content": {
+    "__typename": "EntityPageCompanyHeaderContent",
+    "followers": {
+     "total": 44539
+    },
+    "company": {
+     "id": "30276.2e5e9c",
+     "employeesCount": null,
+     "companySizeRange": {
+      "min": 10001,
+      "max": null
+     },
+     "industry": {
+      "id": "90100.a8b7b7",
+      "localizationValue": "Software"
+     }
+    }
+   }
+  },
+  "pagesAboutUs": {
+   "headline": "",
+   "summary": "SAP ist einer der weltweit führenden Anbieter von Software für die Steuerung von Geschäftsprozessen und effektiven Lösungen zur Datenverarbeitung.\n\nUnsere Vision: Mithilfe eines weltweiten Netzwerks aus Kunden, Partnern, Mitarbeitern und Vordenkern die Abläufe in der weltweiten Wirtschaft und das Leben von Menschen verbessern!",
+   "media": null
+  },
+  "entityPageLocations": {
+   "collection": [
+    {
+     "id": "18015.4618b9",
+     "label": "Walldorf",
+     "city": "Walldorf",
+     "address": "Dietmar-Hopp-Allee 16",
+     "addressSuffix": null,
+     "postcode": "69190",
+     "highlighted": true,
+     "email": "info.germany@sap.com",
+     "websiteURL": "https://sap.de",
+     "coordinates": {
+      "latitude": 49.2938433,
+      "longitude": 8.6413693
+     },
+     "country": {
+      "countryCode": "DE",
+      "localizationValue": "Germany"
+     },
+     "phoneNumber": {
+      "number": "8005343424",
+      "countryCode": 49
+     },
+     "faxNumber": {
+      "number": "6227757575",
+      "countryCode": 49
+     }
+    }
+   ]
+  }
+ },
+ "errors": []
+}

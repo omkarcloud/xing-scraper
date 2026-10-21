@@ -1,0 +1,11 @@
+services:
+  xing-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — only if XING hides jobs from your country ("geo_fenced"):
+      # a proxy in Germany, Austria, Switzerland or the US.
+      # - XING_PROXY=http://user:pass@host:port

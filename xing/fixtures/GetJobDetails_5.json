@@ -1,0 +1,10 @@
+{
+ "operationName": "GetJobDetails",
+ "variables": {
+  "slug": "999999999"
+ },
+ "data": {
+  "job": null
+ },
+ "errors": []
+}

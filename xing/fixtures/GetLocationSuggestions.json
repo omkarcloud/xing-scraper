@@ -1,0 +1,51 @@
+{
+ "operationName": "GetLocationSuggestions",
+ "variables": {
+  "consumer": "loggedout.web.jobs.search",
+  "text": "Mün",
+  "language": "en",
+  "limit": 5
+ },
+ "data": {
+  "autocompletionLocationsCity": {
+   "collection": [
+    {
+     "cityIdWithScrambling": "1818446.9c6867",
+     "name": "Tuen Mun",
+     "adminArea3": "",
+     "adminArea": "Tuen Mun",
+     "formattedCountry": "Hong Kong"
+    },
+    {
+     "cityIdWithScrambling": "2867714.724c7f",
+     "name": "München",
+     "adminArea3": "Munich, Urban District",
+     "adminArea": "Bavaria",
+     "formattedCountry": "Germany"
+    },
+    {
+     "cityIdWithScrambling": "1818444.c559d4",
+     "name": "Tuen Mun San Hui",
+     "adminArea3": "",
+     "adminArea": "Tuen Mun",
+     "formattedCountry": "Hong Kong"
+    },
+    {
+     "cityIdWithScrambling": "1619400.496379",
+     "name": "Bang Mun Nak",
+     "adminArea3": "Bang Mun Nak",
+     "adminArea": "Changwat Phichit",
+     "formattedCountry": "Thailand"
+    },
+    {
+     "cityIdWithScrambling": "13308758.22f882",
+     "name": "Lei Yue Mun",
+     "adminArea3": "",
+     "adminArea": "Guangdong",
+     "formattedCountry": "China"
+    }
+   ]
+  }
+ },
+ "errors": []
+}

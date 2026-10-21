@@ -1,0 +1,573 @@
+{
+ "operationName": "GetJobDetailsLinkboxes",
+ "variables": {
+  "jobRole": "softwareentwickler",
+  "location": "berlin"
+ },
+ "data": {
+  "jobRoleLinkboxes": {
+   "collection": [
+    {
+     "kind": "popular_location",
+     "entries": [
+      {
+       "name": "Softwareentwickler Jobs in München",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-münchen",
+       "jobCount": 354
+      },
+      {
+       "name": "Softwareentwickler Jobs in Pullach im Isartal",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-pullach-im-isartal",
+       "jobCount": 348
+      },
+      {
+       "name": "Softwareentwickler Jobs in Unterhaching",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-unterhaching",
+       "jobCount": 346
+      },
+      {
+       "name": "Softwareentwickler Jobs in Neubiberg",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-neubiberg",
+       "jobCount": 346
+      },
+      {
+       "name": "Softwareentwickler Jobs in Ismaning",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-ismaning",
+       "jobCount": 344
+      },
+      {
+       "name": "Softwareentwickler Jobs in Neuried",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-neuried",
+       "jobCount": 344
+      },
+      {
+       "name": "Softwareentwickler Jobs in Unterföhring",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-unterföhring",
+       "jobCount": 342
+      },
+      {
+       "name": "Softwareentwickler Jobs in Gräfelfing",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-gräfelfing",
+       "jobCount": 342
+      },
+      {
+       "name": "Softwareentwickler Jobs in Martinsried",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-martinsried",
+       "jobCount": 342
+      },
+      {
+       "name": "Softwareentwickler Jobs in Planegg",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-planegg",
+       "jobCount": 342
+      },
+      {
+       "name": "Softwareentwickler Jobs in Oberhaching bei München",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-oberhaching-bei-münchen",
+       "jobCount": 342
+      },
+      {
+       "name": "Softwareentwickler Jobs in Putzbrunn",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-putzbrunn",
+       "jobCount": 341
+      },
+      {
+       "name": "Softwareentwickler Jobs in Krailling",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-krailling",
+       "jobCount": 341
+      },
+      {
+       "name": "Softwareentwickler Jobs in Stockdorf",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-stockdorf",
+       "jobCount": 341
+      },
+      {
+       "name": "Softwareentwickler Jobs in Grünwald",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-grünwald",
+       "jobCount": 340
+      },
+      {
+       "name": "Softwareentwickler Jobs in Vaterstetten",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-vaterstetten",
+       "jobCount": 340
+      },
+      {
+       "name": "Softwareentwickler Jobs in Aschheim",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-aschheim",
+       "jobCount": 339
+      },
+      {
+       "name": "Softwareentwickler Jobs in Haar bei München",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-haar",
+       "jobCount": 339
+      },
+      {
+       "name": "Softwareentwickler Jobs in Riemerling",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-riemerling",
+       "jobCount": 339
+      },
+      {
+       "name": "Softwareentwickler Jobs in Parsdorf",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-parsdorf",
+       "jobCount": 336
+      }
+     ]
+    },
+    {
+     "kind": "job_role_employment_type",
+     "entries": [
+      {
+       "name": "Softwareentwickler Studierende Jobs",
+       "url": "https://www.xing.com/jobs/k-student/t-softwareentwickler",
+       "jobCount": 704
+      },
+      {
+       "name": "Softwareentwickler Teilzeit Jobs",
+       "url": "https://www.xing.com/jobs/k-teilzeit/t-softwareentwickler",
+       "jobCount": 79
+      }
+     ]
+    },
+    {
+     "kind": "related_job_roles",
+     "entries": [
+      {
+       "name": "Computer Programmer",
+       "url": "https://www.xing.com/jobs/t-computer-programmer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Junior Software Engineer",
+       "url": "https://www.xing.com/jobs/t-junior-software-engineer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Software Engineer",
+       "url": "https://www.xing.com/jobs/t-software-engineer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Projektmanager Software",
+       "url": "https://www.xing.com/jobs/t-projektmanager-software",
+       "jobCount": 1000
+      },
+      {
+       "name": "Senior Software Developer",
+       "url": "https://www.xing.com/jobs/t-senior-software-developer",
+       "jobCount": 1000
+      },
+      {
+       "name": "SW Developer",
+       "url": "https://www.xing.com/jobs/t-sw-developer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Applikationsentwickler",
+       "url": "https://www.xing.com/jobs/t-applikationsentwickler",
+       "jobCount": 1000
+      },
+      {
+       "name": "Senior Software Engineer",
+       "url": "https://www.xing.com/jobs/t-senior-software-engineer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Programmierer",
+       "url": "https://www.xing.com/jobs/t-programmierer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Medizininformatiker",
+       "url": "https://www.xing.com/jobs/t-medizininformatiker",
+       "jobCount": 1000
+      },
+      {
+       "name": "Applikationsingenieur",
+       "url": "https://www.xing.com/jobs/t-applikationsingenieur",
+       "jobCount": 1000
+      },
+      {
+       "name": "Junior Software Developer",
+       "url": "https://www.xing.com/jobs/t-junior-software-developer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Junior Softwareentwickler",
+       "url": "https://www.xing.com/jobs/t-junior-softwareentwickler",
+       "jobCount": 1000
+      },
+      {
+       "name": "Anwendungsentwickler",
+       "url": "https://www.xing.com/jobs/t-anwendungsentwickler",
+       "jobCount": 1000
+      },
+      {
+       "name": "Fachinformatiker Anwendungsentwicklung",
+       "url": "https://www.xing.com/jobs/t-fachinformatiker-anwendungsentwicklung",
+       "jobCount": 1000
+      },
+      {
+       "name": "Medieninformatiker",
+       "url": "https://www.xing.com/jobs/t-medieninformatiker",
+       "jobCount": 1000
+      },
+      {
+       "name": "Programmer",
+       "url": "https://www.xing.com/jobs/t-programmer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Software Developer",
+       "url": "https://www.xing.com/jobs/t-software-developer",
+       "jobCount": 1000
+      },
+      {
+       "name": "Solution Designer",
+       "url": "https://www.xing.com/jobs/t-solution-designer",
+       "jobCount": 999
+      },
+      {
+       "name": "Programmierer PHP",
+       "url": "https://www.xing.com/jobs/t-programmierer-php",
+       "jobCount": 167
+      }
+     ]
+    },
+    {
+     "kind": "job_role_randomized",
+     "entries": [
+      {
+       "name": "GE",
+       "url": "https://www.xing.com/jobs/c-ge",
+       "jobCount": 766
+      },
+      {
+       "name": "Pflegemanagement Jobs in Bottrop",
+       "url": "https://www.xing.com/jobs/skill/pflegemanagement-jobs-in-bottrop",
+       "jobCount": 262
+      },
+      {
+       "name": "Produktionsmitarbeit Jobs in Aschaffenburg",
+       "url": "https://www.xing.com/jobs/skill/produktionsmitarbeit-jobs-in-aschaffenburg",
+       "jobCount": 106
+      },
+      {
+       "name": "Teamleitung Jobs in Spaichingen",
+       "url": "https://www.xing.com/jobs/skill/teamleitung-jobs-in-spaichingen",
+       "jobCount": 62
+      },
+      {
+       "name": "Teamassistenz Jobs in Kirchheim unter Teck",
+       "url": "https://www.xing.com/jobs/skill/teamassistenz-jobs-in-kirchheim-unter-teck",
+       "jobCount": 47
+      },
+      {
+       "name": "Justiz Jobs in Grafschaft",
+       "url": "https://www.xing.com/jobs/skill/justiz-jobs-in-grafschaft",
+       "jobCount": 38
+      },
+      {
+       "name": "Klimawandel Jobs in Denkendorf",
+       "url": "https://www.xing.com/jobs/skill/klimawandel-jobs-in-denkendorf",
+       "jobCount": 32
+      },
+      {
+       "name": "Training Jobs in Wernberg-Köblitz",
+       "url": "https://www.xing.com/jobs/skill/training-jobs-in-wernberg-köblitz",
+       "jobCount": 27
+      },
+      {
+       "name": "Kriminaltechnik Jobs in Lehrte",
+       "url": "https://www.xing.com/jobs/skill/kriminaltechnik-jobs-in-lehrte",
+       "jobCount": 26
+      },
+      {
+       "name": "Notrufzentrale Jobs in Reinbek bei Hamburg",
+       "url": "https://www.xing.com/jobs/skill/notrufzentrale-jobs-in-reinbek",
+       "jobCount": 25
+      },
+      {
+       "name": "Erwachsenenbildung Jobs in Hirschaid",
+       "url": "https://www.xing.com/jobs/skill/erwachsenenbildung-jobs-in-hirschaid",
+       "jobCount": 21
+      },
+      {
+       "name": "Teamleitung Jobs in Passau",
+       "url": "https://www.xing.com/jobs/skill/teamleitung-jobs-in-passau",
+       "jobCount": 20
+      },
+      {
+       "name": "Ambulante Pflege Jobs in Gedern",
+       "url": "https://www.xing.com/jobs/skill/ambulante-pflege-jobs-in-gedern",
+       "jobCount": 19
+      },
+      {
+       "name": "Kubernetes Jobs in Thun",
+       "url": "https://www.xing.com/jobs/skill/kubernetes-jobs-in-thun",
+       "jobCount": 16
+      },
+      {
+       "name": "Telefonie Jobs in Achern",
+       "url": "https://www.xing.com/jobs/skill/telefonie-jobs-in-achern",
+       "jobCount": 16
+      },
+      {
+       "name": "Fußball Jobs in Kritzmow",
+       "url": "https://www.xing.com/jobs/skill/fußball-jobs-in-kritzmow",
+       "jobCount": 14
+      },
+      {
+       "name": "Produktionsplanung und steuerung Jobs in Dietikon",
+       "url": "https://www.xing.com/jobs/skill/produktionsplanung-und-steuerung-jobs-in-dietikon",
+       "jobCount": 13
+      },
+      {
+       "name": "ETL Jobs in Stadtlohn",
+       "url": "https://www.xing.com/jobs/skill/etl-jobs-in-stadtlohn",
+       "jobCount": 8
+      },
+      {
+       "name": "Fahrrad Jobs in Kevelaer",
+       "url": "https://www.xing.com/jobs/skill/fahrrad-jobs-in-kevelaer",
+       "jobCount": 7
+      },
+      {
+       "name": "Kreativität Jobs in Landstuhl",
+       "url": "https://www.xing.com/jobs/skill/kreativität-jobs-in-landstuhl",
+       "jobCount": 6
+      }
+     ]
+    }
+   ]
+  },
+  "localJobRoleLinkboxes": {
+   "collection": [
+    {
+     "kind": "local_skill",
+     "entries": [
+      {
+       "name": "Computer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/skill/computer-jobs-in-berlin",
+       "jobCount": 1000
+      },
+      {
+       "name": "Softwareentwicklung Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/skill/softwareentwicklung-jobs-in-berlin",
+       "jobCount": 480
+      }
+     ]
+    },
+    {
+     "kind": "nearby_job_role",
+     "entries": [
+      {
+       "name": "Softwareentwickler Jobs in Großbeeren",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-grossbeeren",
+       "jobCount": 291
+      },
+      {
+       "name": "Softwareentwickler Jobs in Teltow",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-teltow",
+       "jobCount": 291
+      },
+      {
+       "name": "Softwareentwickler Jobs in Kleinmachnow",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-kleinmachnow",
+       "jobCount": 291
+      },
+      {
+       "name": "Softwareentwickler Jobs in Hennigsdorf",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-hennigsdorf",
+       "jobCount": 285
+      },
+      {
+       "name": "Softwareentwickler Jobs in Hohen Neuendorf",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-hohen-neuendorf",
+       "jobCount": 285
+      },
+      {
+       "name": "Softwareentwickler Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-berlin",
+       "jobCount": 283
+      },
+      {
+       "name": "Softwareentwickler Jobs in Schönefeld",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-schönefeld",
+       "jobCount": 280
+      },
+      {
+       "name": "Softwareentwickler Jobs in Hoppegarten",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-hoppegarten",
+       "jobCount": 278
+      },
+      {
+       "name": "Softwareentwickler Jobs in Hönow",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-hönow",
+       "jobCount": 277
+      },
+      {
+       "name": "Softwareentwickler Jobs in Falkensee",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-falkensee",
+       "jobCount": 19
+      },
+      {
+       "name": "Softwareentwickler Jobs in Wustermark",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-wustermark",
+       "jobCount": 19
+      },
+      {
+       "name": "Softwareentwickler Jobs in Dallgow-Döberitz",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-dallgow-döberitz",
+       "jobCount": 16
+      },
+      {
+       "name": "Softwareentwickler Jobs in Potsdam",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-potsdam",
+       "jobCount": 16
+      },
+      {
+       "name": "Softwareentwickler Jobs in Ludwigsfelde",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-ludwigsfelde",
+       "jobCount": 16
+      },
+      {
+       "name": "Softwareentwickler Jobs in Werder",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-werder",
+       "jobCount": 14
+      },
+      {
+       "name": "Softwareentwickler Jobs in Ketzin/Havel",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-ketzin-havel",
+       "jobCount": 13
+      },
+      {
+       "name": "Softwareentwickler Jobs in Fichtenwalde",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-fichtenwalde",
+       "jobCount": 13
+      },
+      {
+       "name": "Softwareentwickler Jobs in Beelitz",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-beelitz",
+       "jobCount": 13
+      },
+      {
+       "name": "Softwareentwickler Jobs in Oranienburg",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-oranienburg",
+       "jobCount": 9
+      },
+      {
+       "name": "Softwareentwickler Jobs in Velten",
+       "url": "https://www.xing.com/jobs/softwareentwickler-jobs-in-velten",
+       "jobCount": 9
+      }
+     ]
+    },
+    {
+     "kind": "local_job_role_related_job_roles",
+     "entries": [
+      {
+       "name": "Software Engineer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/software-engineer-jobs-in-berlin",
+       "jobCount": 714
+      },
+      {
+       "name": "Software Developer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/software-developer-jobs-in-berlin",
+       "jobCount": 414
+      },
+      {
+       "name": "Senior Software Engineer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/senior-software-engineer-jobs-in-berlin",
+       "jobCount": 332
+      },
+      {
+       "name": "Programmer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/programmer-jobs-in-berlin",
+       "jobCount": 321
+      },
+      {
+       "name": "Programmierer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/programmierer-jobs-in-berlin",
+       "jobCount": 251
+      },
+      {
+       "name": "Medieninformatiker Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/medieninformatiker-jobs-in-berlin",
+       "jobCount": 230
+      },
+      {
+       "name": "Anwendungsentwickler Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/anwendungsentwickler-jobs-in-berlin",
+       "jobCount": 197
+      },
+      {
+       "name": "Senior Software Developer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/senior-software-developer-jobs-in-berlin",
+       "jobCount": 176
+      },
+      {
+       "name": "Medizininformatiker Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/medizininformatiker-jobs-in-berlin",
+       "jobCount": 158
+      },
+      {
+       "name": "Computer Programmer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/computer-programmer-jobs-in-berlin",
+       "jobCount": 108
+      },
+      {
+       "name": "SW Developer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/sw-developer-jobs-in-berlin",
+       "jobCount": 103
+      },
+      {
+       "name": "Junior Software Engineer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/junior-software-engineer-jobs-in-berlin",
+       "jobCount": 103
+      },
+      {
+       "name": "Solution Designer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/solution-designer-jobs-in-berlin",
+       "jobCount": 98
+      },
+      {
+       "name": "Applikationsentwickler Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/applikationsentwickler-jobs-in-berlin",
+       "jobCount": 79
+      },
+      {
+       "name": "Applikationsingenieur Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/applikationsingenieur-jobs-in-berlin",
+       "jobCount": 78
+      },
+      {
+       "name": "Junior Software Developer Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/junior-software-developer-jobs-in-berlin",
+       "jobCount": 74
+      },
+      {
+       "name": "Projektmanager Software Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/projektmanager-software-jobs-in-berlin",
+       "jobCount": 74
+      },
+      {
+       "name": "Junior Softwareentwickler Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/junior-softwareentwickler-jobs-in-berlin",
+       "jobCount": 42
+      },
+      {
+       "name": "Fachinformatiker Anwendungsentwicklung Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/fachinformatiker-anwendungsentwicklung-jobs-in-berlin",
+       "jobCount": 42
+      },
+      {
+       "name": "Programmierer PHP Jobs in Berlin",
+       "url": "https://www.xing.com/jobs/programmierer-php-jobs-in-berlin",
+       "jobCount": 25
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "errors": []
+}

@@ -1,0 +1,32 @@
+{
+ "operationName": "EntityPage",
+ "variables": {
+  "id": "no-such-company-xyz-123"
+ },
+ "data": {
+  "entityPageEX": {
+   "__typename": "EntityPageError",
+   "errorType": "NOT_FOUND",
+   "errorCode": 10404
+  },
+  "headerModule": null,
+  "pagesAboutUs": null,
+  "entityPageLocations": null
+ },
+ "errors": [
+  {
+   "message": "Error occured in expression: '%{result.properties}'\nCan't get: 'properties' from value: 'JSON({\"errorCode\":10404,\"errorType\":\"NOT_FOUND\",\"message\":\"No record found with supplied filter\"})'",
+   "path": [
+    "pagesAboutUs"
+   ],
+   "locations": [
+    {
+     "line": 33,
+     "column": 3
+    }
+   ],
+   "id": "EXPRESSION_ERROR",
+   "details": {}
+  }
+ ]
+}

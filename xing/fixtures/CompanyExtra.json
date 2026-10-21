@@ -1,0 +1,113 @@
+{
+ "operationName": "CompanyExtra",
+ "variables": {
+  "id": "30276.2e5e9c"
+ },
+ "data": {
+  "company": {
+   "id": "30276.2e5e9c",
+   "companyName": "SAP",
+   "companySize": "10,001 or more employees",
+   "companySizeRange": {
+    "min": 10001,
+    "max": null
+   },
+   "employeesCount": null,
+   "phone": null,
+   "industry": {
+    "id": "90100.a8b7b7",
+    "localizationValue": "Software"
+   },
+   "address": {
+    "street": "Dietmar-Hopp-Allee 16",
+    "city": "Walldorf",
+    "country": {
+     "countryCode": "DE",
+     "localizationValue": "Germany"
+    }
+   },
+   "links": {
+    "public": "https://www.xing.com/pages/sap"
+   },
+   "logos": {
+    "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjNkYTAxOTAtZjViYy00NTI3LWEzNzEtOWMxMWJhNDQ3MmM3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=6c92770c554702d8668b410d1074bbd831e8a0ec5b6438e8a31fdcf77bfdc69c",
+    "logo256px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjNkYTAxOTAtZjViYy00NTI3LWEzNzEtOWMxMWJhNDQ3MmM3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjI1NiwibWF4X2hlaWdodCI6MjU2fQ?signature=f151ef009ebf3d4bbd10b602d6436659bd7c05fc7f540c61ef17e03860cd5bc0"
+   },
+   "kununuData": null,
+   "relatedCompanies": {
+    "collection": [
+     {
+      "company": {
+       "id": "38475.499949",
+       "companyName": "intersoft GmbH",
+       "companySize": "51-200 employees",
+       "industry": {
+        "localizationValue": "Software"
+       },
+       "address": {
+        "city": "Hamburg",
+        "country": {
+         "localizationValue": "Germany"
+        }
+       },
+       "links": {
+        "public": "https://www.xing.com/pages/intersoftgmbh"
+       },
+       "logos": {
+        "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTMyMGVlMjItYWMyNy00NDJlLWFmY2MtNGQ5NzZhNDk1N2U2IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=41bb1abc98e824237436815e1496c76b782fe2037db413afa2b1f715bca6317a"
+       },
+       "kununuData": null
+      }
+     },
+     {
+      "company": {
+       "id": "100475.7239c4",
+       "companyName": "Critical Software",
+       "companySize": "501-1,000 employees",
+       "industry": {
+        "localizationValue": "Software"
+       },
+       "address": {
+        "city": "München",
+        "country": {
+         "localizationValue": "Germany"
+        }
+       },
+       "links": {
+        "public": "https://www.xing.com/pages/criticalsoftware"
+       },
+       "logos": {
+        "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjBiNzg2NGUtYzJmYi00ZmFmLTk1OGItMjdmZGZlNDU4MmJhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=3ca0f498fd2fd93d31099d41b9d7051b6a365752ca11e4e59c34579fd2b5e44f"
+       },
+       "kununuData": null
+      }
+     },
+     {
+      "company": {
+       "id": "1951028.9673f1",
+       "companyName": "fulfillmenttools (OC fulfillment GmbH)",
+       "companySize": "11-50 employees",
+       "industry": {
+        "localizationValue": "Software"
+       },
+       "address": {
+        "city": "Köln",
+        "country": {
+         "localizationValue": "Germany"
+        }
+       },
+       "links": {
+        "public": "https://www.xing.com/pages/fulfillmenttools"
+       },
+       "logos": {
+        "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODEzNmMxZjUtZGRkZi00YTEwLWJkN2QtZjk5MjFiYWM2NmFhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=36d71656145af46a1e5d79412ffe66ef527d2c49665ca59344f6b8ffed52f627"
+       },
+       "kununuData": null
+      }
+     }
+    ]
+   }
+  }
+ },
+ "errors": []
+}

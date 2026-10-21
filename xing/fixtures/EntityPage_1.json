@@ -1,0 +1,70 @@
+{
+ "operationName": "EntityPage",
+ "variables": {
+  "id": "https://www.xing.com/pages/accenture"
+ },
+ "data": {
+  "entityPageEX": null,
+  "headerModule": null,
+  "pagesAboutUs": null,
+  "entityPageLocations": null
+ },
+ "errors": [
+  {
+   "message": "Could not resolve fields",
+   "path": [
+    "entityPageEX"
+   ],
+   "locations": [
+    {
+     "line": 3,
+     "column": 3
+    }
+   ],
+   "id": "FATAL_RESOLVE_ERROR",
+   "details": {}
+  },
+  {
+   "message": "Could not resolve fields",
+   "path": [
+    "headerModule"
+   ],
+   "locations": [
+    {
+     "line": 20,
+     "column": 3
+    }
+   ],
+   "id": "FATAL_RESOLVE_ERROR",
+   "details": {}
+  },
+  {
+   "message": "Could not resolve fields",
+   "path": [
+    "pagesAboutUs"
+   ],
+   "locations": [
+    {
+     "line": 33,
+     "column": 3
+    }
+   ],
+   "id": "FATAL_RESOLVE_ERROR",
+   "details": {}
+  },
+  {
+   "message": "Could not resolve fields",
+   "path": [
+    "entityPageLocations"
+   ],
+   "locations": [
+    {
+     "line": 57,
+     "column": 3
+    }
+   ],
+   "id": "FATAL_RESOLVE_ERROR",
+   "details": {}
+  }
+ ]
+}

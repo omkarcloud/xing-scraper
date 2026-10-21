@@ -1,0 +1,131 @@
+{
+ "operationName": "GetJobDetails",
+ "variables": {
+  "slug": "155730561"
+ },
+ "data": {
+  "job": {
+   "__typename": "VisibleJob",
+   "id": "155730561.9e044b",
+   "slug": "berlin-java-full-stack-entwickler-all-genders-155730561",
+   "url": "https://www.xing.com/jobs/berlin-java-full-stack-entwickler-all-genders-155730561",
+   "title": "Java Full Stack Entwickler (all genders)",
+   "activatedAt": "2026-10-13T19:15:16Z",
+   "refreshedAt": "2026-10-13T19:15:16Z",
+   "activeUntil": "2026-12-25T00:55:19Z",
+   "paid": false,
+   "topJob": false,
+   "prioritized": false,
+   "redirectsToThirdPartyUrl": false,
+   "language": "de",
+   "jobCode": null,
+   "remoteOptions": [
+    "PARTLY_REMOTE"
+   ],
+   "employmentType": {
+    "id": "FULL_TIME.ef2fe9",
+    "localizationValue": "Full-time"
+   },
+   "careerLevel": {
+    "id": "3.2ebf16",
+    "localizationValue": "Professional/Experienced"
+   },
+   "discipline": {
+    "id": "1011.6cf3f7",
+    "localizationValue": "IT and software development"
+   },
+   "industry": {
+    "id": "160000.909d04",
+    "localizationValue": "Consulting"
+   },
+   "location": {
+    "city": "Berlin",
+    "cityId": 2950159,
+    "region": "Land Berlin",
+    "zipCode": null,
+    "country": {
+     "countryCode": "DE",
+     "localizationValue": "Germany"
+    },
+    "street": null
+   },
+   "locations": [
+    {
+     "city": "Berlin",
+     "region": "Land Berlin",
+     "zipCode": null,
+     "country": {
+      "countryCode": "DE",
+      "localizationValue": "Germany"
+     },
+     "street": null
+    }
+   ],
+   "companyInfo": {
+    "companyNameOverride": "Accenture Dienstleistungen GmbH",
+    "company": {
+     "id": "25948.0e87ae",
+     "companyName": "Accenture",
+     "companySize": "10,001 or more employees",
+     "industry": {
+      "id": "160000.909d04",
+      "localizationValue": "Consulting"
+     },
+     "links": {
+      "public": "https://www.xing.com/pages/accenture"
+     },
+     "logos": {
+      "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8",
+      "logo256px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjI1NiwibWF4X2hlaWdodCI6MjU2fQ?signature=03a7fcd51efbccf16da6257596834aafd8f37e8d8cdf6ef14ba17d09d259a780"
+     },
+     "kununuData": null,
+     "companySizeRange": {
+      "min": 10001,
+      "max": null
+     },
+     "employeesCount": null,
+     "address": {
+      "street": "Campus Kronberg 1",
+      "city": "Kronberg im Taunus",
+      "country": {
+       "countryCode": "DE",
+       "localizationValue": "Germany"
+      }
+     }
+    }
+   },
+   "salary": {
+    "currency": "EUR",
+    "minimum": 56000,
+    "maximum": 79500,
+    "median": 68000
+   },
+   "application": {
+    "__typename": "UrlApplication",
+    "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00295749_de&title=Java+Full+Stack+Entwickler+(all+genders)&utm_source=xing.com"
+   },
+   "summary": null,
+   "keywords": [
+    "engineering",
+    "informatik",
+    "softwareentwickler",
+    "assistent",
+    "learning",
+    "wirtschaftsinformatik",
+    "englischkenntnisse",
+    "programmierung",
+    "kultur",
+    "fachinformatiker"
+   ],
+   "screenOutCriteria": {
+    "euWorkEligibility": null,
+    "languageSkillsGerman": null
+   },
+   "description": {
+    "__typename": "HtmlDescription",
+    "content": "<DIV><DIV><DIV><DIV><P>Du bist Softwareentwickler:in, willst dich weiterentwickeln und beruflich weiterkommen? In einem Unternehmen, das deine Potenziale erkennt und fördert? Dann komm zu Accenture! In unserer Cloud Software Engineering-Einheit bist du Teil eines Teams, das an modernsten Softwarelösungen arbeitet und den digitalen Wandel namhafter Unternehmen in vielfältigen Kundenprojekten mitgestaltet. Wenn du Lust hast, in Themen wie Agilität, \"Journey to the Cloud\" oder das Aufsetzen von Microservices einzutauchen, passt du in unser internationales, wissbegieriges Team. Vor allem, wenn du Spaß daran hast, dich in neue Themen hineinzufuchsen, Accenture auf Fachkonferenzen zu vertreten und eigene Themen voranzubringen.<BR> </P><P><B>Deine Mission</B></P><P>In deiner Rolle trägst du dazu bei, moderne und performante Lösungen zu entwickeln. Gemeinsam mit interdisziplinären Projektteams gehst du dabei auf Kundenanforderungen ein. Bei Accenture gestaltest du dir selbst das Umfeld, in dem du aufgehst – mit Arbeitsweisen, die zu dir passen. Du bleibst flexibel. Und wirst Teil eines Teams voller einzigartiger Menschen, die gemeinsam etwas bewegen.<BR><BR>Diese Position ist in Voll- und Teilzeit möglich.<BR> </P><P><B>Das erwartet dich</B></P><UL><LI><P>Als Teil eines kleinen Teams programmierst du effizient mit modernsten, KI-gestützen Tools (Web-)Applikationen für unsere Kunden</P></LI><LI><P>Dabei kreierst du innovative Konzepte und Lösungsvorschläge für das bestmögliche Produkt</P></LI><LI><P>Beim Kunden vor Ort führst du Workshops mit den Entscheidungsträgern durch, um die fachlichen Anforderungen zu definieren und das optimale Ergebnis herbeizuführen</P></LI><LI><P>Du willst schnell dein eigenes Projekt und dein eigenes Team leiten? Dann zeig‘, was du kannst!</P></LI></UL></DIV></DIV></DIV><DIV><DIV><DIV><P><B>Darauf freuen wir uns</B></P><UL><LI><P>Studium der Informatik, Wirtschaftsinformatik, Mathematik oder Naturwissenschaften bzw. eine Ausbildung zum / zur Fachinformatiker:in Anwendungsentwicklung</P></LI><LI><P>Hinreichende Berufserfahrung in der Programmierung im Java-Enterprise-Umfeld</P></LI><LI><P>Kenntnisse in Open Source Frameworks wie Spring Boot, Spring oder Hibernate</P></LI><LI><P>Verständnis und erste praktische Erfahrung in der Verwendung von Code- Assistenten und Agentic AI-Konzepten, LLMs, Prompt Engineerung, RAGs etc.</P></LI><LI><P>Fließende Deutsch- und Englischkenntnisse sowie projektbedingte Mobilität</P></LI></UL><P>W<B>as wir dir bieten</B></P><UL><LI><P>Individuelles Arbeitszeitmodell in Voll- oder Teilzeit mit flexibel anpassbaren Arbeitszeiten</P></LI><LI><P>Arbeiten, wo du gebraucht wirst – an einem der Accenture-Standorte, remote oder beim Kunden vor Ort</P></LI><LI><P>Lohnenswerte Corporate-Angebote, beispielsweise für Freizeit, Versicherungen und Altersvorsorge</P></LI><LI><P>Verschiedene Employee Resources Gruppen und eine Arbeitskultur, die Diversität und Inklusion fördert</P></LI></UL><P><B>Du und Accenture</B></P><P>In unserer Cloud Software Engineering Einheit bist du Teil eines Teams, das an modernsten Software-Lösungen arbeitet und den digitalen Wandel namhafter Unternehmen in vielfältigen Kundenprojekten mitgestaltet.<BR> </P><P><B>Accenture-Kultur: Hier machst DU den Unterschied</B></P><P>Deine Fähigkeiten, dein Naturell und deine Ambitionen machen dich einzigartig. Und wenn die unterschiedlichsten Talente, Stärken und Sichtweisen aufeinandertreffen, entsteht etwas Großartiges: Ideen, die in der Welt etwas bewegen. Deshalb setzen wir bei Accenture auf Diversität und freie Entfaltung. Schaffe dir ein Arbeitsumfeld, in dem du aufgehst. Mit Aufgaben, die dir am Herzen liegen. Mit einem Workload, der zu dir passt. Und mit einer Arbeitsweise, die sich an deinen Zielen orientiert. Wie du dich vernetzen, weiterbilden und persönlich wachsen willst, liegt bei dir. Es ist deine Karriere. Wir helfen dir, sie so zu gestalten, wie du es dir vorstellst.<BR> </P><P><B>Dein Kontakt</B></P><P>Noch Fragen offen? Dann wende dich gerne an unser Recruiting Team per E-Mail an recruiting_germany@accenture.com oder telefonisch unter 00800 45045045.<BR>Wir freuen uns auf deine Bewerbung!</P></DIV></DIV></DIV><DIV><DIV><DIV><P>Kronberg</P><P>Berlin</P><P>Dresden</P><P>Dusseldorf</P><P>Essen</P><P>Hamburg</P><P>Hof</P><P>Jena</P><P>Mannheim</P><P>Munich</P><P>Siegburg</P><P>Stuttgart</P></DIV></DIV></DIV><DIV><DIV><DIV><H3>Statement zur Chancengleichheit</H3><H3> </H3><P>Wir suchen Menschen mit eigenem Lebensentwurf und ungewöhnlichem Lebenslauf. Individuell statt uniform. Vielfalt statt Norm. Diversität ist unsere Stärke und eine wesentliche Komponente der Unternehmenskultur von Accenture. Wir fördern ein integratives und offenes Arbeitsumfeld, in dem sich jeder so zeigen kann, wie er ist. Bei Accenture sind alle Bewerber:innen willkommen: unabhängig von Herkunft, Nationalität, Glaube, Behinderung, Alter, Familienstand, Partnerschaftsstatus, sexueller Orientierung, Geschlecht und anderen gesetzlich geschützten Gründen.</P></DIV></DIV></DIV><DIV><DIV><DIV><P>We work with one shared purpose: to deliver on the promise of technology and human ingenuity. Every day, more than 775,000 of us help our stakeholders continuously reinvent. Together, we drive positive change and deliver value to our clients, partners, shareholders, communities, and each other.</P><P>We believe that delivering value requires innovation, and innovation thrives in an inclusive and diverse environment. We actively foster a workplace free from bias, where everyone feels a sense of belonging and is respected and empowered to do their best work.</P><P>At Accenture, we see well-being holistically, supporting our people’s physical, mental, and financial health. We also provide opportunities to keep skills relevant through certifications, learning, and diverse work experiences. We’re proud to be consistently recognized as one of the World’s Best Workplaces™.</P><P>Join Accenture to work at the heart of change. Visit us at www.accenture.com.</P></DIV></DIV></DIV></DIV>\n<span data-version=\"1.2.0-x106\" />"
+   }
+  }
+ },
+ "errors": []
+}

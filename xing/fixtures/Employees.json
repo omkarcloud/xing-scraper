@@ -1,0 +1,421 @@
+{
+ "operationName": "Employees",
+ "variables": {
+  "id": "25948.0e87ae",
+  "first": 10,
+  "query": {
+   "consumer": "loggedout.web.publisher.employees"
+  }
+ },
+ "data": {
+  "company": {
+   "id": "25948.0e87ae",
+   "companyName": "Accenture",
+   "links": {
+    "public": "https://www.xing.com/pages/accenture"
+   },
+   "employees": {
+    "total": 14963,
+    "edges": [
+     {
+      "node": {
+       "profileDetails": {
+        "id": "29519998.a7fb6c",
+        "firstName": "Iryna",
+        "lastName": "(Lomachynska) Trivedi",
+        "displayName": "Iryna (Lomachynska) Trivedi",
+        "academicTitle": null,
+        "gender": "FEMALE",
+        "pageName": "Iryna_LomachynskaTrivedi",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Frankfurt am Main",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Lead Business Architect in Pega",
+          "summary": "Angestellt, Lead Business Architect in Pega, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/5d6a019cfd21b11e34d596a6f529c845-2/iryna-%28lomachynska%29-trivedi.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "34320939.1f2034",
+        "firstName": "Vikalp Kaushik",
+        "lastName": "(ServiceNow - CTA)",
+        "displayName": "Vikalp Kaushik (ServiceNow - CTA)",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "VikalpKaushik_ServiceNowCTA",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Frankfurt am Main",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "ServiceNow Architect Manager",
+          "summary": "Angestellt, ServiceNow Architect Manager, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/97b7d67617b6953edce13dd3721c9358-2/vikalp-kaushik-%28servicenow---cta%29.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "75647485.8db6b7",
+        "firstName": "Manikanta Arkachary",
+        "lastName": "A B",
+        "displayName": "Manikanta Arkachary A B",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "ManikantaArkachary_AB",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Frankfurt am Main",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Packaged App Development Team Lead",
+          "summary": "Angestellt, Packaged App Development Team Lead, Accenture"
+         },
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Ecolab",
+          "subline": "Business Process Analyst – SAP FICO",
+          "summary": "Bis 2025, Business Process Analyst – SAP FICO, Ecolab"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/e46615b1bcbac680ea54f6a9a0687d1c-1/manikanta-arkachary-a-b.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "26836645.58b710",
+        "firstName": "Abdul Rehman",
+        "lastName": "A K",
+        "displayName": "Abdul Rehman A K",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "AbdulRehman_AK",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Bangalore",
+         "country": {
+          "countryCode": "IN",
+          "localizationValue": "India"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "SAP Consultant",
+          "summary": "Angestellt, SAP Consultant, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/7d9ec435ea526854b55b13707b2c1fad-1/abdul-rehman-a-k.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "34081373.0e4c76",
+        "firstName": "Muthukrishna",
+        "lastName": "A S",
+        "displayName": "Muthukrishna A S",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "Muthukrishna_AS2",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Secunderabad",
+         "country": {
+          "countryCode": "IN",
+          "localizationValue": "India"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Application Development Analyst",
+          "summary": "Angestellt, Application Development Analyst, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/c39ace1bb3f9447d1acdef87980aee07-2/muthukrishna-a-s.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "35768965.cdca2e",
+        "firstName": "Pooja",
+        "lastName": "A.Mane",
+        "displayName": "Pooja A.Mane",
+        "academicTitle": null,
+        "gender": "FEMALE",
+        "pageName": "Pooja_AMane",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Pune",
+         "country": {
+          "countryCode": "IN",
+          "localizationValue": "India"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Senior Software Engineer",
+          "summary": "Angestellt, Senior Software Engineer, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/users/ea5e4ffb7b4fee3a81ce2d7b72f9feca-1/image.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "52469609.441325",
+        "firstName": "Nijish.",
+        "lastName": "A.R",
+        "displayName": "Nijish. A.R",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "Nijish_AR",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "New Germany",
+         "country": {
+          "countryCode": "US",
+          "localizationValue": "United States"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": ".NET Developer",
+          "summary": "Angestellt, .NET Developer, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/static/nobody_m.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "76041481.1b93b4",
+        "firstName": "MUTHUMARI",
+        "lastName": "ABIMANNAN",
+        "displayName": "MUTHUMARI ABIMANNAN",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "MUTHUMARI_ABIMANNAN",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Bengaluru",
+         "country": {
+          "countryCode": "IN",
+          "localizationValue": "India"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Cloud Support Senior Analyst (Network & Security Engineer)",
+          "summary": "Angestellt, Cloud Support Senior Analyst (Network & Security Engineer), Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/00792d29a8734814f409718a8aad73f6-1/muthumari-abimannan.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "23748789.da6b3a",
+        "firstName": "NAUMAN",
+        "lastName": "AHMAD",
+        "displayName": "NAUMAN AHMAD",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "NAUMAN_AHMAD3",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Hamburg",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "Accenture",
+          "subline": "Manager",
+          "summary": "Angestellt, Manager, Accenture"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/5338b173a9683031bed9fc0838431d9f-2/nauman-ahmad.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     },
+     {
+      "node": {
+       "profileDetails": {
+        "id": "9404981.ca5558",
+        "firstName": "ALBERTO",
+        "lastName": "ALAIZ",
+        "displayName": "ALBERTO ALAIZ",
+        "academicTitle": null,
+        "gender": "MALE",
+        "pageName": "ALBERTO_ALAIZ",
+        "status": {
+         "localizationValue": null
+        },
+        "location": {
+         "city": "Madrid",
+         "country": {
+          "countryCode": "ES",
+          "localizationValue": "Spain"
+         }
+        },
+        "occupations": [
+         {
+          "category": "WORK_EXPERIENCE",
+          "headline": "ACCENTURE",
+          "subline": "CONSULTOR",
+          "summary": "Angestellt, CONSULTOR, ACCENTURE"
+         }
+        ],
+        "profileImage": [
+         {
+          "url": "https://profile-images.xing.com/images/bf4258b10d357758075603fa6f115ea0-1/alberto-alaiz.256x256.jpg"
+         }
+        ],
+        "userFlags": {
+         "displayFlag": "BASIC"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ },
+ "errors": []
+}

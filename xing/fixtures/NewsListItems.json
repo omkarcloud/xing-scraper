@@ -1,0 +1,129 @@
+{
+ "operationName": "NewsListItems",
+ "variables": {
+  "id": "210.d5ee28",
+  "limit": 5
+ },
+ "data": {
+  "entityPageContentFeeds": {
+   "collection": [
+    {
+     "globalId": "surn:x-xing:activities:activity:6741213455.a18d62",
+     "publishedAt": "2024-12-30T07:00:38Z",
+     "isPinned": false,
+     "metadata": {
+      "likesCount": 25,
+      "commentsCount": 2
+     },
+     "object": {
+      "__typename": "EntityPageContentFeedPostingPost",
+      "id": "38368835.83d76f",
+      "comment": "Neues Jahr, neue Kanäle – ab sofort finden Sie alle unsere Neuigkeiten auf LinkedIn (https://sap.to/6001QFxqz) und im SAP News Center (https://sap.to/6008QFxoq). Wir wünschen Ihnen für das neue Jahr alles Gute und bedanken uns für Ihre Treue! 😊",
+      "createdAt": "2024-12-19T06:52:07Z",
+      "attachment": {
+       "__typename": "PostingsImageAttachment",
+       "images": [
+        {
+         "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYTU5YjBjYjUtNzFmYS00N2M0LWE2NGItNDQwODRmNjAwN2JlIiwiYXBwX2NvbnRleHQiOiJwb3N0aW5ncyIsIm1heF93aWR0aCI6MTIwMCwibWF4X2hlaWdodCI6OTAwfQ?signature=d67d2ee1375e9152c65b9a61b31a81f1cd34caebce23df9af451bd471f5e4331"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "globalId": "surn:x-xing:activities:activity:6739058432.64f8e0",
+     "publishedAt": "2024-09-11T05:00:01Z",
+     "isPinned": false,
+     "metadata": {
+      "likesCount": 7,
+      "commentsCount": 0
+     },
+     "object": {
+      "__typename": "EntityPageContentFeedPostingPost",
+      "id": "37609046.71ec93",
+      "comment": "🔍 Warum scheitern so viele digitale Transformationsprojekte? \nWeil die Herausforderungen oft unterschätzt werden! \n\n\nLaut der aktuellen Transformationsstudie des SAP-Beratungshauses NTT DATA Business Solutions mit dem IT-Dienstleister Natuvion sind #IT-Transformationen häufig komplexer und zeitaufwändiger als erwartet.⏱️\n\n\nIndem Sie frühzeitig externe Expertise einbinden und gezielt interne Kompetenzen aufbauen, können Sie diese Herausforderung meistern und so ihre digitale Transformation erfolgreich umsetzen.\n\n\nErfahren Sie mehr über die Transformationsstudie 2024 „Was Führungskräfte gerne früher gewusst hätten.“ ➡️ https://sap.to/6000mgDQ8",
+      "createdAt": "2024-08-29T12:46:18Z",
+      "attachment": {
+       "__typename": "PostingsImageAttachment",
+       "images": [
+        {
+         "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMmFkNjIwMjctNjAyNy00YTcxLWExNDQtMWQ4MzMzZTczMmVlIiwiYXBwX2NvbnRleHQiOiJwb3N0aW5ncyIsIm1heF93aWR0aCI6MTIwMCwibWF4X2hlaWdodCI6OTAwfQ?signature=c5852ce8bb33e9786e282121704c574447f96fa45e5e1226dc720d7225fb5b34"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "globalId": "surn:x-xing:activities:activity:6738924838.0049c2",
+     "publishedAt": "2024-09-05T05:00:49Z",
+     "isPinned": false,
+     "metadata": {
+      "likesCount": 8,
+      "commentsCount": 0
+     },
+     "object": {
+      "__typename": "EntityPageContentFeedPostingPost",
+      "id": "37609073.544fc7",
+      "comment": "Haben Sie sich schon einmal gefragt, wie Rohrleitungssysteme zum Klimaschutz beitragen können? 🌍 \n \n\naquatherm schon: Mit der Implementierung von SAP Digital Manufacturing optimiert der globale Hersteller von Polypropylen-Rohrsystemen seine Produktionsprozesse, steigert die Effizienz und setzt auf nachhaltige Lösungen für den Anlagenbau und die Haustechnik. 💡\n \n\nWie das Unternehmen Nachhaltigkeit und Digitalisierung in seiner Transformation umsetzt, können Sie hier lesen: https://sap.to/6005mgEZP",
+      "createdAt": "2024-08-29T12:48:21Z",
+      "attachment": {
+       "__typename": "PostingsImageAttachment",
+       "images": [
+        {
+         "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZjI5N2UwNTctNDc0Zi00ZjZhLWEyZmMtODAxM2IwNGY1NzU4IiwiYXBwX2NvbnRleHQiOiJwb3N0aW5ncyIsIm1heF93aWR0aCI6MTIwMCwibWF4X2hlaWdodCI6OTAwfQ?signature=b5c9a3457a698f99018893042002514b6e8f07d0b29049a200b830b792e98445"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "globalId": "surn:x-xing:activities:activity:6738769537.2f004b",
+     "publishedAt": "2024-08-29T07:00:26Z",
+     "isPinned": false,
+     "metadata": {
+      "likesCount": 1,
+      "commentsCount": 0
+     },
+     "object": {
+      "__typename": "EntityPageContentFeedPostingPost",
+      "id": "37564517.979b55",
+      "comment": "Neue Wege, altes Ziel: Effizienz! 📈\n \n\nKünstliche Intelligenz verändert die Unternehmenswelt. SAP strebt an, führend im Bereich Unternehmens-KI zu werden, indem es seine Expertise in Geschäftsprozessen und Daten nutzt.\n \n\nSAPBusinessAI-basierte Systeme vereinfachen dabei nicht nur Arbeitsprozesse, sondern verbessern auch die Entscheidungsfindung.\n \n\n🤝 SAP-Partner profitieren bereits von ersten Erfolgen und zeigen, wie intelligente Technologien signifikante Vorteile bringen können. \n \n\nErfahren Sie mehr über die Chancen, die KI für SAP-Partner bietet: https://sap.to/6001lCnMR",
+      "createdAt": "2024-08-23T10:27:11Z",
+      "attachment": {
+       "__typename": "PostingsImageAttachment",
+       "images": [
+        {
+         "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODI5M2VjODQtYjFjMS00YjkyLWE2MzAtNzIzMTc0NmM3NjExIiwiYXBwX2NvbnRleHQiOiJwb3N0aW5ncyIsIm1heF93aWR0aCI6MTIwMCwibWF4X2hlaWdodCI6OTAwfQ?signature=1bc5f3f8c3d6f1bc468b3f6f8441289a812402f835e7776759c4d6f91075e3af"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "globalId": "surn:x-xing:activities:activity:6738558012.ab96c2",
+     "publishedAt": "2024-08-19T05:00:18Z",
+     "isPinned": false,
+     "metadata": {
+      "likesCount": 1,
+      "commentsCount": 0
+     },
+     "object": {
+      "__typename": "EntityPageContentFeedPostingPost",
+      "id": "37445627.f41b8c",
+      "comment": "Als starker Befürworter von Geschlechtergleichheit und Diversität hat SAP das „Business Women´s Network“ (BWN) ins Leben gerufen, um Vielfalt und Inklusion noch mehr zu fördern. 🌟\n \n\nDas Netzwerk aus über 19.000 Mitgliedern bietet nicht nur die Möglichkeit zum Networking, sondern ermutigt Frauen auch zum regelmäßigen Wissensaustausch und zur Weiterbildung. Dies fördert ein aktives Engagement und stärkt die Unternehmenskultur insgesamt.\n \n\n➡️ Lesen Sie hier mehr über das Netzwerk: https://sap.to/6008YeVaM",
+      "createdAt": "2024-08-07T13:42:51Z",
+      "attachment": {
+       "__typename": "PostingsImageAttachment",
+       "images": [
+        {
+         "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGU2ODdkMjYtYmE0ZC00MmQyLWE3MmEtOThiNGE3NTc4MDI5IiwiYXBwX2NvbnRleHQiOiJwb3N0aW5ncyIsIm1heF93aWR0aCI6MTIwMCwibWF4X2hlaWdodCI6OTAwfQ?signature=534d0a1a49650f24fe08784207cc135fb27a707397ae292f25d54691e42a1f0c"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ },
+ "errors": []
+}

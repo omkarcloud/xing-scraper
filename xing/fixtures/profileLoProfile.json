@@ -1,0 +1,465 @@
+{
+ "operationName": "profileLoProfile",
+ "variables": {
+  "id": "Harish_Govindarajalu2",
+  "idAsString": "Harish_Govindarajalu2"
+ },
+ "data": {
+  "profilePageMeta": {
+   "indexable": true,
+   "qualityIndex": 75.357
+  },
+  "profileStructuredData": {
+   "jobTitle": "Strategic Insights Manager",
+   "workLocation": {
+    "address": {
+     "addressCountry": "in",
+     "addressLocality": "Chennai"
+    }
+   }
+  },
+  "xingIdWithError": {
+   "__typename": "XingId",
+   "id": "35511063.e8307c",
+   "firstName": "Harish",
+   "lastName": "Govindarajalu",
+   "displayName": "Harish Govindarajalu",
+   "academicTitle": null,
+   "gender": "MALE",
+   "pageName": "Harish_Govindarajalu2",
+   "profileImage": [
+    {
+     "url": "https://profile-images.xing.com/images/086571beee8ceaa22208b3f08b08e92a-5/harish-govindarajalu.256x256.jpg"
+    }
+   ],
+   "headerImage": null,
+   "hasDefaultHeaderImage": true,
+   "userFlags": {
+    "displayFlag": "BASIC"
+   },
+   "status": {
+    "localizationValue": null
+   },
+   "location": {
+    "city": "Chennai",
+    "displayLocation": "**Chennai**, India",
+    "country": {
+     "countryCode": "IN",
+     "localizationValue": "India"
+    }
+   },
+   "occupations": [
+    {
+     "category": "WORK_EXPERIENCE",
+     "headline": "Prodapt Solutions",
+     "subline": "Strategic Insights Manager",
+     "summary": "Angestellt, Strategic Insights Manager, Prodapt Solutions",
+     "links": null
+    }
+   ]
+  },
+  "profileWorkExperience": {
+   "collection": [
+    {
+     "jobTitle": "Strategic Insights Manager",
+     "beginDate": "2022-04",
+     "endDate": "",
+     "currentCompany": true,
+     "companyName": "Prodapt Solutions",
+     "companyNotes": "As a Strategic Insights Manager, my role is vital in helping organizations make informed decisions that can lead to improved performance, competitive advantage, and growth in the market. I work closely with technology experts in the fields of 5G Mobile Private Networks, SD-WAN, SASE, Cloud, AI, and ML. Together, we gather and analyze data, conduct market research, and interpret customer insights to provide valuable recommendations for strategic initiatives.",
+     "localizedTimeString": "**Current** 4 years and 7 months, since Apr 2022",
+     "company": {
+      "links": {
+       "public": null
+      },
+      "logos": {
+       "logo256px": "https://www.xing.com/assets/companies/img/default-logo_256x256.png"
+      }
+     }
+    },
+    {
+     "jobTitle": "Business Analyst - Growth Strategy",
+     "beginDate": "2019-11",
+     "endDate": "2022-04",
+     "currentCompany": false,
+     "companyName": "Apar Technologies",
+     "companyNotes": "Leading AI-based IoT product company, part of a billion-dollar industrial conglomerate and backed by Basil Partners, a successful technology venture capital based in Singapore. \n\n- Growth Strategies \n- Markets and Business Opportunities\n- Optimizing Business Portfolios\n- Positioning and Competitive Pricing\n- Development Proposals\n- Strategic Planning\n- Requirements Gathering\n- Stakeholder Analysis \n- Market Entry Strategies\n- Investment Advice",
+     "localizedTimeString": "2 years and 6 months, Nov 2019 - Apr 2022",
+     "company": {
+      "links": {
+       "public": null
+      },
+      "logos": {
+       "logo256px": "https://www.xing.com/assets/companies/img/default-logo_256x256.png"
+      }
+     }
+    },
+    {
+     "jobTitle": "Global Market Research Analyst",
+     "beginDate": "2017-04",
+     "endDate": "2017-10",
+     "currentCompany": false,
+     "companyName": "Manitou Group",
+     "companyNotes": "Manitou Group is a leading French heavy equipment manufacturer in the world that manufactures forklifts, aerial work platforms, telehandlers, and other heavy equipment.\n\n- Marketing Intelligence\n- Market Analysis\n- Product Marketing\n- Pricing Analysis\n- Digital Marketing",
+     "localizedTimeString": "7 months, Apr 2017 - Oct 2017",
+     "company": null
+    },
+    {
+     "jobTitle": "Master Thesis",
+     "beginDate": "2016-10",
+     "endDate": "2017-04",
+     "currentCompany": false,
+     "companyName": "BMW Group",
+     "companyNotes": "Master dissertation: Market analysis and the future of sustainable mobility in China by the BMW Group.\n\n- Market Research\n- Population Sampling\n- Data Analysis\n- Data Visualization\n- Presenting Results",
+     "localizedTimeString": "7 months, Oct 2016 - Apr 2017",
+     "company": {
+      "links": {
+       "public": "https://www.xing.com/pages/bmwgroup"
+      },
+      "logos": {
+       "logo256px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMTViMzY0ZWQtNTljMS00MjEzLTg1NGEtODM2M2UxN2NlZTQ5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjI1NiwibWF4X2hlaWdodCI6MjU2fQ?signature=7022d7bd3d05ff54ed7fea8934402def8d7419862ba4212b48b1928701d404fe"
+      }
+     }
+    },
+    {
+     "jobTitle": "Business Development Manager",
+     "beginDate": "2012-11",
+     "endDate": "2015-03",
+     "currentCompany": false,
+     "companyName": "Design Dreams",
+     "companyNotes": "With over 12 years of experience, Design Dreams is a leading global IT provider which is specialized in web design & Web development.\n\n- B2B Sales and Marketing\n- Business Analysis\n- Competitor Analysis\n- Product Management\n- Stakeholder Management",
+     "localizedTimeString": "2 years and 5 months, Nov 2012 - Mar 2015",
+     "company": null
+    },
+    {
+     "jobTitle": "Associate Consultant",
+     "beginDate": "2012-03",
+     "endDate": "2012-11",
+     "currentCompany": false,
+     "companyName": "Capgemini",
+     "companyNotes": "Capgemini is a leading French multinational corporation that provides consulting, technology, professional, and outsourcing services.\n\n- Supply Chain Analytics\n- Demand Planning\n- Bill of Materials\n- Inspection Planning\n- Master Data Management",
+     "localizedTimeString": "9 months, Mar 2012 - Nov 2012",
+     "company": {
+      "links": {
+       "public": "https://www.xing.com/pages/capgemini"
+      },
+      "logos": {
+       "logo256px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjI4OGYwOGUtN2M0NC00NWIzLTgwMmEtZDJmZGJlMDU2NGViIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjI1NiwibWF4X2hlaWdodCI6MjU2fQ?signature=20ea5a1dc892be34038fe5a24a7c6b80ecb40ab2385ddb4f5f111e042172ad5d"
+      }
+     }
+    }
+   ]
+  },
+  "profileEducation": {
+   "education": [
+    {
+     "primarySchool": true,
+     "subject": "International Management",
+     "degree": "Masters",
+     "schoolName": "Audencia",
+     "schoolNotes": null,
+     "beginDate": "2015-09",
+     "endDate": "2017-11",
+     "localizedTimeString": "2 years and 3 months, Sep 2015 - Nov 2017"
+    },
+    {
+     "primarySchool": false,
+     "subject": "Electronic and Computer Engineering",
+     "degree": null,
+     "schoolName": "Dr. M.G.R. Educational and Research Institute",
+     "schoolNotes": null,
+     "beginDate": "2007-08",
+     "endDate": "2011-09",
+     "localizedTimeString": "4 years and 2 months, Aug 2007 - Sep 2011"
+    }
+   ]
+  },
+  "profileLanguageSkills": {
+   "collection": [
+    {
+     "language": "en",
+     "skillLevelId": 4,
+     "displayLanguage": "English"
+    },
+    {
+     "language": "fr",
+     "skillLevelId": 3,
+     "displayLanguage": "French"
+    },
+    {
+     "language": "de",
+     "skillLevelId": 1,
+     "displayLanguage": "German"
+    },
+    {
+     "language": "custom",
+     "skillLevelId": 0,
+     "displayLanguage": "Tamil"
+    }
+   ]
+  },
+  "profileSkills": {
+   "skills": [
+    "Strategic Marketing",
+    "Market Research",
+    "Business Analysis",
+    "Business Development",
+    "Product Marketing",
+    "Leadership",
+    "Problem Solving",
+    "Communication",
+    "autonomous",
+    "Project Management",
+    "Mentoring",
+    "Strategic mindset",
+    "Conceptual thinking"
+   ],
+   "topSkills": []
+  },
+  "similarProfiles": {
+   "collection": [
+    {
+     "id": "28289256.6e85ee",
+     "academicTitle": null,
+     "firstName": "David",
+     "lastName": "Minett",
+     "businessCity": "Atlanta",
+     "businessCountry": "us",
+     "hasPhoto": true,
+     "occupationTitle": "Senior Product Marketing Manager",
+     "pageName": "David_Minett",
+     "photoUrl": "https://profile-images.xing.com/images/5c06fd340ec7a5aba249b6c19135d129-1/david-minett"
+    },
+    {
+     "id": "77407695.b98c5b",
+     "academicTitle": null,
+     "firstName": "Anoop G",
+     "lastName": "Zacharia",
+     "businessCity": "Eltville",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "---",
+     "pageName": "AnoopG_Zacharia",
+     "photoUrl": "https://profile-images.xing.com/images/33d9194412ed2be279e726919ae7c018-1/anoop-g-zacharia"
+    },
+    {
+     "id": "19262014.ad3149",
+     "academicTitle": null,
+     "firstName": "Gerald Lee",
+     "lastName": "Secory II",
+     "businessCity": "Heeslingen",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Leiter internationales Marketing",
+     "pageName": "GeraldLee_SecoryII",
+     "photoUrl": "https://profile-images.xing.com/images/73ddc87a55ebad7dd7b19b60e5ecad0e-6/gerald-lee-secory-ii"
+    },
+    {
+     "id": "53470109.385a00",
+     "academicTitle": null,
+     "firstName": "Mateus",
+     "lastName": "Lima",
+     "businessCity": "Sorocaba",
+     "businessCountry": "br",
+     "hasPhoto": true,
+     "occupationTitle": "shopper insights manager",
+     "pageName": "Mateus_Lima2",
+     "photoUrl": "https://profile-images.xing.com/images/f6614e6aa77e50a6659fe0baebccad11-2/mateus-lima"
+    },
+    {
+     "id": "21312792.4debfb",
+     "academicTitle": "Ing.",
+     "firstName": "Predrag",
+     "lastName": "Markovic",
+     "businessCity": "Temerin",
+     "businessCountry": "rs",
+     "hasPhoto": true,
+     "occupationTitle": "Growth Marketing Engineer",
+     "pageName": "Predrag_Markovic05667",
+     "photoUrl": "https://profile-images.xing.com/images/1c7888c02a28d4be82f3146fbd7c329d-5/predrag-markovic"
+    },
+    {
+     "id": "5021.0716d6",
+     "academicTitle": null,
+     "firstName": "Oliver Marc",
+     "lastName": "Schaetzle",
+     "businessCity": "Singapur",
+     "businessCountry": "sg",
+     "hasPhoto": true,
+     "occupationTitle": "Head of Customer & Marketing Development, Automotive, Asia-Pacific",
+     "pageName": "OliverMarc_Schaetzle",
+     "photoUrl": "https://profile-images.xing.com/images/b528199b4b6046333e69a4fe7250577c-5/oliver-marc-schaetzle"
+    },
+    {
+     "id": "74324286.5170d2",
+     "academicTitle": null,
+     "firstName": "Snehal",
+     "lastName": "Ghuli",
+     "businessCity": "Glasgow",
+     "businessCountry": "gb",
+     "hasPhoto": true,
+     "occupationTitle": "---",
+     "pageName": "Snehal_Ghuli",
+     "photoUrl": "https://profile-images.xing.com/images/7079e57fee4cd4fac505c8bc532d7061-1/snehal-ghuli"
+    },
+    {
+     "id": "8746385.e1d650",
+     "academicTitle": null,
+     "firstName": "Harald",
+     "lastName": "Köhler",
+     "businessCity": "Düsseldorf",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Director Ecommerce Sales Germany",
+     "pageName": "Harald_Koehler047544",
+     "photoUrl": "https://profile-images.xing.com/images/e39a4f7504c80c0ee2764c174adda90f-5/harald-köhler"
+    },
+    {
+     "id": "73377993.d92f23",
+     "academicTitle": null,
+     "firstName": "Usman",
+     "lastName": "Dar",
+     "businessCity": "Solingen",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Head of eCommerce",
+     "pageName": "Usman_Dar067831",
+     "photoUrl": "https://profile-images.xing.com/images/5393636ef879e6a574bf927d0cd95b65-3/usman-dar"
+    },
+    {
+     "id": "77339145.a1b753",
+     "academicTitle": null,
+     "firstName": "Bernardo",
+     "lastName": "Zarpellon",
+     "businessCity": "Stuttgart",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Intern",
+     "pageName": "Bernardo_Zarpellon",
+     "photoUrl": "https://profile-images.xing.com/images/5a081767490a039a1fed768442b8baf8-4/bernardo-zarpellon"
+    },
+    {
+     "id": "23013736.aebd8a",
+     "academicTitle": null,
+     "firstName": "Eslam",
+     "lastName": "Elsayed",
+     "businessCity": "Berlin",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Business Partner Manager",
+     "pageName": "Eslam_Elsayed",
+     "photoUrl": "https://profile-images.xing.com/images/36c3e1e08475f6d274709a5f82c3e875-3/eslam-elsayed"
+    },
+    {
+     "id": "68883610.f870e4",
+     "academicTitle": null,
+     "firstName": "Chandler",
+     "lastName": "Ferguson",
+     "businessCity": "Sandy City",
+     "businessCountry": "us",
+     "hasPhoto": true,
+     "occupationTitle": "STEALTH",
+     "pageName": "Chandler_Ferguson",
+     "photoUrl": "https://profile-images.xing.com/images/9d1d8c8100179d51e864c6f3d056a8a5-3/chandler-ferguson"
+    },
+    {
+     "id": "58038494.ea2476",
+     "academicTitle": null,
+     "firstName": "Waseem",
+     "lastName": "Bari",
+     "businessCity": "Lahore",
+     "businessCountry": "pk",
+     "hasPhoto": true,
+     "occupationTitle": "Digital Strategist, UX Design",
+     "pageName": "Waseem_Bari068635",
+     "photoUrl": "https://profile-images.xing.com/images/638baec7a9ff1b5691b8fe84e0d48448-4/waseem-bari"
+    },
+    {
+     "id": "20294043.d04bc3",
+     "academicTitle": null,
+     "firstName": "Filip",
+     "lastName": "Pejovic",
+     "businessCity": "Stuttgart",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Global IT Process Owner Customer Service/Lead Product Owner Customer Service",
+     "pageName": "Filip_Pejovic",
+     "photoUrl": "https://profile-images.xing.com/images/19f107ad8fee86f6475fd5d59a45bb7d-5/filip-pejovic"
+    },
+    {
+     "id": "36161572.02bcc2",
+     "academicTitle": null,
+     "firstName": "Marko",
+     "lastName": "Mandač",
+     "businessCity": "Frankfurt am Main",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Director, Global Product Management, Water Disinfection",
+     "pageName": "Marko_Mandac",
+     "photoUrl": "https://profile-images.xing.com/images/d8a08ad1d29b4bb53154b5cbaad2e082-7/marko-mandač"
+    },
+    {
+     "id": "76996116.ad2168",
+     "academicTitle": null,
+     "firstName": "Abdulrahman",
+     "lastName": "Radwan",
+     "businessCity": "Medina",
+     "businessCountry": "sa",
+     "hasPhoto": true,
+     "occupationTitle": "---",
+     "pageName": "Abdulrahman_Radwan049025",
+     "photoUrl": "https://profile-images.xing.com/images/453a7a30a435f78dba55f7f922704ad7-1/abdulrahman-radwan"
+    },
+    {
+     "id": "77689543.f3e2de",
+     "academicTitle": null,
+     "firstName": "Milena",
+     "lastName": "Kalinova",
+     "businessCity": "Germany",
+     "businessCountry": "de",
+     "hasPhoto": true,
+     "occupationTitle": "Founder, AI Beauty Business",
+     "pageName": "Milena_Kalinova",
+     "photoUrl": "https://profile-images.xing.com/images/fb4a6064dda76341f9f895fa57726dad-2/milena-kalinova"
+    },
+    {
+     "id": "66828218.933fcd",
+     "academicTitle": null,
+     "firstName": "Vijay",
+     "lastName": "Kumar",
+     "businessCity": "Bangalore",
+     "businessCountry": "in",
+     "hasPhoto": true,
+     "occupationTitle": "---",
+     "pageName": "Vijay_Kumar04933",
+     "photoUrl": "https://profile-images.xing.com/images/69fa98a1825549b7371b4efb68b2ca9d-1/vijay-kumar"
+    },
+    {
+     "id": "77478521.716025",
+     "academicTitle": null,
+     "firstName": "Larissa",
+     "lastName": "Friedl-Hoffmann",
+     "businessCity": "Batumi",
+     "businessCountry": "at",
+     "hasPhoto": true,
+     "occupationTitle": "Senior Expert Business Marketing Electrification Test Systems",
+     "pageName": "Larissa_FriedlHoffmann",
+     "photoUrl": "https://profile-images.xing.com/images/fb685b7cb6089b5817cfa9a7fb1d88e5-2/larissa-friedl-hoffmann"
+    },
+    {
+     "id": "35039714.703348",
+     "academicTitle": null,
+     "firstName": "Alexander",
+     "lastName": "Shmelkov",
+     "businessCity": "Delft",
+     "businessCountry": "nl",
+     "hasPhoto": true,
+     "occupationTitle": "Head of Consumer Insights and Marketing Effectiveness, Eastern Europe",
+     "pageName": "Alexander_Shmelkov",
+     "photoUrl": "https://profile-images.xing.com/images/878af6df8f585e25a87b91fc7a755f12-2/alexander-shmelkov"
+    }
+   ]
+  }
+ },
+ "errors": []
+}

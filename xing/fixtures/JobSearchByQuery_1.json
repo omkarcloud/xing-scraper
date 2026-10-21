@@ -1,0 +1,2165 @@
+{
+ "operationName": "JobSearchByQuery",
+ "variables": {
+  "query": {
+   "keywords": "software",
+   "location": {
+    "text": "München"
+   },
+   "filter": {
+    "employmentType": {
+     "id": [
+      "FULL_TIME.ef2fe9"
+     ]
+    },
+    "careerLevel": {
+     "id": [
+      "3.2ebf16"
+     ]
+    },
+    "remoteOption": {
+     "id": [
+      "FULL_REMOTE.050e26",
+      "PARTLY_REMOTE.ca71ca"
+     ]
+    },
+    "salary": {
+     "min": 60000,
+     "max": 1000000
+    }
+   }
+  },
+  "consumer": "loggedout.web.jobs.conv_search_results.center",
+  "limit": 20,
+  "offset": 20,
+  "sort": "date",
+  "returnAggregations": false,
+  "sincePeriod": "LAST_MONTH"
+ },
+ "data": {
+  "jobSearchByQuery": {
+   "boundedTotal": {
+    "total": 390,
+    "bound": 1000,
+    "countType": "EXACT"
+   },
+   "searchQuery": {
+    "body": {
+     "keywords": "software",
+     "location": {
+      "text": "München",
+      "radius": null,
+      "city": null
+     },
+     "filterCollection": [
+      {
+       "entityId": "FULL_TIME.ef2fe9",
+       "employmentType": {
+        "localizationValue": "Full-time"
+       }
+      },
+      {
+       "entityId": "3.2ebf16",
+       "careerLevel": {
+        "localizationValue": "Professional/Experienced"
+       }
+      },
+      {
+       "min": 60000,
+       "max": 1000000
+      },
+      {
+       "entityId": "FULL_REMOTE.050e26",
+       "remoteOption": {
+        "localizationValue": "Full Remote"
+       }
+      },
+      {
+       "entityId": "PARTLY_REMOTE.ca71ca",
+       "remoteOption": {
+        "localizationValue": "Hybrid"
+       }
+      }
+     ]
+    }
+   },
+   "collection": [
+    {
+     "position": 0,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158648243.1e05ed",
+      "slug": "konstanz-technical-product-owner-konstanz-berlin-remote-158648243",
+      "url": "https://www.xing.com/jobs/konstanz-technical-product-owner-konstanz-berlin-remote-158648243",
+      "title": "Technical Product Owner (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T00:13:36Z",
+      "refreshedAt": "2026-10-19T00:13:36Z",
+      "activeUntil": "2027-10-19T00:33:32Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Konstanz",
+       "cityId": 2885679,
+       "region": "Baden-Württemberg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Konstanz",
+        "region": "Baden-Württemberg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 59500,
+       "maximum": 82500,
+       "median": 70500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/technical-product-owner-m-w-d-konstanz-berlin-oder-remote.2049749315.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 1,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158394222.190d69",
+      "slug": "stuttgart-software-engineer-workflow-automation-158394222",
+      "url": "https://www.xing.com/jobs/stuttgart-software-engineer-workflow-automation-158394222",
+      "title": "Software Engineer - Workflow Automation (m/w/d)",
+      "activatedAt": "2026-10-16T00:04:54Z",
+      "refreshedAt": "2026-10-16T00:04:54Z",
+      "activeUntil": "2026-11-06T00:05:19Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "a70d0d54-ca33-4be1-943a-6e147eefd970",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Stuttgart",
+       "cityId": 2825297,
+       "region": "Baden-Württemberg",
+       "zipCode": "70173",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Stuttgart",
+        "region": "Baden-Württemberg",
+        "zipCode": "70173",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Instaffo GmbH",
+       "company": {
+        "id": "1242866.b27744",
+        "companyName": "Instaffo GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90000.597414",
+         "localizationValue": "Internet and IT"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/instaffogmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDhlNDA4NTQtMWNlOC00YjE4LWFlYTgtMjQyNWU2YmZiNGM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fc3eef00fa3a1835e5d49859d315ec7549ac4820771065670bfcb2aa92a84f2b"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 60000,
+       "maximum": 90000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.instaffo.com/de/job/software-engineer-workflow-automation-m-w-d-6e147eefd970?utm_medium=jobboard-jobposting&utm_source=xing"
+      },
+      "summary": {
+       "content": {
+        "introduction": "envite consulting GmbH sucht einen Software Engineer - Workflow Automation in Stuttgart. Das Unternehmen ist auf nachhaltige IT-Anwendungen spezialisiert.",
+        "keyResponsibilities": [
+         "Konzipieren und Implementieren von Workflow-Lösungen.",
+         "Programmieren in Java, Kotlin, Angular, React.",
+         "Begleiten der Kunden bei Anforderungsanalysen."
+        ],
+        "qualifications": [
+         "Mindestens drei Jahre Berufserfahrung.",
+         "Abgeschlossenes Studium in Informatik oder vergleichbar.",
+         "Fließende Deutschkenntnisse (C1) erforderlich."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 2,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158074952.b4106e",
+      "slug": "halle-saale-software-developer-sap-remote-de-158074952",
+      "url": "https://www.xing.com/jobs/halle-saale-software-developer-sap-remote-de-158074952",
+      "title": "Software Developer SAP - remote DE",
+      "activatedAt": "2026-10-14T00:05:38Z",
+      "refreshedAt": "2026-10-14T00:05:38Z",
+      "activeUntil": "2026-10-23T00:05:45Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "c2208187-bda9-4b20-b80c-cd38728cc2d3",
+      "remoteOptions": [
+       "FULL_REMOTE",
+       "PARTLY_REMOTE",
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Halle (Saale)",
+       "cityId": 2911522,
+       "region": "Sachsen-Anhalt",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Halle (Saale)",
+        "region": "Sachsen-Anhalt",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Instaffo GmbH",
+       "company": {
+        "id": "1242866.b27744",
+        "companyName": "Instaffo GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90000.597414",
+         "localizationValue": "Internet and IT"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/instaffogmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDhlNDA4NTQtMWNlOC00YjE4LWFlYTgtMjQyNWU2YmZiNGM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fc3eef00fa3a1835e5d49859d315ec7549ac4820771065670bfcb2aa92a84f2b"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 54500,
+       "maximum": 66500,
+       "median": 61000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.instaffo.com/de/job/software-developer-sap-remote-de-cd38728cc2d3?utm_medium=jobboard-jobposting&utm_source=xing"
+      },
+      "summary": {
+       "content": {
+        "introduction": "PROLOGA GmbH sucht einen Software Developer SAP - remote DE. Das Unternehmen entwickelt Softwarelösungen zur Ressourcenschonung in der Kreislaufwirtschaft und Energiebranche.",
+        "keyResponsibilities": [
+         "Entwicklung komplexer Softwarelösungen für Kunden.",
+         "Optimierung bestehender Prozesse für Effizienz.",
+         "Technische Umsetzung in Produktteams oder Projekte."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung in SAP-Entwicklung.",
+         "Kenntnisse in objektorientierter Softwareentwicklung.",
+         "Erfahrung mit agilen Entwicklungsmethoden."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_last_chance",
+       "localization": {
+        "localizationValue": "Last chance"
+       }
+      }
+     }
+    },
+    {
+     "position": 3,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158258786.952f61",
+      "slug": "wetter-mitarbeiter-einfuehrung-administration-kidicap-web-applikation-158258786",
+      "url": "https://www.xing.com/jobs/wetter-mitarbeiter-einfuehrung-administration-kidicap-web-applikation-158258786",
+      "title": "Mitarbeiter für die die Einführung und Administration der Kidicap-Web-Applikation (m/w/d)",
+      "activatedAt": "2026-10-01T11:17:27Z",
+      "refreshedAt": "2026-10-01T11:17:27Z",
+      "activeUntil": "2026-10-31T11:26:26Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "63c95da2-bd81-11f1-ae5c-623599f7c92f",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Wetter",
+       "cityId": 2809984,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": "58300",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Wetter",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": "58300",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "auteega Gmbh",
+       "company": {
+        "id": "442228.e03fdd",
+        "companyName": "auteega GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/auteegagmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjVlZGNlMTItZjU4My00OGIwLTg2OWYtMjFlMzg3OTNkMWM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=9821179c2fc5adc0a286c0abff597f85da1de5c4a75335d7cf35db4a8f5d4074"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 47000,
+       "maximum": 63000,
+       "median": 59500
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein großer IT-Dienstleister sucht einen Mitarbeiter für die Einführung und Administration der KIDICAP-Web-Applikation in Wetter (Ruhr). Das Unternehmen bietet Dienstleistungen im Gesundheitswesen und sozialen Bereich an.",
+        "keyResponsibilities": [
+         "Einführung neuer KIDICAP.DMS-Module eigenständig.",
+         "Verwaltung von Benutzerrechten in KIDICAP.",
+         "Technische Unterstützung bei Projektumsetzungen."
+        ],
+        "qualifications": [
+         "Abschluss in Informatik oder Wirtschaftsinformatik.",
+         "Erfahrung mit Softwaremodulen, idealerweise DMS.",
+         "Sehr gute Deutschkenntnisse erforderlich."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 4,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158589796.18878c",
+      "slug": "bern-it-software-engineer-158589796",
+      "url": "https://www.xing.com/jobs/bern-it-software-engineer-158589796",
+      "title": "IT Software Engineer (m/w/d)",
+      "activatedAt": "2026-10-16T00:23:28Z",
+      "refreshedAt": "2026-10-16T00:23:28Z",
+      "activeUntil": "2026-11-15T00:25:46Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "551350",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Bern",
+       "cityId": 2661552,
+       "region": "Kanton Bern",
+       "zipCode": "3011",
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Bern",
+        "region": "Kanton Bern",
+        "zipCode": "3011",
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "ROCKEN",
+       "company": {
+        "id": "2025879.f36256",
+        "companyName": "ROCKEN AG",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/rocken-ag"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZjJhMWY4NGUtYWRhZC00NDJhLWFmZGMtMWIyODhhMWE5ZmRmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=3ae656a687d4dba94fb7d4091a3aaa0b8954176aa131fac768905152b419e71a"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "CHF",
+       "minimum": 91500,
+       "maximum": 104500,
+       "median": 101500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://rocken.jobs/application/w2DLP7b9DJZ_it-software-engineer-80-100-mwd?utm_source=xing&utm_medium=cpc&utm_campaign=sponsored"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen sucht einen IT Software Engineer in Bern. Es entwickelt individuelle Softwarelösungen für Unternehmen, die Digitalisierung strategisch nutzen.",
+        "keyResponsibilities": [
+         "Entwicklung und Konzeption von Software-Lösungen.",
+         "Optimierung der Leistung von Anwendungen.",
+         "Teilprojektleitungen in Softwareprojekten übernehmen."
+        ],
+        "qualifications": [
+         "Hochschulabschluss in relevanter Fachrichtung.",
+         "Mindestens 5 Jahre Berufserfahrung.",
+         "Umfassende Kenntnisse in C# .NET."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 5,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158589794.b74f72",
+      "slug": "bern-it-software-engineer-158589794",
+      "url": "https://www.xing.com/jobs/bern-it-software-engineer-158589794",
+      "title": "IT Software Engineer (m/w/d)",
+      "activatedAt": "2026-10-16T00:23:28Z",
+      "refreshedAt": "2026-10-16T00:23:28Z",
+      "activeUntil": "2026-11-15T00:28:53Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "551352",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Bern",
+       "cityId": 2661552,
+       "region": "Kanton Bern",
+       "zipCode": "3011",
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Bern",
+        "region": "Kanton Bern",
+        "zipCode": "3011",
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "ROCKEN",
+       "company": {
+        "id": "2025879.f36256",
+        "companyName": "ROCKEN AG",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/rocken-ag"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZjJhMWY4NGUtYWRhZC00NDJhLWFmZGMtMWIyODhhMWE5ZmRmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=3ae656a687d4dba94fb7d4091a3aaa0b8954176aa131fac768905152b419e71a"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "CHF",
+       "minimum": 91500,
+       "maximum": 104500,
+       "median": 101500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://rocken.jobs/application/z4DrWZPyRkj_it-software-engineer-80-100-mwd?utm_source=xing&utm_medium=cpc&utm_campaign=sponsored"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen sucht einen IT Software Engineer in Bern. Es entwickelt individuelle Softwarelösungen für Unternehmen, die Digitalisierung strategisch nutzen.",
+        "keyResponsibilities": [
+         "Entwicklung und Konzeption von Software-Lösungen.",
+         "Optimierung der Leistung von Anwendungen.",
+         "Teilprojektleitungen in Softwareprojekten übernehmen."
+        ],
+        "qualifications": [
+         "Hochschulabschluss in relevanter Fachrichtung.",
+         "Mindestens 5 Jahre Berufserfahrung.",
+         "Umfassende Kenntnisse in C# .NET."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 6,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158509793.38eed6",
+      "slug": "buchloe-full-stack-entwickler-schwerpunkt-shop-entwicklung-158509793",
+      "url": "https://www.xing.com/jobs/buchloe-full-stack-entwickler-schwerpunkt-shop-entwicklung-158509793",
+      "title": "Full-Stack Entwickler Schwerpunkt Shop-Entwicklung (m/w/d)",
+      "activatedAt": "2026-10-12T16:48:03Z",
+      "refreshedAt": "2026-10-12T16:48:03Z",
+      "activeUntil": "2026-12-11T16:48:06Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "personalwerk-1526467-3879",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "230000.83fcce",
+       "localizationValue": "Other industries"
+      },
+      "location": {
+       "city": "Buchloe",
+       "cityId": 2942281,
+       "region": "Bayern",
+       "zipCode": "86807",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Buchloe",
+        "region": "Bayern",
+        "zipCode": "86807",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Franz Mensch GmbH",
+       "company": {
+        "id": "91636.b8235b",
+        "companyName": "Franz Mensch GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "21100.3a0684",
+         "localizationValue": "Wholesale"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/franzmenschgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGI3YjAyNTctMmJiOS00MjZkLTgzM2EtOTdmYmRiYzUyMDE5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=41b3f69d8c0bd883f3d4d1e1bb20f9e16e400d5f0fae52aa6dc8d6f5f49ef7f3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 44089,
+       "maximum": 74952
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.franz-mensch.de/de/apply?id=ae3ead&utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Franz Mensch GmbH sucht einen Full-Stack Entwickler in Buchloe. Das Unternehmen ist ein führender Hersteller von Hygieneartikeln und Verpackungen mit über 50 Jahren Erfahrung.",
+        "keyResponsibilities": [
+         "Entwicklung komplexer Features für Online-Shop.",
+         "Nutzung von KI-Tools zur Prozessoptimierung.",
+         "Überwachung der Systemstabilität und Performance."
+        ],
+        "qualifications": [
+         "Erfahrung in Shopware-Entwicklung erforderlich.",
+         "Kenntnisse in PHP, JavaScript und HTML.",
+         "Interesse an KI-Technologien und Prompt Engineering."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 7,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158431165.904d72",
+      "slug": "bayern-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431165",
+      "url": "https://www.xing.com/jobs/bayern-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431165",
+      "title": "Software-Berater digital threads | Workshops, Modellierung, digital twin, digital thread (mwd)",
+      "activatedAt": "2026-10-08T08:15:26Z",
+      "refreshedAt": "2026-10-08T08:15:26Z",
+      "activeUntil": "2026-11-07T08:16:08Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "23378",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1017.551846",
+       "localizationValue": "Product management"
+      },
+      "industry": {
+       "id": "30000.9cc07c",
+       "localizationValue": "Automotive and vehicle manufacturing"
+      },
+      "location": {
+       "city": "Bayern",
+       "cityId": 2951841,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Bayern",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Vesterling AG",
+       "company": {
+        "id": "1242964.792e63",
+        "companyName": "Vesterling AG - Personalberatung für Technologie",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/vesterling"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjJjZjQ2ZDUtZmQ1ZC00NmJkLTgyZTUtZGJiNDE2YjcwZWMyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=17f962f46651f2e2437a58bf5b4f3adb4f39f51470e0610270b4cec5b65520b3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55000,
+       "maximum": 90000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.vesterling.com/jobs?utm_source=xing.com#!/onlineapplication/23378/XING"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein IT-Beratungshaus sucht einen Software-Berater in Bayern (100% Homeoffice). Das Unternehmen bietet individuelle Softwarelösungen und Beratungsleistungen für die digitale Transformation.",
+        "keyResponsibilities": [
+         "Beratung und Konzeption von Softwarelösungen.",
+         "Entwicklung von Datenmodellen mit UML.",
+         "Zusammenarbeit mit Fachexperten in Projekten."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Wirtschaftsinformatik.",
+         "Langjährige Erfahrung in Anforderungsanalyse.",
+         "Kenntnisse in Digital Thread und Java."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 8,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158648227.ee73af",
+      "slug": "berlin-technical-product-owner-konstanz-berlin-remote-158648227",
+      "url": "https://www.xing.com/jobs/berlin-technical-product-owner-konstanz-berlin-remote-158648227",
+      "title": "Technical Product Owner (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T00:13:36Z",
+      "refreshedAt": "2026-10-19T00:13:36Z",
+      "activeUntil": "2027-10-19T00:20:15Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 59500,
+       "maximum": 81500,
+       "median": 68500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/technical-product-owner-m-w-d-konstanz-berlin-oder-remote.2049749315.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 9,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158201198.d3570d",
+      "slug": "zuerich-software-engineer-delta-platform-158201198",
+      "url": "https://www.xing.com/jobs/zuerich-software-engineer-delta-platform-158201198",
+      "title": "Software Engineer - Delta Platform",
+      "activatedAt": "2026-09-29T19:03:46Z",
+      "refreshedAt": "2026-09-29T19:03:46Z",
+      "activeUntil": "2027-03-31T09:58:22Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "en",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Zürich",
+       "cityId": 2657896,
+       "region": "Kanton Zürich",
+       "zipCode": null,
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Zürich",
+        "region": "Kanton Zürich",
+        "zipCode": null,
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "BLP Digital AG",
+       "company": null
+      },
+      "salary": {
+       "currency": "CHF",
+       "minimum": 92000,
+       "maximum": 124500,
+       "median": 116500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://bulldogjob.com/companies/jobs/256883-software-engineer-delta-platform-zurich-barcelona-blp-digital-ag?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 10,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158431168.3489d9",
+      "slug": "nuernberg-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431168",
+      "url": "https://www.xing.com/jobs/nuernberg-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431168",
+      "title": "Software-Berater digital threads | Workshops, Modellierung, digital twin, digital thread (mwd)",
+      "activatedAt": "2026-10-08T08:15:31Z",
+      "refreshedAt": "2026-10-08T08:15:31Z",
+      "activeUntil": "2026-11-07T08:16:29Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "23378",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1017.551846",
+       "localizationValue": "Product management"
+      },
+      "industry": {
+       "id": "30000.9cc07c",
+       "localizationValue": "Automotive and vehicle manufacturing"
+      },
+      "location": {
+       "city": "Nürnberg",
+       "cityId": 2861650,
+       "region": "Bayern",
+       "zipCode": "90459",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Nürnberg",
+        "region": "Bayern",
+        "zipCode": "90459",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Vesterling AG",
+       "company": {
+        "id": "1242964.792e63",
+        "companyName": "Vesterling AG - Personalberatung für Technologie",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/vesterling"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjJjZjQ2ZDUtZmQ1ZC00NmJkLTgyZTUtZGJiNDE2YjcwZWMyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=17f962f46651f2e2437a58bf5b4f3adb4f39f51470e0610270b4cec5b65520b3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55000,
+       "maximum": 90000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.vesterling.com/jobs?utm_source=xing.com#!/onlineapplication/23378/XING"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein IT-Beratungshaus sucht einen Software-Berater in Nürnberg (100% Homeoffice). Das Unternehmen bietet individuelle Softwarelösungen und Beratungsleistungen für die digitale Transformation.",
+        "keyResponsibilities": [
+         "Beratung und Konzeption von Softwarelösungen.",
+         "Entwicklung von Datenmodellierungen mit UML.",
+         "Zusammenarbeit mit Fachexperten in Projekten."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Wirtschaftsinformatik.",
+         "Langjährige Erfahrung in Anforderungsanalyse.",
+         "Kenntnisse in Digital Thread und Java."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 11,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158419227.ea041e",
+      "slug": "aachen-senior-software-consultant-158419227",
+      "url": "https://www.xing.com/jobs/aachen-senior-software-consultant-158419227",
+      "title": "Senior Software Consultant (m/w/d)",
+      "activatedAt": "2026-10-17T00:09:47Z",
+      "refreshedAt": "2026-10-17T00:09:47Z",
+      "activeUntil": "2026-11-07T00:06:12Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "285aec4a-903b-451a-8bc7-5c5c8c5c26f1",
+      "remoteOptions": [
+       "FULL_REMOTE",
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Aachen",
+       "cityId": 3247449,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": "52062",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Aachen",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": "52062",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Instaffo GmbH",
+       "company": {
+        "id": "1242866.b27744",
+        "companyName": "Instaffo GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90000.597414",
+         "localizationValue": "Internet and IT"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/instaffogmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDhlNDA4NTQtMWNlOC00YjE4LWFlYTgtMjQyNWU2YmZiNGM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fc3eef00fa3a1835e5d49859d315ec7549ac4820771065670bfcb2aa92a84f2b"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 62500,
+       "maximum": 83000,
+       "median": 70000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.instaffo.com/de/job/senior-software-engineer-all-gendersi-5c5c8c5c26f1?utm_campaign=cpas-control&utm_medium=jobboard-jobposting&utm_source=xing"
+      },
+      "summary": {
+       "content": {
+        "introduction": "bitside GmbH sucht einen Senior Software Consultant in Aachen. Das Unternehmen ist auf innovative IT-Dienstleistungen spezialisiert und fördert eine dynamische Unternehmenskultur.",
+        "keyResponsibilities": [
+         "Gestalten Sie die Unternehmenskultur aktiv mit.",
+         "Implementieren Sie KI in Unternehmensprozesse.",
+         "Lösen Sie komplexe Kundenprobleme effektiv."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik erforderlich.",
+         "Neugier und Offenheit für neue Technologien.",
+         "Erfahrung im Umgang mit KI-Technologien."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 12,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158339969.b94550",
+      "slug": "hamburg-software-engineer-payment-158339969",
+      "url": "https://www.xing.com/jobs/hamburg-software-engineer-payment-158339969",
+      "title": "Software Engineer | Payment (m/w/d)",
+      "activatedAt": "2026-10-16T08:07:35Z",
+      "refreshedAt": "2026-10-16T08:07:35Z",
+      "activeUntil": "2026-11-04T00:05:02Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "63e9f22a-9273-4468-90c1-e2fda28d7dfa",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Hamburg",
+       "cityId": 2911298,
+       "region": "Freie und Hansestadt Hamburg",
+       "zipCode": "20459",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Hamburg",
+        "region": "Freie und Hansestadt Hamburg",
+        "zipCode": "20459",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Instaffo GmbH",
+       "company": {
+        "id": "1242866.b27744",
+        "companyName": "Instaffo GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90000.597414",
+         "localizationValue": "Internet and IT"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/instaffogmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDhlNDA4NTQtMWNlOC00YjE4LWFlYTgtMjQyNWU2YmZiNGM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fc3eef00fa3a1835e5d49859d315ec7549ac4820771065670bfcb2aa92a84f2b"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 60000,
+       "maximum": 75000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.instaffo.com/de/job/software-engineer-payment-m-w-d-e2fda28d7dfa?utm_medium=jobboard-jobposting&utm_source=xing"
+      },
+      "summary": {
+       "content": {
+        "introduction": "instellix (Nitrobox GmbH) sucht einen Software Engineer | Payment (m/w/d) für eine 100% remote Position in Deutschland. Das Unternehmen bietet eine Cloud-Plattform für die Monetarisierung digitaler Geschäftsmodelle.",
+        "keyResponsibilities": [
+         "Entwicklung von Microservices für Payment.",
+         "Erstellung intuitiver UIs mit React.",
+         "Überwachung und Lösung technischer Probleme."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung in der Softwareentwicklung.",
+         "Kenntnisse in Java, Spring Boot erforderlich.",
+         "Fließende Deutsch- und gute Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 13,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158221616.951386",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158221616",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158221616",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-09-30T08:34:33Z",
+      "refreshedAt": "2026-09-30T08:34:33Z",
+      "activeUntil": "2026-10-30T08:34:38Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "6362bp5h",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 14,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158458113.39f1de",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158458113",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158458113",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-10-09T09:31:29Z",
+      "refreshedAt": "2026-10-09T09:31:29Z",
+      "activeUntil": "2026-11-08T09:31:31Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "66zcvs6e",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 15,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158293535.02286b",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158293535",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158293535",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-10-02T11:37:45Z",
+      "refreshedAt": "2026-10-02T11:37:45Z",
+      "activeUntil": "2026-11-01T11:37:48Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "78rpfjmr",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 16,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158546868.1f378f",
+      "slug": "muenchen-ai-native-developer-158546868",
+      "url": "https://www.xing.com/jobs/muenchen-ai-native-developer-158546868",
+      "title": "AI Native Developer (m/w/d)",
+      "activatedAt": "2026-10-14T08:13:20Z",
+      "refreshedAt": "2026-10-14T08:13:20Z",
+      "activeUntil": "2026-12-13T08:13:23Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "4ln6590c",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "81679",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "81679",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Rosenheim",
+        "region": "Bayern",
+        "zipCode": "83115",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "TechMinds GmbH",
+       "company": {
+        "id": "1896981.05da0a",
+        "companyName": "TechMinds GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/techmindsgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZDM2OTQ2M2YtZWYzNS00YzdhLTljYzAtZTExOTk3YjBiZjc1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=62f442df16093fbf68e65cc7e67e09c797818059e1eeef7b8bcfee536e4a22a4"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 59000,
+       "maximum": 80000,
+       "median": 68500
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "TechMinds sucht einen Software Engineer in München. Das Unternehmen ist eine Recruiting-Boutique für Tech, IT und Engineering.",
+        "keyResponsibilities": [
+         "Entwicklung neuer Softwarefunktionen mit AI-Coding-Agents.",
+         "Automatisierung der Qualitätssicherung durch Tests.",
+         "Optimierung von Ausschreibungs- und Katalogdaten."
+        ],
+        "qualifications": [
+         "Mindestens 3 Jahre Erfahrung im Software Engineering.",
+         "Kenntnisse in C#/.NET und TypeScript.",
+         "Gute Deutsch- und Englischkenntnisse auf C1."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 17,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158431169.37d4f7",
+      "slug": "muenchen-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431169",
+      "url": "https://www.xing.com/jobs/muenchen-software-berater-digital-threads-workshops-modellierung-digital-twin-digital-thread-mwd-158431169",
+      "title": "Software-Berater digital threads | Workshops, Modellierung, digital twin, digital thread (mwd)",
+      "activatedAt": "2026-10-08T08:15:31Z",
+      "refreshedAt": "2026-10-08T08:15:31Z",
+      "activeUntil": "2026-11-07T08:16:30Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "23378",
+      "remoteOptions": [
+       "FULL_REMOTE",
+       "PARTLY_REMOTE",
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1017.551846",
+       "localizationValue": "Product management"
+      },
+      "industry": {
+       "id": "30000.9cc07c",
+       "localizationValue": "Automotive and vehicle manufacturing"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80637",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80637",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Vesterling AG",
+       "company": {
+        "id": "1242964.792e63",
+        "companyName": "Vesterling AG - Personalberatung für Technologie",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/vesterling"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjJjZjQ2ZDUtZmQ1ZC00NmJkLTgyZTUtZGJiNDE2YjcwZWMyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=17f962f46651f2e2437a58bf5b4f3adb4f39f51470e0610270b4cec5b65520b3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55000,
+       "maximum": 90000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.vesterling.com/jobs?utm_source=xing.com#!/onlineapplication/23378/XING"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein IT-Beratungshaus sucht einen Software-Berater in München. Das Unternehmen bietet individuelle Softwarelösungen und Beratungsleistungen für die digitale Transformation.",
+        "keyResponsibilities": [
+         "Beratung und Konzeption von Softwarelösungen.",
+         "Entwicklung von Datenmodellen mit UML.",
+         "Zusammenarbeit mit Fachexperten in Projekten."
+        ],
+        "qualifications": [
+         "Studium in Wirtschaftsinformatik oder ähnlich.",
+         "Langjährige Erfahrung in Anforderungsanalyse.",
+         "Kenntnisse in Digital Thread und Java."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 18,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158177067.1c4df6",
+      "slug": "berlin-technical-recruiter-gn-schwerpunkt-softwareentwicklung-158177067",
+      "url": "https://www.xing.com/jobs/berlin-technical-recruiter-gn-schwerpunkt-softwareentwicklung-158177067",
+      "title": "Technical Recruiter (gn) Schwerpunkt Softwareentwicklung",
+      "activatedAt": "2026-09-28T08:42:16Z",
+      "refreshedAt": "2026-09-28T08:42:16Z",
+      "activeUntil": "2027-09-28T08:42:17Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16759380,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1014.6261b0",
+       "localizationValue": "HR"
+      },
+      "industry": {
+       "id": "230500.38f507",
+       "localizationValue": "Other services"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "New Monday GmbH",
+       "company": {
+        "id": "1892213.2488d4",
+        "companyName": "New Monday GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "170300.1164be",
+         "localizationValue": "Graphic design"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/newmondaygmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYTFjOTdjNTMtOGEyOC00OTdkLTlmMjUtNzU2ZmIxNDE0MWJmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fb69eae241de8fc9b18d209456615ae370c6f42728a27e8e194610c35d897038"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 48000,
+       "maximum": 67000,
+       "median": 59000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "New Monday sucht einen Technical Recruiter (gn) in Berlin. Das Unternehmen ist eine UX/UI-Agentur, die digitale Produkte für namhafte Unternehmen entwickelt.",
+        "keyResponsibilities": [
+         "Besetzung technischer Positionen im Recruiting.",
+         "Sichten und Beurteilen von Bewerbungen.",
+         "Kandidaten über LinkedIn ansprechen."
+        ],
+        "qualifications": [
+         "Erfahrung im Recruiting technischer Fachkräfte.",
+         "Vertrautheit mit Softwareentwicklung und Technologien.",
+         "Sichere Kommunikation auf Deutsch und Englisch."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 19,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156220531.6863c8",
+      "slug": "zwoenitz-softwareentwickler-fullstack-mindset-anspruchsvolle-industrieprojekte-innovative-softwareloesungen-156220531",
+      "url": "https://www.xing.com/jobs/zwoenitz-softwareentwickler-fullstack-mindset-anspruchsvolle-industrieprojekte-innovative-softwareloesungen-156220531",
+      "title": "Softwareentwickler (m/w/d) mit Fullstack-Mindset - Anspruchsvolle Industrieprojekte & innovative Softwarelösungen",
+      "activatedAt": "2026-10-12T14:56:15Z",
+      "refreshedAt": "2026-10-12T14:56:15Z",
+      "activeUntil": "2027-01-08T19:44:52Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Zwönitz",
+       "cityId": 2803476,
+       "region": "Sachsen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Zwönitz",
+        "region": "Sachsen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SoftLevel GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 54000,
+       "maximum": 70000,
+       "median": 63500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.fachkraefte-erzgebirge.de/softlevel-gmbh/softwareentwickler-mwd-mit-fullstack-mindset-anspruchsvolle-industrieprojekte-and-innovative-softwar-06ca4615af?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    }
+   ],
+   "aggregations": null
+  }
+ },
+ "errors": []
+}

@@ -1,0 +1,40 @@
+{
+ "operationName": "MasterDirectoryEntryByLetter",
+ "variables": {
+  "letter": "a",
+  "limit": 5,
+  "type": "JOB_ROLE"
+ },
+ "data": {
+  "masterDirectoryEntryByLetter": {
+   "collection": [
+    {
+     "displayName": "Außendienstler",
+     "jobCount": 68,
+     "url": "https://www.xing.com/jobs/t-außendienstler"
+    },
+    {
+     "displayName": "Architekt",
+     "jobCount": 7449,
+     "url": "https://www.xing.com/jobs/t-architekt"
+    },
+    {
+     "displayName": "Altenpfleger",
+     "jobCount": 13395,
+     "url": "https://www.xing.com/jobs/t-altenpfleger"
+    },
+    {
+     "displayName": "Alltagsbegleiter",
+     "jobCount": 1796,
+     "url": "https://www.xing.com/jobs/t-alltagsbegleiter"
+    },
+    {
+     "displayName": "Animateur",
+     "jobCount": 545,
+     "url": "https://www.xing.com/jobs/t-animateur"
+    }
+   ]
+  }
+ },
+ "errors": []
+}

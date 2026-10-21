@@ -1,0 +1,117 @@
+{
+ "operationName": "EntityPage",
+ "variables": {
+  "id": "accenture"
+ },
+ "data": {
+  "entityPageEX": {
+   "__typename": "EntityPage",
+   "id": "2015.75200b",
+   "title": "Accenture",
+   "slug": "accenture",
+   "slogan": null,
+   "context": {
+    "companyId": "25948.0e87ae"
+   },
+   "links": {
+    "self": "https://www.xing.com/pages/accenture"
+   },
+   "coverImage": [
+    {
+     "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMWFkMWE5YTYtMjM1YS00NDcwLThmMTktMTUzOTU3Mzk5YjVmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjE4NzIsIm1heF9oZWlnaHQiOjQ2OH0?signature=bc6520820e5e01ba314415149c0f28e7179b0d4b88497f40009527ce54f0a2ea"
+    }
+   ],
+   "logoImage": [
+    {
+     "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjMyMCwibWF4X2hlaWdodCI6MzIwfQ?signature=a3bb7c9065039c05dc9b6bda2d8a6ffcd5a1899f47c1c158e7e7e293f47407b4"
+    }
+   ],
+   "publicationStatus": "PUBLISHED",
+   "modules": {
+    "collection": [
+     {
+      "type": "header"
+     },
+     {
+      "type": "news"
+     },
+     {
+      "type": "company_recommendations"
+     },
+     {
+      "type": "about_us"
+     },
+     {
+      "type": "jobs"
+     },
+     {
+      "type": "employees"
+     },
+     {
+      "type": "contacts"
+     },
+     {
+      "type": "locations"
+     }
+    ]
+   }
+  },
+  "headerModule": {
+   "content": {
+    "__typename": "EntityPageCompanyHeaderContent",
+    "followers": {
+     "total": 43996
+    },
+    "company": {
+     "id": "25948.0e87ae",
+     "employeesCount": null,
+     "companySizeRange": {
+      "min": 10001,
+      "max": null
+     },
+     "industry": {
+      "id": "160000.909d04",
+      "localizationValue": "Consulting"
+     }
+    }
+   }
+  },
+  "pagesAboutUs": {
+   "headline": "",
+   "summary": "Accenture ist ein global tätiges Beratungsunternehmen, das weltweit führende Unternehmen, Regierungen und andere Organisationen beim Aufbau ihres digitalen Geschäftskerns, bei der Optimierung ihrer Abläufe, bei der Beschleunigung des Umsatzwachstums und bei der Verbesserung öffentlicher Dienstleistungen unterstützt – und so schnell einen greifbaren",
+   "media": null
+  },
+  "entityPageLocations": {
+   "collection": [
+    {
+     "id": "206762.ff2e43",
+     "label": "Kronberg im Taunus",
+     "city": "Kronberg im Taunus",
+     "address": "Campus Kronberg 1",
+     "addressSuffix": null,
+     "postcode": "D-61476",
+     "highlighted": true,
+     "email": null,
+     "websiteURL": "http://www.accenture.de",
+     "coordinates": {
+      "latitude": 50.1749525,
+      "longitude": 8.5283763
+     },
+     "country": {
+      "countryCode": "DE",
+      "localizationValue": "Germany"
+     },
+     "phoneNumber": {
+      "number": "61739499",
+      "countryCode": 49
+     },
+     "faxNumber": {
+      "number": "61739498",
+      "countryCode": 49
+     }
+    }
+   ]
+  }
+ },
+ "errors": []
+}

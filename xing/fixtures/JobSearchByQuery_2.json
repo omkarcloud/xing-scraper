@@ -1,0 +1,1938 @@
+{
+ "operationName": "JobSearchByQuery",
+ "variables": {
+  "query": {
+   "keywords": "python",
+   "location": {
+    "cityId": "2867714.724c7f"
+   },
+   "filter": {
+    "discipline": {
+     "id": [
+      "1011.6cf3f7"
+     ]
+    }
+   }
+  },
+  "consumer": "loggedout.web.jobs.conv_search_results.center",
+  "limit": 20,
+  "offset": 0,
+  "sort": "relevance",
+  "returnAggregations": false
+ },
+ "data": {
+  "jobSearchByQuery": {
+   "boundedTotal": {
+    "total": 310,
+    "bound": 1000,
+    "countType": "EXACT"
+   },
+   "searchQuery": {
+    "body": {
+     "keywords": "python",
+     "location": {
+      "text": null,
+      "radius": null,
+      "city": {
+       "id": "2867714.724c7f",
+       "name": "Munich"
+      }
+     },
+     "filterCollection": [
+      {
+       "entityId": "1011.6cf3f7",
+       "discipline": {
+        "localizationValue": "IT and software development"
+       }
+      }
+     ]
+    }
+   },
+   "collection": [
+    {
+     "position": 0,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157368156.a33e9e",
+      "slug": "muenchen-python-development-expert-for-ci-tools-157368156",
+      "url": "https://www.xing.com/jobs/muenchen-python-development-expert-for-ci-tools-157368156",
+      "title": "Python Development Expert for CI Tools (m/w/x)",
+      "activatedAt": "2026-08-21T10:01:29Z",
+      "refreshedAt": "2026-08-21T10:01:29Z",
+      "activeUntil": "2027-08-21T10:01:30Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16607372,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "K-tronik GmbH",
+       "company": {
+        "id": "145146.a89c42",
+        "companyName": "K-tronik GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "230500.38f507",
+         "localizationValue": "Other services"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/k-tronikgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjczMTA4MDItMWU3ZC00ZDNkLThiYWItOGQwZTdiNTQ2ZjM1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=6825ca108374ed8d409025577662b5128c79793d86a39d1974e8e537be478196"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 63000,
+       "maximum": 75000,
+       "median": 68500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "K-tronik sucht einen Python Development Expert in München. Das Unternehmen ist in der Funk- und Kommunikationsbranche tätig und bietet spannende Projekte mit modernen Technologien.",
+        "keyResponsibilities": [
+         "Entwicklung von Python Modulen für CI.",
+         "Eigenverantwortliche Umsetzung von Arbeitspaketen."
+        ],
+        "qualifications": [
+         "Expertenwissen in Python und GitLab.",
+         "Erfahrung im Bereich CI/CD erforderlich."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 1,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158223761.c2df67",
+      "slug": "muenchen-automation-engineer-softwareentwicklung-internal-operations-158223761",
+      "url": "https://www.xing.com/jobs/muenchen-automation-engineer-softwareentwicklung-internal-operations-158223761",
+      "title": "Automation Engineer (m/w/d) Softwareentwicklung Internal Operations",
+      "activatedAt": "2026-09-30T11:16:54Z",
+      "refreshedAt": "2026-09-30T11:16:54Z",
+      "activeUntil": "2026-10-30T11:26:19Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "e51af391-5298-41ee-8bd5-c58405691601_0",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80636",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80636",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "CHECK24 Vergleichsportal",
+       "company": {
+        "id": "50390.ec2c0e",
+        "companyName": "CHECK24 Vergleichsportal",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "90700.ffda8d",
+         "localizationValue": "Internet and online media"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/check24"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNThhZjkwNzQtY2I1ZS00YzQzLTkyNTYtMDI5MTM4MWY0NTIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0c35803f246860a8a289cf2dd8042d8de4800405dcf717075fd05e2df72d78fa"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.check24.de/jobs/app-web-full-stack-inkl-devops/ref658d-automation-engineer-mwd-softwareentwicklung-internal-operations/apply/?trid=52ee9a3f-73e7-4072-aeaa-5526a7b36c7f&utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "CHECK24 Services GmbH sucht einen Automation Engineer in München. Das Unternehmen ist ein führendes Vergleichsportal, das datengetriebene Innovationen vorantreibt.",
+        "keyResponsibilities": [
+         "Entwicklung und Betrieb einer zentralen Plattform.",
+         "Integration von Services und Datenmanagement.",
+         "Gestaltung intuitiver Frontend-Oberflächen."
+        ],
+        "qualifications": [
+         "Erfahrung mit Python, Django und Svelte.",
+         "Kenntnisse in REST-APIs und MySQL.",
+         "C1-Deutschkenntnisse und Teamkommunikation."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 2,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157469012.1044df",
+      "slug": "muenchen-python-development-expert-157469012",
+      "url": "https://www.xing.com/jobs/muenchen-python-development-expert-157469012",
+      "title": "Python Development Expert (m/w/d)",
+      "activatedAt": "2026-08-26T16:48:00Z",
+      "refreshedAt": "2026-08-26T16:48:00Z",
+      "activeUntil": "2027-08-26T16:48:03Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "a17Of0000EmswqcIQA",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "70400.920f82",
+       "localizationValue": "Aviation"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "81671",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "81671",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "YER",
+       "company": {
+        "id": "352746.3af5ea",
+        "companyName": "YER Deutschland",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/yerdeutschland"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDM3NDBjYjctZWM2Zi00ZDdhLWExNzctYzExOGNkZDFjM2U0IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=f22d3f1768f224ce1d7ff3424b8c05f587ef4bb0e8a4286411d88ff1e0240a39"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 58500,
+       "maximum": 76500,
+       "median": 67500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.yer.de/job/a16Of000001lW0fIAE?utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein namhaftes Unternehmen sucht einen Python Development Expert in München. Das Unternehmen ist auf Kommunikationssysteme für maritime Anwendungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung von Python-Modulen mit GitLab.",
+         "Eigenverantwortliche Umsetzung von Arbeitspaketen.",
+         "Planung und Durchführung von Softwaretests."
+        ],
+        "qualifications": [
+         "Studium in Informatik oder vergleichbar.",
+         "Expertise in Python und GitLab erforderlich.",
+         "Verhandlungssichere Deutsch- und Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 3,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158543034.399dee",
+      "slug": "muenchen-python-engineer-web-crawling-data-extraction-158543034",
+      "url": "https://www.xing.com/jobs/muenchen-python-engineer-web-crawling-data-extraction-158543034",
+      "title": "Python Engineer – Web Crawling & Data Extraction (m/f/d)",
+      "activatedAt": "2026-10-14T01:47:04Z",
+      "refreshedAt": "2026-10-14T01:47:04Z",
+      "activeUntil": "2027-04-14T16:41:40Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "en",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Certivity",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 71000,
+       "maximum": 110000,
+       "median": 80000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://certivity.jobs.personio.de/job/2832710?language=de&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 4,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156683168.dec01e",
+      "slug": "muenchen-automation-engineer-156683168",
+      "url": "https://www.xing.com/jobs/muenchen-automation-engineer-156683168",
+      "title": "Automation Engineer (m/w/d)",
+      "activatedAt": "2026-09-29T21:41:04Z",
+      "refreshedAt": "2026-09-29T21:41:04Z",
+      "activeUntil": "2027-01-23T02:04:30Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90700.ffda8d",
+       "localizationValue": "Internet and online media"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "CHECK24 Vergleichsportal",
+       "company": {
+        "id": "50390.ec2c0e",
+        "companyName": "CHECK24 Vergleichsportal",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "90700.ffda8d",
+         "localizationValue": "Internet and online media"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/check24"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNThhZjkwNzQtY2I1ZS00YzQzLTkyNTYtMDI5MTM4MWY0NTIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0c35803f246860a8a289cf2dd8042d8de4800405dcf717075fd05e2df72d78fa"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.check24.de/de/jobs/app-web-full-stack-inkl-devops/ref290a-automation-engineer-mwd?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 5,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158233744.d84407",
+      "slug": "muenchen-full-stack-softwareentwickler-internal-operations-158233744",
+      "url": "https://www.xing.com/jobs/muenchen-full-stack-softwareentwickler-internal-operations-158233744",
+      "title": "Full Stack Softwareentwickler (m/w/d) Internal Operations",
+      "activatedAt": "2026-09-30T20:23:59Z",
+      "refreshedAt": "2026-09-30T20:23:59Z",
+      "activeUntil": "2027-04-01T11:18:35Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90700.ffda8d",
+       "localizationValue": "Internet and online media"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "CHECK24 Vergleichsportal",
+       "company": {
+        "id": "50390.ec2c0e",
+        "companyName": "CHECK24 Vergleichsportal",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "90700.ffda8d",
+         "localizationValue": "Internet and online media"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/check24"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNThhZjkwNzQtY2I1ZS00YzQzLTkyNTYtMDI5MTM4MWY0NTIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0c35803f246860a8a289cf2dd8042d8de4800405dcf717075fd05e2df72d78fa"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.check24.de/de/jobs/app-web-full-stack-inkl-devops/ref639e-full-stack-softwareentwickler-mwd-internal-operations?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 6,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158289451.e6faa1",
+      "slug": "muenchen-forward-deployed-engineer-158289451",
+      "url": "https://www.xing.com/jobs/muenchen-forward-deployed-engineer-158289451",
+      "title": "Forward Deployed Engineer (m/w/d)",
+      "activatedAt": "2026-10-02T09:03:44Z",
+      "refreshedAt": "2026-10-02T09:03:44Z",
+      "activeUntil": "2027-10-02T09:03:47Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16776813,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "AlphaPrompt",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 58500,
+       "maximum": 75500,
+       "median": 71000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "AlphaPrompt sucht einen technischen Consultant in München. Das Unternehmen ist ein B2B-Software-Startup, das intelligente Lösungen für die Immobilienwirtschaft entwickelt.",
+        "keyResponsibilities": [
+         "Kunden-Onboarding und Datenräume konfigurieren.",
+         "Anforderungen von Asset-Managern aufnehmen.",
+         "Full-Stack-Entwicklung mit Python und React."
+        ],
+        "qualifications": [
+         "Verhandlungssicheres Deutsch und gutes Englisch.",
+         "Zwei bis vier Jahre Softwareentwicklungserfahrung.",
+         "Erfahrung im Kundenkontakt und Produktverständnis."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 7,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155868548.3b22e2",
+      "slug": "muenchen-senior-full-stack-developer-python-azure-ai-155868548",
+      "url": "https://www.xing.com/jobs/muenchen-senior-full-stack-developer-python-azure-ai-155868548",
+      "title": "Senior Full Stack Developer (Python, Azure & AI) (w/m/d)",
+      "activatedAt": "2026-10-15T22:05:29Z",
+      "refreshedAt": "2026-10-15T22:05:29Z",
+      "activeUntil": "2026-12-30T13:13:12Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "150000.7c211d",
+       "localizationValue": "Auditing, tax and law"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "EY Deutschland",
+       "company": {
+        "id": "30416.c08f07",
+        "companyName": "EY (Ernst & Young)",
+        "companySize": "5,001-10,000 employees",
+        "industry": {
+         "id": "150000.7c211d",
+         "localizationValue": "Auditing, tax and law"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/ernstandyoung"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiN2ZlMjI0OTMtZDhhYy00MzE0LTg3NTUtNGU2YmE2NTU3NTE2IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=d79a6d7a67e660312dfad0ff1ae37f399553ffc1c824ca3462115147b25f72b9"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://careers.ey.com/ey/job/M%C3%BCnchen-Senior-Full-Stack-Developer-(Python,-Azure-&-AI)-(wmd)-BY-80636/1409910333/?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 8,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "146731944.a64295",
+      "slug": "muenchen-full-stack-development-146731944",
+      "url": "https://www.xing.com/jobs/muenchen-full-stack-development-146731944",
+      "title": "Full-Stack Development (m/w/d)",
+      "activatedAt": "2025-11-20T07:17:03Z",
+      "refreshedAt": "2025-11-20T07:17:03Z",
+      "activeUntil": "2026-11-20T07:17:05Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "14423748,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "summ ai",
+       "company": {
+        "id": "2209101.cf87ba",
+        "companyName": "SUMM AI",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/summ-ai"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOTU3NTJmNDMtNjA5YS00ZDY1LTgzZDAtYWViZTEzOTk1OGU4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0b4c6ccea4c253e27dc1d10b4050fffbde8fb29cbc977e9028691eed0b6e96f9"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 64000,
+       "maximum": 76000,
+       "median": 73500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Die SUMM AI GmbH sucht einen Full-Stack-Entwickler in München. Das Unternehmen entwickelt KI-Lösungen für den öffentlichen Sektor.",
+        "keyResponsibilities": [
+         "Eigenverantwortliche Entwicklung von Features E2E.",
+         "Aktive Verbesserung der internen Prozesse.",
+         "Automatisierung der Entwicklungsabläufe."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung in der Full-Stack-Entwicklung.",
+         "Sauberer, wartbarer Code und Dokumentation.",
+         "Kenntnisse in Python, JS/TS und SQL."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 9,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158588160.4efa4a",
+      "slug": "muenchen-software-integration-engineer-production-systems-158588160",
+      "url": "https://www.xing.com/jobs/muenchen-software-integration-engineer-production-systems-158588160",
+      "title": "Software Integration Engineer Production Systems",
+      "activatedAt": "2026-10-16T00:02:52Z",
+      "refreshedAt": "2026-10-16T00:02:52Z",
+      "activeUntil": "2027-04-16T14:57:28Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "41300.1aef27",
+       "localizationValue": "Optical instruments and photographic equipment"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "TOPTICA Photonics AG",
+       "company": {
+        "id": "72220.423b6c",
+        "companyName": "TOPTICA Photonics AG",
+        "companySize": "201-500 employees",
+        "industry": {
+         "id": "41300.1aef27",
+         "localizationValue": "Optical instruments and photographic equipment"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/topticaphotonicsag"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzFmZmI2NjktZGFiNS00MDk0LTljNzgtYWVkMzgzYmI2ODg4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=3de165c516b2e3254fa4981fdcb8b3e48cac99b70f3cf183385b7c3cfbb1ff9e"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 66000,
+       "maximum": 76500,
+       "median": 73000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://join.toptica.com/de/career/2815?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 10,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157489263.f340aa",
+      "slug": "muenchen-ai-solutions-engineer-157489263",
+      "url": "https://www.xing.com/jobs/muenchen-ai-solutions-engineer-157489263",
+      "title": "AI Solutions Engineer (m/w/d)",
+      "activatedAt": "2026-08-27T09:23:44Z",
+      "refreshedAt": "2026-08-27T09:23:44Z",
+      "activeUntil": "2027-08-27T09:23:46Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16631739,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "handz.on GmbH",
+       "company": {
+        "id": "1988561.06a7ee",
+        "companyName": "handz.on GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/handz-on-gmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNWMwMmFlNjQtNjI4OS00ZWEwLTk0YmQtOGEzYzRjNThmMWM0IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=9f9bc55e326ec870b7d36df263bb58b3c1c53a5aa999f059cd4faaeba6d79dab"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 73000,
+       "maximum": 90000,
+       "median": 84500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Eine KI-Unternehmensberatung sucht einen hands-on Generalisten in München. Das Unternehmen bietet KI-Beratung und -Produkte an.",
+        "keyResponsibilities": [
+         "Entwickeln und betreiben von KI-Anwendungen.",
+         "Backend-Entwicklung mit Python und Frontend-Integration.",
+         "Konzipieren und entwickeln von Softwarearchitekturen."
+        ],
+        "qualifications": [
+         "Fundierter IT- oder technischer Hintergrund.",
+         "Mindestens 3 Jahre relevante Berufserfahrung.",
+         "Sehr gute Kenntnisse in Python."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 11,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156154605.1a5eb5",
+      "slug": "muenchen-full-stack-entwickler-all-genders-156154605",
+      "url": "https://www.xing.com/jobs/muenchen-full-stack-entwickler-all-genders-156154605",
+      "title": "Full Stack Entwickler (all genders)",
+      "activatedAt": "2026-07-08T04:48:04Z",
+      "refreshedAt": "2026-07-08T04:48:04Z",
+      "activeUntil": "2027-01-06T19:42:40Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90200.1f7c05",
+       "localizationValue": "IT service provider"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Karriere - Green IT Solution GmbH",
+       "company": {
+        "id": "1433966.ed6ec2",
+        "companyName": "Green IT Solution GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/greenitsolutiongmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiN2IwZmEzYWMtZTRjMS00Y2E4LWFkYzEtODJlZjZhZTdhOTRmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=4a1318cf37034b0fde87afb1806db0c6e1f44b467d6c13955e095361e6eef073"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 51500,
+       "maximum": 70000,
+       "median": 62000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://greenit-solution.jobs.personio.de/job/2659878?language=de&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 12,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158552148.d88428",
+      "slug": "muenchen-senior-python-backend-engineer-158552148",
+      "url": "https://www.xing.com/jobs/muenchen-senior-python-backend-engineer-158552148",
+      "title": "Senior Python Backend Engineer (m/w/d)",
+      "activatedAt": "2026-10-14T14:53:10Z",
+      "refreshedAt": "2026-10-14T14:53:10Z",
+      "activeUntil": "2026-11-13T14:53:12Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "BBBH13689",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80331",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80331",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Peak One GmbH",
+       "company": {
+        "id": "1962730.a1ac83",
+        "companyName": "Peak One GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/peak-one-gmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNTQ3ZTY5NzctMzVmYy00ODI3LWJlMDYtZDkwNmNmM2ZmNTcyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=510b5d8a8fe23ac4a9319caca10ce40fa8ff23fc6d29072e8e0765db7b321dfd"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 80000,
+       "maximum": 110000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.aplitrak.com/?adid=ai53aWxsaXMuNTMwNTMuNjQ1MEBwZWFrb25lLmFwbGl0cmFrLmNvbQ&utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein zukunftsorientiertes Technologieunternehmen sucht einen Softwareentwickler in München. Das Unternehmen fokussiert sich auf innovative Digitallösungen und nachhaltiges Wachstum.",
+        "keyResponsibilities": [
+         "Entwicklung von Machine Learning-Modellen.",
+         "Architektonische Führung für Backend-Systeme.",
+         "Umsetzung komplexer Kundenprojekte im Team."
+        ],
+        "qualifications": [
+         "Mindestens 7 Jahre Erfahrung in Applikationsentwicklung.",
+         "Erfahrung mit KI-Technologien in Software-Stacks.",
+         "Kenntnisse in Cloud-Technologien und CI/CD."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 13,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156683036.6378da",
+      "slug": "muenchen-fullstack-softwareentwickler-hr-automation-156683036",
+      "url": "https://www.xing.com/jobs/muenchen-fullstack-softwareentwickler-hr-automation-156683036",
+      "title": "Fullstack Softwareentwickler (m/w/d) HR-Automation",
+      "activatedAt": "2026-07-24T11:09:43Z",
+      "refreshedAt": "2026-07-24T11:09:43Z",
+      "activeUntil": "2027-01-23T02:04:19Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90700.ffda8d",
+       "localizationValue": "Internet and online media"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "CHECK24 Vergleichsportal",
+       "company": {
+        "id": "50390.ec2c0e",
+        "companyName": "CHECK24 Vergleichsportal",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "90700.ffda8d",
+         "localizationValue": "Internet and online media"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/check24"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNThhZjkwNzQtY2I1ZS00YzQzLTkyNTYtMDI5MTM4MWY0NTIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0c35803f246860a8a289cf2dd8042d8de4800405dcf717075fd05e2df72d78fa"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.check24.de/de/jobs/interner-it-support-it-operations/ref332z-fullstack-softwareentwickler-mwd-hr-automation?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 14,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155677876.0b2a4c",
+      "slug": "muenchen-software-engineer-data-ai-genderneutral-155677876",
+      "url": "https://www.xing.com/jobs/muenchen-software-engineer-data-ai-genderneutral-155677876",
+      "title": "Software Engineer - DATA & AI (genderneutral)",
+      "activatedAt": "2026-06-24T08:22:22Z",
+      "refreshedAt": "2026-06-24T08:22:22Z",
+      "activeUntil": "2026-12-23T23:16:58Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Kemény Boehme Consultants SE",
+       "company": {
+        "id": "55621.2db777",
+        "companyName": "Kemény Boehme Consultants SE",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/kbc"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTk3NzUwOTMtMmYwYS00MDA0LWI1YTUtZDNlMDMxZWQ0ZjIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=4845361c475f2943809e714d3569728536413d555b27a16eedadfd3b17b1afef"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 68500,
+       "maximum": 88500,
+       "median": 74000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://kbc.jobs.personio.de/job/2348723?language=de&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 15,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156396582.3aca6b",
+      "slug": "muenchen-ai-devops-engineer-automation-builder-156396582",
+      "url": "https://www.xing.com/jobs/muenchen-ai-devops-engineer-automation-builder-156396582",
+      "title": "AI DevOps Engineer / Automation Builder (m/w/d)",
+      "activatedAt": "2026-07-16T07:10:47Z",
+      "refreshedAt": "2026-07-16T07:10:47Z",
+      "activeUntil": "2027-07-16T07:10:49Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16453255,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Ecoturn GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65500,
+       "maximum": 77000,
+       "median": 70500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen sucht einen Softwareentwickler in München. Es handelt sich um eine B2C-Marke, die THG-Quoten handelt und Prozesse mit KI optimiert.",
+        "keyResponsibilities": [
+         "Anforderungen schnell in Lösungen umsetzen.",
+         "Automatisierung wiederkehrender manueller Abläufe.",
+         "Interne Tools und Dashboards entwickeln."
+        ],
+        "qualifications": [
+         "Erfahrung mit Node.js, Python, SQL.",
+         "Kenntnisse in KI-Coding-Tools erforderlich.",
+         "Erfahrung mit APIs und HubSpot-Integration."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 16,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "153970501.8da3e1",
+      "slug": "munich-software-engineer-full-time-munich-hybrid-153970501",
+      "url": "https://www.xing.com/jobs/munich-software-engineer-full-time-munich-hybrid-153970501",
+      "title": "Software Engineer (full-time) (Munich/Hybrid) (m/f/d)",
+      "activatedAt": "2026-06-19T11:02:04Z",
+      "refreshedAt": "2026-06-19T11:02:04Z",
+      "activeUntil": "2027-05-04T14:37:33Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "en",
+      "jobCode": "16108082,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "120400.f84d5e",
+       "localizationValue": "Venture capital and private equity"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80797",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80797",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "D11Z Ventures",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 60000,
+       "maximum": 80500,
+       "median": 69500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "D11Z. Ventures is seeking a Software Engineer in Munich, operating as a leading Venture Capital firm focused on software and deep tech investments. The role involves scaling their internal technology platform.",
+        "keyResponsibilities": [
+         "Build and maintain data infrastructure.",
+         "Optimize AI-powered deal sourcing pipeline.",
+         "Develop internal AI agents for investment."
+        ],
+        "qualifications": [
+         "Degree in Computer Science or related field.",
+         "1–3 years experience in technical environment.",
+         "Proficient in Python and SQL."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 17,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157178408.230933",
+      "slug": "munich-senior-full-stack-software-engineer-157178408",
+      "url": "https://www.xing.com/jobs/munich-senior-full-stack-software-engineer-157178408",
+      "title": "Senior Full Stack Software Engineer",
+      "activatedAt": "2026-08-12T11:27:38Z",
+      "refreshedAt": "2026-08-12T11:27:38Z",
+      "activeUntil": "2027-08-12T11:27:42Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "en",
+      "jobCode": "16570970,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80339",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80339",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "FRYTE Mobility GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 75000,
+       "maximum": 100000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "FRYTE is seeking a Backend Engineer in Munich. The company focuses on electric logistics and energy grid integration through a SaaS platform for fleet operators.",
+        "keyResponsibilities": [
+         "Own backend architecture and production hardening.",
+         "Design stable multi-domain APIs.",
+         "Mentor team and improve code quality."
+        ],
+        "qualifications": [
+         "Experience with production backend systems in Python.",
+         "Strong instincts in backend and system design.",
+         "Ability to operate across multiple domains."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 18,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155677875.fd4dde",
+      "slug": "muenchen-lead-software-engineer-data-ai-genderneutral-155677875",
+      "url": "https://www.xing.com/jobs/muenchen-lead-software-engineer-data-ai-genderneutral-155677875",
+      "title": "Lead Software Engineer - DATA & AI (genderneutral)",
+      "activatedAt": "2026-06-24T08:22:22Z",
+      "refreshedAt": "2026-06-24T08:22:22Z",
+      "activeUntil": "2026-12-23T23:16:58Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Kemény Boehme Consultants SE",
+       "company": {
+        "id": "55621.2db777",
+        "companyName": "Kemény Boehme Consultants SE",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/kbc"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTk3NzUwOTMtMmYwYS00MDA0LWI1YTUtZDNlMDMxZWQ0ZjIwIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=4845361c475f2943809e714d3569728536413d555b27a16eedadfd3b17b1afef"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://kbc.jobs.personio.de/job/2622622?language=de&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 19,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "153862872.4abbff",
+      "slug": "muenchen-software-engineer-153862872",
+      "url": "https://www.xing.com/jobs/muenchen-software-engineer-153862872",
+      "title": "Software Engineer",
+      "activatedAt": "2026-05-01T08:23:26Z",
+      "refreshedAt": "2026-05-01T08:23:26Z",
+      "activeUntil": "2027-05-01T08:23:29Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16092018,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": "80333",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": "80333",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Doctario GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 70000,
+       "maximum": 100000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Doctario sucht einen Software Engineer in München. Das Unternehmen entwickelt KI-Infrastrukturen für die medizinische Abrechnung im Gesundheitswesen.",
+        "keyResponsibilities": [
+         "Entwicklung von Features von der Idee bis zum Live-Gang.",
+         "Übersetzung komplexer Anforderungen in Software.",
+         "Integration von KI-/ML-Funktionalitäten in Produkte."
+        ],
+        "qualifications": [
+         "Erfahrung in der Entwicklung produktiver Software.",
+         "Kenntnisse in KI-/ML-Anwendungen erforderlich.",
+         "Solides Verständnis von Backend- und Systemarchitektur."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    }
+   ],
+   "aggregations": null
+  }
+ },
+ "errors": []
+}

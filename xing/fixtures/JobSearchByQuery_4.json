@@ -1,0 +1,1972 @@
+{
+ "operationName": "JobSearchByQuery",
+ "variables": {
+  "query": {
+   "keywords": "consultant",
+   "filter": {
+    "company": {
+     "id": [
+      "25948.0e87ae"
+     ]
+    }
+   }
+  },
+  "consumer": "web.entity_pages.jobs_subpage",
+  "limit": 20,
+  "offset": 0,
+  "sort": "date",
+  "returnAggregations": false
+ },
+ "data": {
+  "jobSearchByQuery": {
+   "boundedTotal": {
+    "total": 110,
+    "bound": 1000,
+    "countType": "EXACT"
+   },
+   "searchQuery": {
+    "body": {
+     "keywords": "consultant",
+     "location": null,
+     "filterCollection": [
+      {
+       "entityId": "25948.0e87ae",
+       "company": {
+        "companyName": null
+       }
+      }
+     ]
+    }
+   },
+   "collection": [
+    {
+     "position": 0,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157665209.965f2b",
+      "slug": "duesseldorf-sap-tm-supply-chain-execution-consultant-all-genders-157665209",
+      "url": "https://www.xing.com/jobs/duesseldorf-sap-tm-supply-chain-execution-consultant-all-genders-157665209",
+      "title": "SAP TM & Supply Chain Execution Consultant (all genders)",
+      "activatedAt": "2026-09-07T07:37:15Z",
+      "refreshedAt": "2026-10-07T07:37:15Z",
+      "activeUntil": "2026-11-06T07:37:17Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16251802,d64aa22c923a4f3d1138,1634fa15-8500-4c26-8e62-9d83a5110fde",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1012.6ce534",
+       "localizationValue": "Management and corporate development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": "40213",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": "40213",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 75000,
+       "maximum": 120000,
+       "median": 100000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Accenture sucht einen SAP Transportmanagement Consultant in Düsseldorf. Das Unternehmen bietet innovative Lösungen zur digitalen Transformation in der Industrie.",
+        "keyResponsibilities": [
+         "Beratung zu SAP-TM-Lösungen und Projekten.",
+         "Entwicklung und Anpassung von IT-Lösungen.",
+         "Erstellung von Dokumentationen und Schulungen."
+        ],
+        "qualifications": [
+         "Erfahrung in SAP-TM- und Logistikprojekten.",
+         "Kenntnisse in SAP EWM und S/4HANA.",
+         "Starke Kommunikationsfähigkeiten in Deutsch und Englisch."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 1,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156040813.066829",
+      "slug": "kronberg-taunus-junior-management-consultant-insurance-all-genders-156040813",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-junior-management-consultant-insurance-all-genders-156040813",
+      "title": "Junior Management Consultant Insurance (all genders)",
+      "activatedAt": "2026-10-16T22:56:11Z",
+      "refreshedAt": "2026-10-16T22:56:11Z",
+      "activeUntil": "2027-01-03T12:10:56Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 54500,
+       "maximum": 76500,
+       "median": 67500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00322687_de&title=Junior+Management+Consultant+Insurance+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 2,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156018920.c63ad4",
+      "slug": "kronberg-taunus-junior-strategy-consultant-public-sector-all-genders-156018920",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-junior-strategy-consultant-public-sector-all-genders-156018920",
+      "title": "Junior Strategy Consultant Public Sector (all genders)",
+      "activatedAt": "2026-10-16T22:55:40Z",
+      "refreshedAt": "2026-10-16T22:55:40Z",
+      "activeUntil": "2027-01-02T12:11:38Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 58000,
+       "maximum": 84000,
+       "median": 69500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00322293_de&title=Junior+Strategy+Consultant+Public+Sector+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 3,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156193984.fc96d6",
+      "slug": "berlin-consultant-energy-utilities-all-genders-156193984",
+      "url": "https://www.xing.com/jobs/berlin-consultant-energy-utilities-all-genders-156193984",
+      "title": "Consultant Energy & Utilities (all genders)",
+      "activatedAt": "2026-09-11T19:20:33Z",
+      "refreshedAt": "2026-09-11T19:20:33Z",
+      "activeUntil": "2027-01-07T20:27:44Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 62500,
+       "maximum": 88000,
+       "median": 75500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00301780_de&title=Consultant+Energy+%26+Utilities+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 4,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155730739.fd589b",
+      "slug": "hamburg-consultant-insurance-digitale-transformation-all-genders-155730739",
+      "url": "https://www.xing.com/jobs/hamburg-consultant-insurance-digitale-transformation-all-genders-155730739",
+      "title": "Consultant Insurance für Digitale Transformation (all genders)",
+      "activatedAt": "2026-09-11T19:24:15Z",
+      "refreshedAt": "2026-09-11T19:24:15Z",
+      "activeUntil": "2026-12-25T00:59:24Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Hamburg",
+       "cityId": 2911298,
+       "region": "Freie und Hansestadt Hamburg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Hamburg",
+        "region": "Freie und Hansestadt Hamburg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00290131_de&title=Consultant+Insurance+f%C3%BCr+Digitale+Transformation+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 5,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158615292.41f7ac",
+      "slug": "kronberg-taunus-junior-strategy-consultant-insurance-all-genders-158615292",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-junior-strategy-consultant-insurance-all-genders-158615292",
+      "title": "Junior Strategy Consultant Insurance (all genders)",
+      "activatedAt": "2026-10-16T22:54:42Z",
+      "refreshedAt": "2026-10-16T22:54:42Z",
+      "activeUntil": "2027-04-17T13:49:18Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55500,
+       "maximum": 78000,
+       "median": 66500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00261983_de&title=Junior+Strategy+Consultant+Insurance++(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 6,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157072849.1665d2",
+      "slug": "kronberg-taunus-junior-consultant-technology-strategy-advisory-all-genders-157072849",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-junior-consultant-technology-strategy-advisory-all-genders-157072849",
+      "title": "Junior Consultant Technology Strategy & Advisory (all genders)",
+      "activatedAt": "2026-10-16T22:55:12Z",
+      "refreshedAt": "2026-10-16T22:55:12Z",
+      "activeUntil": "2027-02-06T10:17:52Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 61500,
+       "maximum": 91500,
+       "median": 84500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00297297_de&title=Junior+Consultant+Technology+Strategy+%26+Advisory+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 7,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157804371.2a3829",
+      "slug": "duesseldorf-consultant-defense-all-genders-157804371",
+      "url": "https://www.xing.com/jobs/duesseldorf-consultant-defense-all-genders-157804371",
+      "title": "Consultant Defense (all genders)",
+      "activatedAt": "2026-10-16T22:57:33Z",
+      "refreshedAt": "2026-10-16T22:57:33Z",
+      "activeUntil": "2027-03-12T10:15:16Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 61000,
+       "maximum": 85000,
+       "median": 70500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00354135_de&title=Consultant+Defense+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 8,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157072964.c2d46d",
+      "slug": "kronberg-taunus-consultant-technology-strategy-advisory-all-genders-157072964",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-consultant-technology-strategy-advisory-all-genders-157072964",
+      "title": "Consultant Technology Strategy & Advisory (all genders)",
+      "activatedAt": "2026-10-16T22:55:03Z",
+      "refreshedAt": "2026-10-16T22:55:03Z",
+      "activeUntil": "2027-02-06T10:21:35Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65500,
+       "maximum": 101000,
+       "median": 87500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00279337_de&title=Consultant+Technology+Strategy+%26+Advisory+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 9,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158440662.079872",
+      "slug": "berlin-consultant-commercial-project-management-infrastructure-all-genders-158440662",
+      "url": "https://www.xing.com/jobs/berlin-consultant-commercial-project-management-infrastructure-all-genders-158440662",
+      "title": "Consultant Commercial Project Management Infrastructure (all genders)",
+      "activatedAt": "2026-10-08T20:13:22Z",
+      "refreshedAt": "2026-10-08T20:13:22Z",
+      "activeUntil": "2027-04-09T11:07:58Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "4.83b992",
+       "localizationValue": "Manager/Supervisor"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 58500,
+       "maximum": 88000,
+       "median": 74000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00362789_de&title=Consultant+Commercial+Project+Management+Infrastructure+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 10,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156809308.af73c1",
+      "slug": "zuerich-consultant-technology-strategy-advisory-all-genders-156809308",
+      "url": "https://www.xing.com/jobs/zuerich-consultant-technology-strategy-advisory-all-genders-156809308",
+      "title": "Consultant Technology Strategy & Advisory (all genders)",
+      "activatedAt": "2026-08-15T05:52:07Z",
+      "refreshedAt": "2026-08-15T05:52:07Z",
+      "activeUntil": "2027-01-28T10:23:57Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Zürich",
+       "cityId": 2657896,
+       "region": "Kanton Zürich",
+       "zipCode": null,
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Zürich",
+        "region": "Kanton Zürich",
+        "zipCode": null,
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "CHF",
+       "minimum": 96500,
+       "maximum": 129000,
+       "median": 114500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/ch-de/careers/jobdetails?id=R00347267_de&title=Consultant+Technology+Strategy+%26+Advisory+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 11,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158615315.9c3c6f",
+      "slug": "kronberg-taunus-experienced-strategy-consultant-banking-all-genders-158615315",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-experienced-strategy-consultant-banking-all-genders-158615315",
+      "title": "Experienced Strategy Consultant Banking (all genders)",
+      "activatedAt": "2026-10-16T22:55:44Z",
+      "refreshedAt": "2026-10-16T22:55:44Z",
+      "activeUntil": "2027-04-17T13:50:20Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 66500,
+       "maximum": 93000,
+       "median": 83000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00294243_de&title=Experienced+Strategy+Consultant+Banking+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 12,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156559766.0dc172",
+      "slug": "frankfurt-main-consultant-infrastructure-capital-projects-all-genders-156559766",
+      "url": "https://www.xing.com/jobs/frankfurt-main-consultant-infrastructure-capital-projects-all-genders-156559766",
+      "title": "Consultant Infrastructure & Capital Projects (all genders)",
+      "activatedAt": "2026-07-20T12:45:12Z",
+      "refreshedAt": "2026-07-20T12:45:12Z",
+      "activeUntil": "2027-07-20T12:45:15Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16471398,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1012.6ce534",
+       "localizationValue": "Management and corporate development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Frankfurt am Main",
+       "cityId": 2925533,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Frankfurt am Main",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 75000,
+       "maximum": 103500,
+       "median": 85000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Accenture sucht einen Consultant Infrastructure & Capital Projects, vollständig remote. Das Unternehmen ist auf die Transformation von Infrastrukturprojekten spezialisiert.",
+        "keyResponsibilities": [
+         "Transformation von Infrastrukturprojekten vorantreiben.",
+         "Verantwortung in Infrastrukturprojekten übernehmen.",
+         "Umsetzung vor Ort beim Kunden begleiten."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Hochschulstudium in relevantem Bereich.",
+         "Praktische Erfahrungen in Beratung oder Projekten.",
+         "Sichere Kommunikation auf Deutsch und Englisch."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 13,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155730759.b98e9a",
+      "slug": "kronberg-taunus-management-consultant-consumer-goods-retail-all-genders-155730759",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-management-consultant-consumer-goods-retail-all-genders-155730759",
+      "title": "Management Consultant Consumer Goods & Retail (all genders)",
+      "activatedAt": "2026-09-08T19:20:56Z",
+      "refreshedAt": "2026-09-08T19:20:56Z",
+      "activeUntil": "2026-12-25T00:59:48Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65500,
+       "maximum": 108000,
+       "median": 80000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00338031_de&title=Management+Consultant+Consumer+Goods+%26+Retail+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 14,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155980251.6c8ff4",
+      "slug": "kaiserslautern-it-consultant-business-analyse-all-genders-155980251",
+      "url": "https://www.xing.com/jobs/kaiserslautern-it-consultant-business-analyse-all-genders-155980251",
+      "title": "IT Consultant Business Analyse (all genders)",
+      "activatedAt": "2026-08-15T05:51:14Z",
+      "refreshedAt": "2026-08-15T05:51:14Z",
+      "activeUntil": "2027-01-01T12:15:14Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kaiserslautern",
+       "cityId": 2894003,
+       "region": "Rheinland-Pfalz",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kaiserslautern",
+        "region": "Rheinland-Pfalz",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 57500,
+       "maximum": 79500,
+       "median": 70000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 15,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156018820.323f38",
+      "slug": "berlin-consultant-infrastructure-capital-projects-all-genders-156018820",
+      "url": "https://www.xing.com/jobs/berlin-consultant-infrastructure-capital-projects-all-genders-156018820",
+      "title": "Consultant Infrastructure & Capital Projects (all genders)",
+      "activatedAt": "2026-10-16T22:51:52Z",
+      "refreshedAt": "2026-10-16T22:51:52Z",
+      "activeUntil": "2027-01-02T12:09:14Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "4.83b992",
+       "localizationValue": "Manager/Supervisor"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 73000,
+       "maximum": 101000,
+       "median": 89500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00339538_de&title=Consultant+Infrastructure+%26+Capital+Projects+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 16,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156018968.d49f09",
+      "slug": "kronberg-taunus-it-consultant-business-analyse-oeffentliche-verwaltung-all-genders-156018968",
+      "url": "https://www.xing.com/jobs/kronberg-taunus-it-consultant-business-analyse-oeffentliche-verwaltung-all-genders-156018968",
+      "title": "IT Consultant Business Analyse Öffentliche Verwaltung (all genders)",
+      "activatedAt": "2026-10-16T22:55:34Z",
+      "refreshedAt": "2026-10-16T22:55:34Z",
+      "activeUntil": "2027-01-02T12:12:15Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "PART_TIME.58889d",
+       "localizationValue": "Part-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Kronberg im Taunus",
+       "cityId": 2883754,
+       "region": "Hessen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Kronberg im Taunus",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 59500,
+       "maximum": 85500,
+       "median": 70500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00277012_de&title=IT+Consultant+Business+Analyse+%C3%96ffentliche+Verwaltung+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 17,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155730598.e6e68e",
+      "slug": "berlin-it-consultant-business-analyse-versicherung-all-genders-155730598",
+      "url": "https://www.xing.com/jobs/berlin-it-consultant-business-analyse-versicherung-all-genders-155730598",
+      "title": "IT Consultant Business Analyse Versicherung (all genders)",
+      "activatedAt": "2026-09-11T19:19:02Z",
+      "refreshedAt": "2026-09-11T19:19:02Z",
+      "activeUntil": "2026-12-25T00:56:17Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 57000,
+       "maximum": 78500,
+       "median": 68500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00286450_de&title=IT+Consultant+Business+Analyse+Versicherung+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 18,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156019010.34a24a",
+      "slug": "muenchen-organization-design-consultant-all-genders-156019010",
+      "url": "https://www.xing.com/jobs/muenchen-organization-design-consultant-all-genders-156019010",
+      "title": "Organization Design Consultant (all genders)",
+      "activatedAt": "2026-10-16T22:56:39Z",
+      "refreshedAt": "2026-10-16T22:56:39Z",
+      "activeUntil": "2027-01-02T12:13:14Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 58000,
+       "maximum": 85000,
+       "median": 69000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00297771_de&title=Organization+Design+Consultant+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 19,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157841447.9f7311",
+      "slug": "wien-banking-consultant-manager-all-genders-157841447",
+      "url": "https://www.xing.com/jobs/wien-banking-consultant-manager-all-genders-157841447",
+      "title": "Banking Consultant / Manager (all genders)",
+      "activatedAt": "2026-09-12T19:23:46Z",
+      "refreshedAt": "2026-09-12T19:23:46Z",
+      "activeUntil": "2027-03-14T10:18:22Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "4.83b992",
+       "localizationValue": "Manager/Supervisor"
+      },
+      "discipline": {
+       "id": "1003.6eca43",
+       "localizationValue": "Consulting"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Wien",
+       "cityId": 2761369,
+       "region": "Bundesland Wien",
+       "zipCode": null,
+       "country": {
+        "countryCode": "AT",
+        "localizationValue": "Austria"
+       }
+      },
+      "locations": [
+       {
+        "city": "Wien",
+        "region": "Bundesland Wien",
+        "zipCode": null,
+        "country": {
+         "countryCode": "AT",
+         "localizationValue": "Austria"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/at-de/careers/jobdetails?id=R00356343_de&title=Banking+Consultant+/+Manager+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    }
+   ],
+   "aggregations": null
+  }
+ },
+ "errors": []
+}

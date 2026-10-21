@@ -1,0 +1,40 @@
+{
+ "operationName": "MasterDirectoryEntryByLetter",
+ "variables": {
+  "letter": "b",
+  "limit": 5,
+  "type": "COMPANY"
+ },
+ "data": {
+  "masterDirectoryEntryByLetter": {
+   "collection": [
+    {
+     "displayName": "B. Braun Melsungen AG",
+     "jobCount": null,
+     "url": "https://www.xing.com/jobs/c-b-braun-melsungen"
+    },
+    {
+     "displayName": "B&O Service Berlin GmbH",
+     "jobCount": null,
+     "url": "https://www.xing.com/jobs/c-b&o-service-berlin"
+    },
+    {
+     "displayName": "B&O Service Hessen GmbH",
+     "jobCount": null,
+     "url": "https://www.xing.com/jobs/c-b&o-service-hessen"
+    },
+    {
+     "displayName": "B&O Service NRW GmbH",
+     "jobCount": null,
+     "url": "https://www.xing.com/jobs/c-b&o-service-nrw"
+    },
+    {
+     "displayName": "B&R Industrial Automation GmbH",
+     "jobCount": null,
+     "url": "https://www.xing.com/jobs/c-b&r-industrial-automation"
+    }
+   ]
+  }
+ },
+ "errors": []
+}

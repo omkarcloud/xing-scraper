@@ -1,0 +1,2020 @@
+{
+ "operationName": "JobSearchByQuery",
+ "variables": {
+  "query": {
+   "keywords": "java",
+   "location": {
+    "text": "Berlin"
+   },
+   "filter": {
+    "remoteOption": {
+     "id": [
+      "FULL_REMOTE.050e26"
+     ]
+    }
+   }
+  },
+  "consumer": "loggedout.web.jobs.conv_search_results.center",
+  "limit": 20,
+  "offset": 0,
+  "sort": "relevance",
+  "returnAggregations": false
+ },
+ "data": {
+  "jobSearchByQuery": {
+   "boundedTotal": {
+    "total": 226,
+    "bound": 1000,
+    "countType": "EXACT"
+   },
+   "searchQuery": {
+    "body": {
+     "keywords": "java",
+     "location": {
+      "text": "Berlin",
+      "radius": null,
+      "city": null
+     },
+     "filterCollection": [
+      {},
+      {
+       "entityId": "FULL_REMOTE.050e26",
+       "remoteOption": {
+        "localizationValue": "Full Remote"
+       }
+      }
+     ]
+    }
+   },
+   "collection": [
+    {
+     "position": 0,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158647554.21e77e",
+      "slug": "konstanz-java-developer-konstanz-berlin-remote-158647554",
+      "url": "https://www.xing.com/jobs/konstanz-java-developer-konstanz-berlin-remote-158647554",
+      "title": "Java Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T00:13:23Z",
+      "refreshedAt": "2026-10-19T00:13:23Z",
+      "activeUntil": "2027-10-19T00:19:59Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Konstanz",
+       "cityId": 2885679,
+       "region": "Baden-Württemberg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Konstanz",
+        "region": "Baden-Württemberg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 53500,
+       "maximum": 73000,
+       "median": 61500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/java-developer-m-w-d-konstanz-berlin-oder-remote.2050660375.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 1,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158647558.97609b",
+      "slug": "berlin-java-developer-konstanz-berlin-remote-158647558",
+      "url": "https://www.xing.com/jobs/berlin-java-developer-konstanz-berlin-remote-158647558",
+      "title": "Java Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T00:13:23Z",
+      "refreshedAt": "2026-10-19T00:13:23Z",
+      "activeUntil": "2027-10-19T00:19:04Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52000,
+       "maximum": 71500,
+       "median": 60000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/java-developer-m-w-d-konstanz-berlin-oder-remote.2050660375.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 2,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158649901.0cecae",
+      "slug": "erlangen-java-entwickler-full-stack-teilzeit-15-20h-woche-158649901",
+      "url": "https://www.xing.com/jobs/erlangen-java-entwickler-full-stack-teilzeit-15-20h-woche-158649901",
+      "title": "Java Entwickler / Full-Stack (m/w/d) - Teilzeit 15-20h/Woche",
+      "activatedAt": "2026-10-19T00:13:52Z",
+      "refreshedAt": "2026-10-19T00:13:52Z",
+      "activeUntil": "2027-10-19T00:34:56Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "PART_TIME.58889d",
+       "localizationValue": "Part-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Erlangen",
+       "cityId": 2929567,
+       "region": "Bayern",
+       "zipCode": "91052",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Erlangen",
+        "region": "Bayern",
+        "zipCode": "91052",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Jobs-beim-Staat.de / Opportuno GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 44500,
+       "maximum": 58500,
+       "median": 52500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/java-entwickler-full-stack-m-w-d-teilzeit-15-20h-woche.2062528235.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 3,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "146731358.0a7ee0",
+      "slug": "graz-java-full-stack-entwickler-fokus-backend-microservices-146731358",
+      "url": "https://www.xing.com/jobs/graz-java-full-stack-entwickler-fokus-backend-microservices-146731358",
+      "title": "Java Full Stack Entwickler (m/w/d) - Fokus Backend & Microservices",
+      "activatedAt": "2025-11-20T07:04:35Z",
+      "refreshedAt": "2025-11-20T07:04:35Z",
+      "activeUntil": "2026-11-20T07:04:38Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "14349123,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Graz",
+       "cityId": 2778067,
+       "region": "Steiermark",
+       "zipCode": "8020",
+       "country": {
+        "countryCode": "AT",
+        "localizationValue": "Austria"
+       }
+      },
+      "locations": [
+       {
+        "city": "Graz",
+        "region": "Steiermark",
+        "zipCode": "8020",
+        "country": {
+         "countryCode": "AT",
+         "localizationValue": "Austria"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Devhub IT Solutions GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 60000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Devhub IT Solutions sucht einen Softwareentwickler in Graz. Das Unternehmen arbeitet an digitalen Projekten, insbesondere im Bereich KI und Enterprise-Plattformen.",
+        "keyResponsibilities": [
+         "Umsetzung neuer User Stories im Backend.",
+         "Entwicklung neuer Microservices mit Java.",
+         "Durchführung von Code-Reviews und Tests."
+        ],
+        "qualifications": [
+         "Erfahrung in Softwareentwicklung erforderlich.",
+         "Sehr gute Kenntnisse in Java und Spring Boot.",
+         "Fließendes Deutsch ist ein Muss."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 4,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158180659.58b056",
+      "slug": "muenchen-java-entwickler-neues-krankenversicherungssystem-158180659",
+      "url": "https://www.xing.com/jobs/muenchen-java-entwickler-neues-krankenversicherungssystem-158180659",
+      "title": "Java-Entwickler (m/w/d) neues Krankenversicherungssystem",
+      "activatedAt": "2026-09-28T12:15:42Z",
+      "refreshedAt": "2026-09-28T12:15:42Z",
+      "activeUntil": "2027-09-28T12:15:44Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16760883,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "citema systems GmbH",
+       "company": {
+        "id": "1920361.340ded",
+        "companyName": "citema systems GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/citemasystemsgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjNjOTFkZDMtNjViYy00ZGNhLTg2ZGItNTUyMTFjMzE0N2U0IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=a4f3a7ce970779fc491cf9e56d4f639679b76b2f9997c4e5f49a4c199a50fda1"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55500,
+       "maximum": 75500,
+       "median": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Citema sucht einen Java-Entwickler in München. Das Unternehmen berät in Cyber Security, KI und Blockchain und unterstützt bei Softwareprojekten.",
+        "keyResponsibilities": [
+         "Analyse und Abbildung von Geschäftsprozessen.",
+         "Definieren von Klassen mit Java und Spring.",
+         "Konzeption und Anbindung von Schnittstellen."
+        ],
+        "qualifications": [
+         "3-5 Jahre Berufserfahrung in der Softwareentwicklung.",
+         "Gute Kenntnisse in Java und Spring.",
+         "Erste Erfahrungen mit Fisalis-BOS wünschenswert."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 5,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158261828.939504",
+      "slug": "luzern-senior-java-jee-entwickler-158261828",
+      "url": "https://www.xing.com/jobs/luzern-senior-java-jee-entwickler-158261828",
+      "title": "Senior Java/JEE Entwickler:in",
+      "activatedAt": "2026-10-01T13:54:24Z",
+      "refreshedAt": "2026-10-01T13:54:24Z",
+      "activeUntil": "2027-10-01T13:54:25Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16774585,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "CONTRACTOR.0ed397",
+       "localizationValue": "Self-employed"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Luzern",
+       "cityId": 2659811,
+       "region": "Kanton Luzern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Luzern",
+        "region": "Kanton Luzern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Coopers Group AG",
+       "company": {
+        "id": "338202.e4085c",
+        "companyName": "Coopers Group AG",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/coopersgroupgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGZlNWI5N2UtODY0MS00ODhiLTk2NTctYzIzZmNhYmMxZjc3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=adcc202740b15fac9f0b2379991c442c8036970d2dd41be3549c0c468bfa8a1c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen in der Versicherungsbranche sucht einen Senior Java/JEE Entwickler in Luzern. Das Unternehmen bietet innovative Lösungen im Versicherungssektor an.",
+        "keyResponsibilities": [
+         "Entwicklung von Backend-Lösungen mit Java.",
+         "Arbeit mit Kubernetes und DevOps-Praktiken.",
+         "Analyse und Design technischer Anforderungen."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung in Java-Entwicklung.",
+         "Kenntnisse in Kubernetes und DevOps.",
+         "Teamfähigkeit und lösungsorientierte Arbeitsweise."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 6,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155495759.a97a98",
+      "slug": "stuttgart-java-entwickler-155495759",
+      "url": "https://www.xing.com/jobs/stuttgart-java-entwickler-155495759",
+      "title": "JAVA-Entwickler (m/w/d)",
+      "activatedAt": "2026-09-28T01:14:38Z",
+      "refreshedAt": "2026-09-28T01:14:38Z",
+      "activeUntil": "2026-12-18T17:59:31Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Stuttgart",
+       "cityId": 2825297,
+       "region": "Baden-Württemberg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Stuttgart",
+        "region": "Baden-Württemberg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "CODARI",
+       "company": {
+        "id": "2211043.5a35c7",
+        "companyName": "CODARI",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/codari"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjQ1OWJiOTItNGFkYi00MWM5LTg0Y2QtZGZlYzA4M2EwZjJiIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=84a2f7786fe5da365443db9983e2e9305ed6305d136c4294eea247f899cdf1f3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 49500,
+       "maximum": 67000,
+       "median": 58000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://careers.codari.de/job/33183/java-entwickler-m-w-d/stuttgart?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 7,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155512381.a4462c",
+      "slug": "basel-senior-software-engineer-java-all-genders-155512381",
+      "url": "https://www.xing.com/jobs/basel-senior-software-engineer-java-all-genders-155512381",
+      "title": "(Senior) Software Engineer Java (all genders)",
+      "activatedAt": "2026-08-21T14:20:18Z",
+      "refreshedAt": "2026-08-21T14:20:18Z",
+      "activeUntil": "2026-12-18T19:53:04Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "PART_TIME.58889d",
+       "localizationValue": "Part-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90200.1f7c05",
+       "localizationValue": "IT service provider"
+      },
+      "location": {
+       "city": "Basel",
+       "cityId": 2661604,
+       "region": "Kanton Basel-Stadt",
+       "zipCode": null,
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Basel",
+        "region": "Kanton Basel-Stadt",
+        "zipCode": null,
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "adesso Schweiz AG",
+       "company": {
+        "id": "52406.a95129",
+        "companyName": "adesso Schweiz AG",
+        "companySize": "201-500 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/adessoschweizag"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWY3YmVjNWUtOTMyMC00ZDI4LWFlZWUtNjg0NGFhNzgzMjliIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=5a6f748f885502492ed70d19dce572940775da061e61ac638f3b4d3f00aa7def"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "CHF",
+       "minimum": 97500,
+       "maximum": 119000,
+       "median": 112500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobbasel.ch/job/senior-software-engineer-java-all-genders/244839?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 8,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "153792892.1e9fcd",
+      "slug": "muenchen-senior-java-cloud-backend-engineer-ref-nr-46659-153792892",
+      "url": "https://www.xing.com/jobs/muenchen-senior-java-cloud-backend-engineer-ref-nr-46659-153792892",
+      "title": "Senior Java Cloud Backend Engineer (m/f/d) (Ref.Nr.: 46659)",
+      "activatedAt": "2026-04-29T15:17:48Z",
+      "refreshedAt": "2026-04-29T15:17:48Z",
+      "activeUntil": "2027-04-29T15:17:50Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "en",
+      "jobCode": "16085416,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "CONTRACTOR.0ed397",
+       "localizationValue": "Self-employed"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "München",
+       "cityId": 2867714,
+       "region": "Bayern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Wavestone Germany AG",
+       "company": {
+        "id": "335154.b3df90",
+        "companyName": "Wavestone",
+        "companySize": "5,001-10,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/q-periorag"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzNlZDJhNGQtM2JiYy00Y2E5LWE2ZDItYzdlNzE3NWRhYjJlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=81ecd5f99562289b72e4053afe268e22b9b0b2aaa95b4eb6850e8b39a3eb1162"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Wavestone is seeking a Developer (Nearshore) for a fully remote position. The company specializes in strategic transformations and consulting services.",
+        "keyResponsibilities": [
+         "Develop cloud-based microservices with Java.",
+         "Design NoSQL database structures and optimize.",
+         "Implement REST services and API integrations."
+        ],
+        "qualifications": [
+         "Experience with Java 17 and Spring Boot.",
+         "Proficient in MongoDB and NoSQL design.",
+         "Strong knowledge of Apache Kafka and Terraform."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 9,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158653033.5a54fb",
+      "slug": "koeln-fullstack-developer-konstanz-berlin-remote-158653033",
+      "url": "https://www.xing.com/jobs/koeln-fullstack-developer-konstanz-berlin-remote-158653033",
+      "title": "Fullstack Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T08:13:19Z",
+      "refreshedAt": "2026-10-19T08:13:19Z",
+      "activeUntil": "2027-10-19T08:23:57Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Köln",
+       "cityId": 2886242,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": "78467",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Köln",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": "78467",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 51500,
+       "maximum": 70000,
+       "median": 60000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/fullstack-developer-m-w-d-konstanz-berlin-oder-remote.2066354345.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 10,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158293535.02286b",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158293535",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158293535",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-10-02T11:37:45Z",
+      "refreshedAt": "2026-10-02T11:37:45Z",
+      "activeUntil": "2026-11-01T11:37:48Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "78rpfjmr",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 11,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158458113.39f1de",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158458113",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158458113",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-10-09T09:31:29Z",
+      "refreshedAt": "2026-10-09T09:31:29Z",
+      "activeUntil": "2026-11-08T09:31:31Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "66zcvs6e",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 12,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158221616.951386",
+      "slug": "duesseldorf-softwareentwickler-java-ee-158221616",
+      "url": "https://www.xing.com/jobs/duesseldorf-softwareentwickler-java-ee-158221616",
+      "title": "Softwareentwickler - Java EE (m/w/d)",
+      "activatedAt": "2026-09-30T08:34:33Z",
+      "refreshedAt": "2026-09-30T08:34:33Z",
+      "activeUntil": "2026-10-30T08:34:38Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "6362bp5h",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Düsseldorf",
+       "cityId": 2934246,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Düsseldorf",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "WeMatch.",
+       "company": {
+        "id": "1959617.0126b7",
+        "companyName": "WeMatch.",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/wematch"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiODhmMDg1YzktOGIzZi00YTBjLTkzNGItNWQ1N2Q1YmM2M2NlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=236da347494986442e174bf38f22df80dacffc257745c4882f677f11e09c6709"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 65000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Technologieunternehmen sucht einen Software Engineer (m/w/d) mit Schwerpunkt Java EE / Jakarta EE in Düsseldorf. Das Unternehmen ist auf digitale Banking- und Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Entwicklung eines produktübergreifenden Software-Frameworks.",
+         "Verantwortung für Framework-Komponenten und deren Weiterentwicklung.",
+         "Technische Unterstützung für Produkt- und Entwicklungsteams."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium der Informatik oder vergleichbar.",
+         "Sehr gute Kenntnisse in Java EE / Jakarta EE.",
+         "Erfahrung mit relationalen Datenbanksystemen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 13,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157108038.b72078",
+      "slug": "stuttgart-java-backend-entwickler-spring-boot-camunda-157108038",
+      "url": "https://www.xing.com/jobs/stuttgart-java-backend-entwickler-spring-boot-camunda-157108038",
+      "title": "Java Backend Entwickler - Spring Boot & Camunda (m/w/d)",
+      "activatedAt": "2026-08-09T11:14:24Z",
+      "refreshedAt": "2026-08-09T11:14:24Z",
+      "activeUntil": "2027-08-09T11:14:27Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16557467,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "Stuttgart",
+       "cityId": 2825297,
+       "region": "Baden-Württemberg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Stuttgart",
+        "region": "Baden-Württemberg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Rockstardevelopers GmbH",
+       "company": {
+        "id": "1246167.c772b4",
+        "companyName": "Rockstardevelopers GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/rockstardevelopersgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZmMxMTI2NGItN2Y3NC00MGQ5LWI1YTktNDRhNWE0M2U2ZjYzIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=390c526cb447b27f9e5a63906187f1f299ca1615d11f0ac1516bab2db49f7dd6"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 53000,
+       "maximum": 68000,
+       "median": 58500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Rockstardevelopers sucht einen Senior Backend Developer in Stuttgart. Das Unternehmen ist ein Software-Entwickler, der individuelle Projekte für Enterprise- und Mittelstands-Kunden umsetzt.",
+        "keyResponsibilities": [
+         "Entwicklung von Microservices im Java-Umfeld.",
+         "API-Entwicklung mit REST und SOAP.",
+         "Betrieb und Wartung der Services."
+        ],
+        "qualifications": [
+         "Erfahrung mit Java und Spring Boot.",
+         "Kenntnisse in Docker und Kubernetes.",
+         "Fließende Deutsch- und Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 14,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158653035.52fa9a",
+      "slug": "konstanz-fullstack-developer-konstanz-berlin-remote-158653035",
+      "url": "https://www.xing.com/jobs/konstanz-fullstack-developer-konstanz-berlin-remote-158653035",
+      "title": "Fullstack Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T08:13:19Z",
+      "refreshedAt": "2026-10-19T08:13:19Z",
+      "activeUntil": "2027-10-19T08:16:36Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Konstanz",
+       "cityId": 2885679,
+       "region": "Baden-Württemberg",
+       "zipCode": "78467",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Konstanz",
+        "region": "Baden-Württemberg",
+        "zipCode": "78467",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 53000,
+       "maximum": 71000,
+       "median": 60500
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/fullstack-developer-m-w-d-konstanz-berlin-oder-remote.2066354345.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 15,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158653036.189b5d",
+      "slug": "berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+      "url": "https://www.xing.com/jobs/berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+      "title": "Fullstack Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T08:13:19Z",
+      "refreshedAt": "2026-10-19T08:13:19Z",
+      "activeUntil": "2027-10-19T08:19:27Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "78467",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "78467",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52000,
+       "maximum": 70000,
+       "median": 59000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/fullstack-developer-m-w-d-konstanz-berlin-oder-remote.2066354345.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 16,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156276978.0ffbae",
+      "slug": "leipzig-werkstudent-java-entwicklung-156276978",
+      "url": "https://www.xing.com/jobs/leipzig-werkstudent-java-entwicklung-156276978",
+      "title": "Werkstudent Java Entwicklung (m/w/d)",
+      "activatedAt": "2026-07-12T07:38:33Z",
+      "refreshedAt": "2026-07-12T07:38:33Z",
+      "activeUntil": "2027-01-10T22:33:09Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "INTERN.dc571c",
+       "localizationValue": "Student"
+      },
+      "careerLevel": {
+       "id": "1.795d28",
+       "localizationValue": "Student/Intern"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Leipzig",
+       "cityId": 2879139,
+       "region": "Sachsen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Leipzig",
+        "region": "Sachsen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Sopra Steria DE",
+       "company": {
+        "id": "28232.fc92b5",
+        "companyName": "Sopra Steria",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/soprasteria"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGQ1Y2M2ZWItMjJjNy00YjY0LWIyN2EtYjc0YjMwYjVjZWY3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=2b20a67cfeb2ccc513971a38d86c1f0fb3b109b401162ac36e33c9a8dfa0e6e1"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://careers.soprasteria.de/job/werkstudent-java-entwicklung-m-w-d-in-leipzig-germany-jid-7640?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 17,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158601017.b7d4cf",
+      "slug": "saarbruecken-senior-java-fullstack-entwickler-158601017",
+      "url": "https://www.xing.com/jobs/saarbruecken-senior-java-fullstack-entwickler-158601017",
+      "title": "Senior Java Fullstack Entwickler (m/w/d)",
+      "activatedAt": "2026-10-16T11:28:08Z",
+      "refreshedAt": "2026-10-16T11:28:08Z",
+      "activeUntil": "2026-11-15T11:30:08Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "3873f1ea-c93d-11f1-acb9-623599f7c92f",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Saarbrücken",
+       "cityId": 2842647,
+       "region": "Saarland",
+       "zipCode": "66119",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Saarbrücken",
+        "region": "Saarland",
+        "zipCode": "66119",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "auteega Gmbh",
+       "company": {
+        "id": "442228.e03fdd",
+        "companyName": "auteega GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/auteegagmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjVlZGNlMTItZjU4My00OGIwLTg2OWYtMjFlMzg3OTNkMWM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=9821179c2fc5adc0a286c0abff597f85da1de5c4a75335d7cf35db4a8f5d4074"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 56000,
+       "maximum": 73500,
+       "median": 68500
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Kunde sucht einen Senior Java Fullstack Entwickler in Saarbrücken. Das Unternehmen entwickelt cloudbasierte Softwarelösungen und IT-Services für den kaufmännischen Bereich.",
+        "keyResponsibilities": [
+         "Full-Stack-Entwicklung mit Java und React.",
+         "Verantwortung für unternehmenskritische Anwendungen.",
+         "Integration von KI-Funktionen in Anwendungen."
+        ],
+        "qualifications": [
+         "Studium der Informatik oder vergleichbar.",
+         "Mindestens 6 Jahre Erfahrung in Java.",
+         "Kenntnisse in TypeScript und React."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 18,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158228227.396535",
+      "slug": "luzern-lsenior-java-entwickler-158228227",
+      "url": "https://www.xing.com/jobs/luzern-lsenior-java-entwickler-158228227",
+      "title": "LSenior Java Entwickler:in",
+      "activatedAt": "2026-09-30T15:21:22Z",
+      "refreshedAt": "2026-09-30T15:21:22Z",
+      "activeUntil": "2027-09-30T15:21:24Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16771005,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "CONTRACTOR.0ed397",
+       "localizationValue": "Self-employed"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Luzern",
+       "cityId": 2659811,
+       "region": "Kanton Luzern",
+       "zipCode": null,
+       "country": {
+        "countryCode": "CH",
+        "localizationValue": "Switzerland"
+       }
+      },
+      "locations": [
+       {
+        "city": "Luzern",
+        "region": "Kanton Luzern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "CH",
+         "localizationValue": "Switzerland"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Coopers Group AG",
+       "company": {
+        "id": "338202.e4085c",
+        "companyName": "Coopers Group AG",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/coopersgroupgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGZlNWI5N2UtODY0MS00ODhiLTk2NTctYzIzZmNhYmMxZjc3IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=adcc202740b15fac9f0b2379991c442c8036970d2dd41be3549c0c468bfa8a1c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": null,
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen sucht einen Senior Java Entwickler in Luzern. Das Unternehmen ist auf die Entwicklung komplexer Softwarelösungen spezialisiert.",
+        "keyResponsibilities": [
+         "Weiterentwicklung von Softwarelösungen für Kernsysteme.",
+         "Implementierung von Regeln für Rechnungsprüfung.",
+         "Mitarbeit im gesamten Software-Lifecycle."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung mit modernen Java-Technologien.",
+         "Kenntnisse in Angular und Event-Architekturen.",
+         "Erfahrung mit Docker und Kubernetes."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 19,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155964824.e10ffa",
+      "slug": "dortmund-softwareentwickler-java-intralogistik-155964824",
+      "url": "https://www.xing.com/jobs/dortmund-softwareentwickler-java-intralogistik-155964824",
+      "title": "Softwareentwickler JAVA in der Intralogistik (m/w/d)",
+      "activatedAt": "2026-07-02T06:24:08Z",
+      "refreshedAt": "2026-07-02T06:24:08Z",
+      "activeUntil": "2026-12-31T21:18:44Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "70500.f0a715",
+       "localizationValue": "Storage"
+      },
+      "location": {
+       "city": "Dortmund",
+       "cityId": 2935517,
+       "region": "Nordrhein-Westfalen",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Dortmund",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "proLogistik Group",
+       "company": {
+        "id": "72215.1bcc9d",
+        "companyName": "proLogistik GmbH",
+        "companySize": "501-1,000 employees",
+        "industry": {
+         "id": "70500.f0a715",
+         "localizationValue": "Storage"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/prologistik"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTBjNGQ5ZjctOGI0Yy00NDIwLTgxMzktMjdhZjczMTM2MTgxIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=12b06c83697480858ee1399bd1b4b3a5a9ea4baa2a317a254e129584e77c8e86"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 50000,
+       "maximum": 66500,
+       "median": 58500
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    }
+   ],
+   "aggregations": null
+  }
+ },
+ "errors": []
+}

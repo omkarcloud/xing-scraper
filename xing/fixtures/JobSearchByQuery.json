@@ -1,0 +1,2195 @@
+{
+ "operationName": "JobSearchByQuery",
+ "variables": {
+  "query": {
+   "keywords": "java",
+   "location": {
+    "text": "Berlin",
+    "radius": 50
+   }
+  },
+  "consumer": "loggedout.web.jobs.conv_search_results.center",
+  "limit": 20,
+  "offset": 0,
+  "sort": "relevance",
+  "returnAggregations": false
+ },
+ "data": {
+  "jobSearchByQuery": {
+   "boundedTotal": {
+    "total": 252,
+    "bound": 1000,
+    "countType": "EXACT"
+   },
+   "searchQuery": {
+    "body": {
+     "keywords": "java",
+     "location": {
+      "text": "Berlin",
+      "radius": 50,
+      "city": null
+     },
+     "filterCollection": null
+    }
+   },
+   "collection": [
+    {
+     "position": 0,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158647558.97609b",
+      "slug": "berlin-java-developer-konstanz-berlin-remote-158647558",
+      "url": "https://www.xing.com/jobs/berlin-java-developer-konstanz-berlin-remote-158647558",
+      "title": "Java Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T00:13:23Z",
+      "refreshedAt": "2026-10-19T00:13:23Z",
+      "activeUntil": "2027-10-19T00:19:04Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52000,
+       "maximum": 71500,
+       "median": 60000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/java-developer-m-w-d-konstanz-berlin-oder-remote.2050660375.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 1,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157876789.13a671",
+      "slug": "berlin-java-entwicklung-157876789",
+      "url": "https://www.xing.com/jobs/berlin-java-entwicklung-157876789",
+      "title": "Java Entwicklung",
+      "activatedAt": "2026-10-13T08:16:45Z",
+      "refreshedAt": "2026-10-13T08:16:45Z",
+      "activeUntil": "2027-09-15T07:13:32Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16707243,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10117",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10117",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Projektron GmbH",
+       "company": {
+        "id": "33622.c7fb39",
+        "companyName": "Projektron GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/projektrongmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMGVlMWE2NzYtMDNkZC00MDkyLWIzOGQtZDFjZmFiMTI5ZTJjIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=672171b86fb9da4da71744e090353a90987bb44d54ec2738d1abaabb3fcc7c77"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 46500,
+       "maximum": 61000,
+       "median": 57500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Die Projektron GmbH sucht einen Java-Entwickler in Berlin. Das Unternehmen entwickelt webbasierte Projektmanagement-Software für über 820 Kunden.",
+        "keyResponsibilities": [
+         "Mitarbeit in Scrum-Teams zur Softwareentwicklung.",
+         "Erarbeitung und Umsetzung von Konzepten.",
+         "Unterstützung des Second-Level Supports."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Informatik-Studium oder gleichwertig.",
+         "Hervorragende Programmierkenntnisse in Java/TypeScript.",
+         "Mindestens 2 Jahre Berufserfahrung erforderlich."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 2,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "155730561.9e044b",
+      "slug": "berlin-java-full-stack-entwickler-all-genders-155730561",
+      "url": "https://www.xing.com/jobs/berlin-java-full-stack-entwickler-all-genders-155730561",
+      "title": "Java Full Stack Entwickler (all genders)",
+      "activatedAt": "2026-10-13T19:15:16Z",
+      "refreshedAt": "2026-10-13T19:15:16Z",
+      "activeUntil": "2026-12-25T00:55:19Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Accenture Dienstleistungen GmbH",
+       "company": {
+        "id": "25948.0e87ae",
+        "companyName": "Accenture",
+        "companySize": "10,001 or more employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/accenture"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 56000,
+       "maximum": 79500,
+       "median": 68000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00295749_de&title=Java+Full+Stack+Entwickler+(all+genders)&utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 3,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158652270.0a301f",
+      "slug": "berlin-java-entwickler-158652270",
+      "url": "https://www.xing.com/jobs/berlin-java-entwickler-158652270",
+      "title": "Java-Entwickler (m/w/d)",
+      "activatedAt": "2026-10-19T07:26:44Z",
+      "refreshedAt": "2026-10-19T07:26:44Z",
+      "activeUntil": "2026-11-18T07:26:48Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "z5m4s7db",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Hamburg",
+        "region": "Freie und Hansestadt Hamburg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Dortmund",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "FindYou Consulting GmbH",
+       "company": {
+        "id": "2203894.058872",
+        "companyName": "FindYou Consulting GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/findyou-consulting-gmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZDg0OTM0YjItN2Y0My00MzYzLTk0NzctNzc5YmU3NjNjYzFmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e38163ff5cda2d64901cde2baa4c82d8efcaba7fa1e11eb4faee67c39fb12c0c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65000,
+       "maximum": 85000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 4,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158181357.842d71",
+      "slug": "berlin-java-developer-158181357",
+      "url": "https://www.xing.com/jobs/berlin-java-developer-158181357",
+      "title": "Java Developer (m/w/d)",
+      "activatedAt": "2026-09-28T15:29:52Z",
+      "refreshedAt": "2026-09-28T15:29:52Z",
+      "activeUntil": "2027-09-28T15:29:54Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16762197,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10117",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10117",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Collaboration Betters The World GmbH",
+       "company": {
+        "id": "2212839.41bbe4",
+        "companyName": "Collaboration Betters The World GmbH",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": null
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzgyN2VmZjYtNWZjMi00ODA2LWEzMTctNzUxZWY5YmYwMzExIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=c649c12ace723bf4b743b7b4545a54e7012319ce495533796e130b5d8c36048c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 45500,
+       "maximum": 63000,
+       "median": 49000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "CBTW sucht einen Java-Entwickler in Berlin. Das Unternehmen ist führend in Strategie, Software Engineering und Datenanalyse.",
+        "keyResponsibilities": [
+         "Entwicklung von Anwendungen mit Java und Spring.",
+         "Evaluierung neuer Technologien und Frameworks.",
+         "Kommunikation mit Kunden zur Anforderungsanalyse."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder vergleichbar.",
+         "Mehrjährige Erfahrung in der Java-Entwicklung.",
+         "Kenntnisse in SQL- und NoSQL-Datenbanken."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 5,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158580876.ba6e07",
+      "slug": "berlin-java-entwickler-158580876",
+      "url": "https://www.xing.com/jobs/berlin-java-entwickler-158580876",
+      "title": "Java-Entwickler (m/w/d)",
+      "activatedAt": "2026-10-15T12:19:59Z",
+      "refreshedAt": "2026-10-15T12:19:59Z",
+      "activeUntil": "2026-11-14T12:20:03Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "0xwv8jvq",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Hamburg",
+        "region": "Freie und Hansestadt Hamburg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Dortmund",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "FindYou Consulting GmbH",
+       "company": {
+        "id": "2203894.058872",
+        "companyName": "FindYou Consulting GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/findyou-consulting-gmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZDg0OTM0YjItN2Y0My00MzYzLTk0NzctNzc5YmU3NjNjYzFmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e38163ff5cda2d64901cde2baa4c82d8efcaba7fa1e11eb4faee67c39fb12c0c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65000,
+       "maximum": 85000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "(Senior) Java Backend Developer in Berlin. Das Unternehmen ist ein führender IT-Dienstleister für die Digitalisierung im öffentlichen Sektor.",
+        "keyResponsibilities": [
+         "Entwicklung moderner Java-Backend-Lösungen.",
+         "Nutzung aktueller Frameworks wie Spring Boot.",
+         "Unterstützung bei Containerisierung mit Docker."
+        ],
+        "qualifications": [
+         "Studium in Informatik oder vergleichbar.",
+         "2 bis 5 Jahre Java-Entwicklungserfahrung.",
+         "Sehr gute Deutschkenntnisse für Kommunikation."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 6,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158580875.00b44b",
+      "slug": "berlin-java-entwickler-158580875",
+      "url": "https://www.xing.com/jobs/berlin-java-entwickler-158580875",
+      "title": "Java-Entwickler (m/w/d)",
+      "activatedAt": "2026-10-15T12:19:29Z",
+      "refreshedAt": "2026-10-15T12:19:29Z",
+      "activeUntil": "2026-11-14T12:19:33Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "hgzz9p9b",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Hamburg",
+        "region": "Freie und Hansestadt Hamburg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "München",
+        "region": "Bayern",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Stuttgart",
+        "region": "Baden-Württemberg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Frankfurt am Main",
+        "region": "Hessen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Köln",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Dortmund",
+        "region": "Nordrhein-Westfalen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       {
+        "city": "Leipzig",
+        "region": "Sachsen",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "FindYou Consulting GmbH",
+       "company": {
+        "id": "2203894.058872",
+        "companyName": "FindYou Consulting GmbH",
+        "companySize": "1-10 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/findyou-consulting-gmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZDg0OTM0YjItN2Y0My00MzYzLTk0NzctNzc5YmU3NjNjYzFmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e38163ff5cda2d64901cde2baa4c82d8efcaba7fa1e11eb4faee67c39fb12c0c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 65000,
+       "maximum": 85000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein führender IT-Dienstleister sucht einen (Senior) Java Backend Developer in Berlin. Das Unternehmen ist auf die Entwicklung und den Betrieb kritischer IT-Verfahren für die öffentliche Verwaltung spezialisiert.",
+        "keyResponsibilities": [
+         "Modernisierung von Java-Backend-Systemen.",
+         "Verantwortung für den gesamten Entwicklungszyklus.",
+         "Entwicklung komplexer Services mit REST."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder Mathematik.",
+         "Mindestens 5 Jahre Erfahrung in Java-Entwicklung.",
+         "Verhandlungssichere Deutschkenntnisse erforderlich."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 7,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158547082.977a76",
+      "slug": "berlin-java-fullstack-entwickler-158547082",
+      "url": "https://www.xing.com/jobs/berlin-java-fullstack-entwickler-158547082",
+      "title": "Java Fullstack Entwickler/in (w/m/d)",
+      "activatedAt": "2026-10-14T08:13:55Z",
+      "refreshedAt": "2026-10-14T08:13:55Z",
+      "activeUntil": "2027-10-14T08:16:54Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.51",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90200.1f7c05",
+       "localizationValue": "IT service provider"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10115",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10115",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "GAI NOVACON GmbH",
+       "company": {
+        "id": "1955478.e9f7fb",
+        "companyName": "GAI NOVACON GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/gainovacongmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGI2ODU5NjYtNWQxOS00MDc1LWIyMGItM2Y1OGZhYjllMTdjIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=788ed4babb4766244dbd4c1076e49f8a45d18b9da5e381783a75e3f1ec89bb81"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52500,
+       "maximum": 70500,
+       "median": 60000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.berliner-jobanzeiger.de/job/detail/REG-45004/?location_hash=40D4741B&pja_cmp=win796686_xing_051&utm_source=xing&utm_medium=paid-partner&utm_campaign=051"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 8,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158116244.1e2c65",
+      "slug": "berlin-java-developer-158116244",
+      "url": "https://www.xing.com/jobs/berlin-java-developer-158116244",
+      "title": "Java Developer (m/w/d)",
+      "activatedAt": "2026-09-24T13:19:01Z",
+      "refreshedAt": "2026-09-24T13:19:01Z",
+      "activeUntil": "2027-09-24T13:19:02Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16746529,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10117",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10117",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Collaboration Betters The World GmbH",
+       "company": {
+        "id": "2212839.41bbe4",
+        "companyName": "Collaboration Betters The World GmbH",
+        "companySize": "1,001-5,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": null
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzgyN2VmZjYtNWZjMi00ODA2LWEzMTctNzUxZWY5YmYwMzExIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=c649c12ace723bf4b743b7b4545a54e7012319ce495533796e130b5d8c36048c"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 45500,
+       "maximum": 63000,
+       "median": 49000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "CBTW sucht einen Java-Entwickler in Berlin. Das Unternehmen ist führend in Strategie, Software Engineering und Datenanalyse.",
+        "keyResponsibilities": [
+         "Entwicklung anspruchsvoller Anwendungen mit Java.",
+         "Evaluierung neuer Technologien und Frameworks.",
+         "Kommunikation mit Kunden zur Anforderungsanalyse."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder ähnlich.",
+         "Mehrjährige Erfahrung in der Java-Entwicklung.",
+         "Kenntnisse in SQL- und NoSQL-Datenbanken."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 9,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "156796839.980378",
+      "slug": "berlin-java-entwickler-all-genders-156796839",
+      "url": "https://www.xing.com/jobs/berlin-java-entwickler-all-genders-156796839",
+      "title": "Java Entwickler (all genders)",
+      "activatedAt": "2026-10-13T01:50:21Z",
+      "refreshedAt": "2026-10-13T01:50:21Z",
+      "activeUntil": "2027-01-27T21:20:04Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "msg systems ag",
+       "company": {
+        "id": "49103.1afd64",
+        "companyName": "msg for banking ag",
+        "companySize": "501-1,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/msgforbanking"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYmNjNWMyODYtNzViMy00NDU1LTgwNzQtYzg2YjIzYzlmMjNhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=2d5cfc7f9ec7b7c4cb785f0a48b827fb5da90bf5b2aa34aca0d9f6b4124a6bff"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 55500,
+       "maximum": 73000,
+       "median": 63000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.msg.group/de/jobs/21/java-entwickler-all-genders?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 10,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158100294.d06fd3",
+      "slug": "berlin-java-fullstack-entwickler-sparkassen-findic-158100294",
+      "url": "https://www.xing.com/jobs/berlin-java-fullstack-entwickler-sparkassen-findic-158100294",
+      "title": "Java-Fullstack-Entwickler - Sparkassen (w|m|d) | findic",
+      "activatedAt": "2026-09-24T00:17:35Z",
+      "refreshedAt": "2026-09-24T00:17:35Z",
+      "activeUntil": "2026-10-24T00:17:37Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "4987__repost-1",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "160000.909d04",
+       "localizationValue": "Consulting"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10117",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10117",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "findic",
+       "company": {
+        "id": "38405.dfd156",
+        "companyName": "zeb Consulting",
+        "companySize": "501-1,000 employees",
+        "industry": {
+         "id": "160000.909d04",
+         "localizationValue": "Consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/zeb"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiN2ViOWY1MzktYmQ2Mi00MWFlLTg5OWItMjZlNTAzZTA1NzkyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=035adfe6669561569f9ada6fb7a739e3d5e368479781e1074e04bfb6b99b8c35"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 54000,
+       "maximum": 71500,
+       "median": 61000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://zeb-career.com/de/jobs/4987?utm_content=4987&AppBox=1&utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "findic sucht einen Java-Fullstack-Entwickler in Berlin. Das Unternehmen bietet IT-Lösungen für die Sparkassen-Finanzgruppe.",
+        "keyResponsibilities": [
+         "Gestaltung von IT-Systemlandschaften für Banken.",
+         "Entwicklung moderner Anwendungen und Services.",
+         "Verantwortung für Technologietrends und Innovationen."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder Ingenieurwesen.",
+         "Erfahrung in Softwareentwicklung mit Java und React.",
+         "Sehr gute Deutsch- und Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_last_chance",
+       "localization": {
+        "localizationValue": "Last chance"
+       }
+      }
+     }
+    },
+    {
+     "position": 11,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158269100.494402",
+      "slug": "berlin-java-softwareentwickler-vollzeit-teilzeit-158269100",
+      "url": "https://www.xing.com/jobs/berlin-java-softwareentwickler-vollzeit-teilzeit-158269100",
+      "title": "Java Softwareentwickler (m/w/d) Vollzeit / Teilzeit",
+      "activatedAt": "2026-10-11T01:08:15Z",
+      "refreshedAt": "2026-10-11T01:08:15Z",
+      "activeUntil": "2027-04-02T13:12:45Z",
+      "paid": false,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "190300.f422a3",
+       "localizationValue": "Public administration"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Stiftung für Hochschulzulassung",
+       "company": {
+        "id": "365213.50d16f",
+        "companyName": "Stiftung für Hochschulzulassung",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "190300.f422a3",
+         "localizationValue": "Public administration"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/stiftung-fuer-hochschulzulassung"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWY4ZjY0NTQtMGZkYi00MmVhLWFhMWQtN2JhNmYwODk2MTZiIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=d12e2d0d61df73a9ed71bb3639e730a7d5d3e83e07c355beb5d1dd0098d01870"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 44000,
+       "maximum": 59000,
+       "median": 50000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.job24.de/stellenangebote-partner9/stellenangebot-9174445-job-stellenanzeige.php?utm_source=xing.com"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 12,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "157467726.dc16e8",
+      "slug": "berlin-java-software-engineer-157467726",
+      "url": "https://www.xing.com/jobs/berlin-java-software-engineer-157467726",
+      "title": "Java Software Engineer (m/w/d)",
+      "activatedAt": "2026-08-26T13:56:32Z",
+      "refreshedAt": "2026-08-26T13:56:32Z",
+      "activeUntil": "2027-08-26T13:56:34Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "16629389,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10115",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10115",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Swisio GmbH",
+       "company": null
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 53000,
+       "maximum": 73000,
+       "median": 62500
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Swisio sucht einen Softwareentwickler in Berlin. Das Unternehmen entwickelt eine führende SaaS-Cloud-Lösung für Workforce Management im Gesundheitswesen.",
+        "keyResponsibilities": [
+         "Weiterentwicklung der InPlanning-Plattform.",
+         "Analyse komplexer Szenarien und Lösungen.",
+         "Zusammenarbeit mit Kunden und Team."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik.",
+         "Erfahrung mit objektorientierten Programmiersprachen.",
+         "Verhandlungssichere Deutsch- und Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 13,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158478493.5de76e",
+      "slug": "berlin-jakarta-ee-senior-entwickler-java-ee-java-enterprise-entwurf-entwicklung-beratung-mwd-158478493",
+      "url": "https://www.xing.com/jobs/berlin-jakarta-ee-senior-entwickler-java-ee-java-enterprise-entwurf-entwicklung-beratung-mwd-158478493",
+      "title": "JAKARTA EE Senior Entwickler | JAVA EE, JAVA Enterprise, Entwurf, Entwicklung, Beratung (mwd)",
+      "activatedAt": "2026-10-10T17:16:01Z",
+      "refreshedAt": "2026-10-10T17:16:01Z",
+      "activeUntil": "2026-11-09T17:16:08Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "22987",
+      "remoteOptions": [
+       "PARTLY_REMOTE",
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "50000.df92c8",
+       "localizationValue": "Pharmaceutical and medical technology"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10119",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10119",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Vesterling AG",
+       "company": {
+        "id": "1242964.792e63",
+        "companyName": "Vesterling AG - Personalberatung für Technologie",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/vesterling"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNjJjZjQ2ZDUtZmQ1ZC00NmJkLTgyZTUtZGJiNDE2YjcwZWMyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=17f962f46651f2e2437a58bf5b4f3adb4f39f51470e0610270b4cec5b65520b3"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 60000,
+       "maximum": 75000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.vesterling.com/jobs?utm_source=xing.com#!/onlineapplication/22987/XING"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Vesterling Personalberatung sucht einen JAKARTA EE Senior Entwickler in Berlin. Das Unternehmen ist auf Software Engineering, Beratung und Entwicklung spezialisiert.",
+        "keyResponsibilities": [
+         "Arbeiten an anspruchsvollen Kundenprojekten.",
+         "Beratung, Anforderungsdefinition und Implementierung.",
+         "Entwicklung geschäftskritischer Applikationen."
+        ],
+        "qualifications": [
+         "Bachelor-Abschluss in MINT-Fachrichtung.",
+         "Mehrjährige Erfahrung in JAVA EE.",
+         "Gute Kenntnisse in modernen Softwaretechniken."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 14,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158372413.93b1a4",
+      "slug": "potsdam-java-application-engineer-j19999-158372413",
+      "url": "https://www.xing.com/jobs/potsdam-java-application-engineer-j19999-158372413",
+      "title": "Java Application Engineer (m/w/d) - J19999",
+      "activatedAt": "2026-10-06T04:51:32Z",
+      "refreshedAt": "2026-10-06T04:51:32Z",
+      "activeUntil": "2026-11-05T04:51:34Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": null,
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "180100.d608b8",
+       "localizationValue": "HR services and consulting"
+      },
+      "location": {
+       "city": "Potsdam",
+       "cityId": 2852458,
+       "region": "Brandenburg",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Potsdam",
+        "region": "Brandenburg",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Exclusive Associates",
+       "company": {
+        "id": "268626.c69b80",
+        "companyName": "Exclusive Associates",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/exclusiveassociates"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDVlMDFiMWYtMzRlNy00NTk4LWE5NjItMTZiODE4Y2IzMjYyIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=b8c596e3a4dce4f148c2471ded0676cfc862b53745371c3b3e7284c8b82ea462"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52000,
+       "maximum": 71000,
+       "median": 60000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen sucht einen Softwareentwickler in Potsdam. Das Unternehmen entwickelt moderne Softwarelösungen zur Unterstützung von Anwendern in komplexen Fachbereichen.",
+        "keyResponsibilities": [
+         "Entwicklung benutzerfreundlicher Weboberflächen.",
+         "Implementierung intelligenter Algorithmen.",
+         "Gestaltung skalierbarer Applikationsserver."
+        ],
+        "qualifications": [
+         "Studium oder Ausbildung in Informatik.",
+         "Kenntnisse in Java und JavaScript-Frameworks.",
+         "Verständnis für skalierbare Serverarchitekturen."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 15,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158653036.189b5d",
+      "slug": "berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+      "url": "https://www.xing.com/jobs/berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+      "title": "Fullstack Developer (m/w/d) - Konstanz, Berlin oder remote",
+      "activatedAt": "2026-10-19T08:13:19Z",
+      "refreshedAt": "2026-10-19T08:13:19Z",
+      "activeUntil": "2027-10-19T08:19:27Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": false,
+      "redirectsToThirdPartyUrl": true,
+      "language": "de",
+      "jobCode": "0.35",
+      "remoteOptions": [
+       "FULL_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90100.a8b7b7",
+       "localizationValue": "Software"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "78467",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "78467",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "SEITENBAU GmbH",
+       "company": {
+        "id": "26786.f16f15",
+        "companyName": "SEITENBAU GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90100.a8b7b7",
+         "localizationValue": "Software"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/seitenbaugmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 52000,
+       "maximum": 70000,
+       "median": 59000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://www.jobware.de/job/fullstack-developer-m-w-d-konstanz-berlin-oder-remote.2066354345.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+      },
+      "summary": null
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 16,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158192259.57a7b3",
+      "slug": "berlin-full-stack-entwickler-java-javascript-berlin-158192259",
+      "url": "https://www.xing.com/jobs/berlin-full-stack-entwickler-java-javascript-berlin-158192259",
+      "title": "Full Stack Entwickler Java & JavaScript (*) in Berlin",
+      "activatedAt": "2026-09-29T05:16:52Z",
+      "refreshedAt": "2026-09-29T05:16:52Z",
+      "activeUntil": "2026-10-29T05:17:06Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "46332",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Stolzberger GmbH",
+       "company": {
+        "id": "1870769.dfe467",
+        "companyName": "Stolzberger GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/stolzberger"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiY2ZiYTMxMzAtODlmNS00ZmFkLTlkNWItYzRlMzRjMzI1NjZhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=c7410fb30a96eeec6341dc88dfec7668ccb1d70f9417135fb533b21ea2ede295"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 45000,
+       "maximum": 70000
+      },
+      "application": {
+       "__typename": "JobXingApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein Unternehmen in Berlin sucht einen Softwareentwickler. Es ist auf innovative Geo-IT-Lösungen spezialisiert und unterstützt Kunden in verschiedenen Bereichen.",
+        "keyResponsibilities": [
+         "Ganzheitliche Softwareentwicklung über den gesamten Stack.",
+         "Verantwortung für den Lebenszyklus der APIs.",
+         "Durchführung automatisierter Tests zur Qualitätssicherung."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium im MINT-Bereich.",
+         "Erfahrung mit JavaScript/TypeScript und Java.",
+         "Kenntnisse in modernen Entwicklungspraktiken."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 17,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158617895.5535e8",
+      "slug": "berlin-java-entwickler-gn-158617895",
+      "url": "https://www.xing.com/jobs/berlin-java-entwickler-gn-158617895",
+      "title": "Java Entwickler (gn)",
+      "activatedAt": "2026-10-17T00:32:28Z",
+      "refreshedAt": "2026-10-17T00:32:28Z",
+      "activeUntil": "2026-11-16T00:33:37Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "java-entwickler-gn-4164-1-2",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": null,
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Jungwild GmbH",
+       "company": {
+        "id": "1900031.5cbea6",
+        "companyName": "jungwild GmbH",
+        "companySize": "11-50 employees",
+        "industry": {
+         "id": "180100.d608b8",
+         "localizationValue": "HR services and consulting"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/jungwild"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzA3YmQ1ZDMtZDViOS00NGFlLTk4MGMtNmI3OTYwY2Q5NDQ2IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=345a39c25f5421b74cef9ea60133c4a1518dc8bb7f6484c487f367706cce8a44"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 60000,
+       "maximum": 75000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jungwild.io/jobs/java-entwickler-gn-4164/?utm_source=xing.com"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Ein etabliertes Berliner Versicherungsunternehmen sucht einen Java-Entwickler. Das Unternehmen fokussiert sich auf Innovation und Digitalisierung in seinen IT-Lösungen.",
+        "keyResponsibilities": [
+         "Architektur und Betrieb des Textverarbeitungssystems.",
+         "Systemintegration und -optimierung eigenverantwortlich.",
+         "Erforschen neuer Technologien zur Weiterentwicklung."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder Ähnlichem.",
+         "Fundierte Java-Erfahrung, idealerweise mit Oracle.",
+         "Sehr gute Deutschkenntnisse (mind. C1-Level)."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": {
+       "type": "job_highlight_early_applicant",
+       "localization": {
+        "localizationValue": "Be an early applicant"
+       }
+      }
+     }
+    },
+    {
+     "position": 18,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "146722320.272687",
+      "slug": "berlin-entwickler-java-backend-146722320",
+      "url": "https://www.xing.com/jobs/berlin-entwickler-java-backend-146722320",
+      "title": "Java Backend Entwickler (m/w/d)",
+      "activatedAt": "2026-10-15T20:37:47Z",
+      "refreshedAt": "2026-10-15T20:37:47Z",
+      "activeUntil": "2026-11-20T03:27:39Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "11846608,71ca0ee38774aa04cc60",
+      "remoteOptions": [
+       "NON_REMOTE"
+      ],
+      "employmentType": {
+       "id": "FULL_TIME.ef2fe9",
+       "localizationValue": "Full-time"
+      },
+      "careerLevel": {
+       "id": "3.2ebf16",
+       "localizationValue": "Professional/Experienced"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "110100.b0d27f",
+       "localizationValue": "Information services"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "10115",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "10115",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Assecor GmbH",
+       "company": {
+        "id": "141071.fc3141",
+        "companyName": "Assecor GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90200.1f7c05",
+         "localizationValue": "IT service provider"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/assecorgmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMDk2NWIwYmMtOTgxMS00NzJhLWJhNzctZjUyNmQzZTYwNzRlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=0978de23ddc43a55245d7464994d1d4907a135a6f737d2e083ddce5db8b3ca96"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 48500,
+       "maximum": 64500,
+       "median": 54000
+      },
+      "application": {
+       "__typename": "JobXingCustomApplication"
+      },
+      "summary": {
+       "content": {
+        "introduction": "Assecor sucht einen Softwareentwickler in Berlin. Das Unternehmen entwickelt qualitativ hochwertige Softwarelösungen und fördert eine offene Teamkultur.",
+        "keyResponsibilities": [
+         "Entwicklung von Backend-Lösungen im Team.",
+         "Zusammenarbeit und Wissensaustausch im Team.",
+         "Erstellung technischer Lösungsansätze eigenständig."
+        ],
+        "qualifications": [
+         "Mehrjährige Erfahrung als Java Backend Entwickler.",
+         "Sichere Kenntnisse in Java und Spring.",
+         "Deutschkenntnisse mindestens auf B2-Niveau."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    },
+    {
+     "position": 19,
+     "descriptionHighlight": null,
+     "jobDetail": {
+      "__typename": "VisibleJob",
+      "id": "158262209.f00742",
+      "slug": "berlin-java-fullstack-entwickler-sparkassen-findic-158262209",
+      "url": "https://www.xing.com/jobs/berlin-java-fullstack-entwickler-sparkassen-findic-158262209",
+      "title": "Java-Fullstack-Entwickler - Sparkassen (w|m|d) | findic",
+      "activatedAt": "2026-10-16T00:04:52Z",
+      "refreshedAt": "2026-10-16T00:04:52Z",
+      "activeUntil": "2026-10-31T16:04:09Z",
+      "paid": true,
+      "topJob": false,
+      "prioritized": true,
+      "redirectsToThirdPartyUrl": false,
+      "language": "de",
+      "jobCode": "c78ceb4e-df44-4911-9e08-8fbf3591ec18",
+      "remoteOptions": [
+       "PARTLY_REMOTE"
+      ],
+      "employmentType": {
+       "id": "PART_TIME.58889d",
+       "localizationValue": "Part-time"
+      },
+      "careerLevel": {
+       "id": "2.24d1f6",
+       "localizationValue": "Entry Level"
+      },
+      "discipline": {
+       "id": "1011.6cf3f7",
+       "localizationValue": "IT and software development"
+      },
+      "industry": {
+       "id": "90000.597414",
+       "localizationValue": "Internet and IT"
+      },
+      "location": {
+       "city": "Berlin",
+       "cityId": 2950159,
+       "region": "Land Berlin",
+       "zipCode": "12047",
+       "country": {
+        "countryCode": "DE",
+        "localizationValue": "Germany"
+       }
+      },
+      "locations": [
+       {
+        "city": "Berlin",
+        "region": "Land Berlin",
+        "zipCode": "12047",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       }
+      ],
+      "companyInfo": {
+       "companyNameOverride": "Instaffo GmbH",
+       "company": {
+        "id": "1242866.b27744",
+        "companyName": "Instaffo GmbH",
+        "companySize": "51-200 employees",
+        "industry": {
+         "id": "90000.597414",
+         "localizationValue": "Internet and IT"
+        },
+        "links": {
+         "public": "https://www.xing.com/pages/instaffogmbh"
+        },
+        "logos": {
+         "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNDhlNDA4NTQtMWNlOC00YjE4LWFlYTgtMjQyNWU2YmZiNGM4IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=fc3eef00fa3a1835e5d49859d315ec7549ac4820771065670bfcb2aa92a84f2b"
+        },
+        "kununuData": null
+       }
+      },
+      "salary": {
+       "currency": "EUR",
+       "minimum": 53500,
+       "maximum": 72000,
+       "median": 62000
+      },
+      "application": {
+       "__typename": "UrlApplication",
+       "applyUrl": "https://jobs.instaffo.com/de/job/java-fullstack-entwickler-sparkassen-w-m-d-findic-8fbf3591ec18?utm_medium=jobboard-jobposting&utm_source=xing"
+      },
+      "summary": {
+       "content": {
+        "introduction": "zeb.rolfes.schierenbeck.associates gmbh sucht einen Java-Fullstack-Entwickler in Berlin. Das Unternehmen ist auf Strategie-, Management- und IT-Beratung im Finanzdienstleistungssektor spezialisiert.",
+        "keyResponsibilities": [
+         "Gestaltung von IT-Systemlandschaften für Banken.",
+         "Entwicklung moderner Anwendungen und Services.",
+         "Verantwortung für Technologietrends und Innovationen."
+        ],
+        "qualifications": [
+         "Abgeschlossenes Studium in Informatik oder Ingenieurwesen.",
+         "Erfahrung in Softwareentwicklung mit Java.",
+         "Verhandlungssichere Deutsch- und gute Englischkenntnisse."
+        ]
+       }
+      }
+     },
+     "matchingHighlightsV2": {
+      "highlight": null
+     }
+    }
+   ],
+   "aggregations": null
+  }
+ },
+ "errors": []
+}

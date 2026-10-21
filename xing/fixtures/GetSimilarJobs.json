@@ -1,0 +1,472 @@
+{
+ "operationName": "GetSimilarJobs",
+ "variables": {
+  "jobId": "155730561.9e044b",
+  "limit": 5,
+  "consumer": "loggedout.web.jobs.job_details"
+ },
+ "data": {
+  "viewer": {
+   "similarJobs": {
+    "collection": [
+     {
+      "position": 0,
+      "job": {
+       "__typename": "VisibleJob",
+       "id": "158547082.977a76",
+       "slug": "berlin-java-fullstack-entwickler-158547082",
+       "url": "https://www.xing.com/jobs/berlin-java-fullstack-entwickler-158547082",
+       "title": "Java Fullstack Entwickler/in (w/m/d)",
+       "activatedAt": "2026-10-14T08:13:55Z",
+       "refreshedAt": "2026-10-14T08:13:55Z",
+       "activeUntil": "2027-10-14T08:16:54Z",
+       "paid": true,
+       "topJob": false,
+       "prioritized": false,
+       "redirectsToThirdPartyUrl": true,
+       "language": "de",
+       "jobCode": "0.51",
+       "remoteOptions": [
+        "PARTLY_REMOTE"
+       ],
+       "employmentType": {
+        "id": "FULL_TIME.ef2fe9",
+        "localizationValue": "Full-time"
+       },
+       "careerLevel": {
+        "id": "3.2ebf16",
+        "localizationValue": "Professional/Experienced"
+       },
+       "discipline": {
+        "id": "1011.6cf3f7",
+        "localizationValue": "IT and software development"
+       },
+       "industry": {
+        "id": "90200.1f7c05",
+        "localizationValue": "IT service provider"
+       },
+       "location": {
+        "city": "Berlin",
+        "cityId": 2950159,
+        "region": "Land Berlin",
+        "zipCode": "10115",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       "locations": [
+        {
+         "city": "Berlin",
+         "region": "Land Berlin",
+         "zipCode": "10115",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        }
+       ],
+       "companyInfo": {
+        "companyNameOverride": "GAI NOVACON GmbH",
+        "company": {
+         "id": "1955478.e9f7fb",
+         "companyName": "GAI NOVACON GmbH",
+         "companySize": "11-50 employees",
+         "industry": {
+          "id": "90200.1f7c05",
+          "localizationValue": "IT service provider"
+         },
+         "links": {
+          "public": "https://www.xing.com/pages/gainovacongmbh"
+         },
+         "logos": {
+          "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGI2ODU5NjYtNWQxOS00MDc1LWIyMGItM2Y1OGZhYjllMTdjIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=788ed4babb4766244dbd4c1076e49f8a45d18b9da5e381783a75e3f1ec89bb81"
+         },
+         "kununuData": null
+        }
+       },
+       "salary": {
+        "currency": "EUR",
+        "minimum": 52500,
+        "maximum": 70500,
+        "median": 60000
+       },
+       "application": {
+        "__typename": "UrlApplication",
+        "applyUrl": "https://www.berliner-jobanzeiger.de/job/detail/REG-45004/?location_hash=40D4741B&pja_cmp=win796686_xing_051&utm_source=xing&utm_medium=paid-partner&utm_campaign=051"
+       },
+       "summary": null
+      }
+     },
+     {
+      "position": 1,
+      "job": {
+       "__typename": "VisibleJob",
+       "id": "158647558.97609b",
+       "slug": "berlin-java-developer-konstanz-berlin-remote-158647558",
+       "url": "https://www.xing.com/jobs/berlin-java-developer-konstanz-berlin-remote-158647558",
+       "title": "Java Developer (m/w/d) - Konstanz, Berlin oder remote",
+       "activatedAt": "2026-10-19T00:13:23Z",
+       "refreshedAt": "2026-10-19T00:13:23Z",
+       "activeUntil": "2027-10-19T00:19:04Z",
+       "paid": true,
+       "topJob": false,
+       "prioritized": false,
+       "redirectsToThirdPartyUrl": true,
+       "language": "de",
+       "jobCode": "0.35",
+       "remoteOptions": [
+        "FULL_REMOTE"
+       ],
+       "employmentType": {
+        "id": "FULL_TIME.ef2fe9",
+        "localizationValue": "Full-time"
+       },
+       "careerLevel": {
+        "id": "3.2ebf16",
+        "localizationValue": "Professional/Experienced"
+       },
+       "discipline": {
+        "id": "1011.6cf3f7",
+        "localizationValue": "IT and software development"
+       },
+       "industry": {
+        "id": "90100.a8b7b7",
+        "localizationValue": "Software"
+       },
+       "location": {
+        "city": "Berlin",
+        "cityId": 2950159,
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       "locations": [
+        {
+         "city": "Berlin",
+         "region": "Land Berlin",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        }
+       ],
+       "companyInfo": {
+        "companyNameOverride": "SEITENBAU GmbH",
+        "company": {
+         "id": "26786.f16f15",
+         "companyName": "SEITENBAU GmbH",
+         "companySize": "51-200 employees",
+         "industry": {
+          "id": "90100.a8b7b7",
+          "localizationValue": "Software"
+         },
+         "links": {
+          "public": "https://www.xing.com/pages/seitenbaugmbh"
+         },
+         "logos": {
+          "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+         },
+         "kununuData": null
+        }
+       },
+       "salary": {
+        "currency": "EUR",
+        "minimum": 52000,
+        "maximum": 71500,
+        "median": 60000
+       },
+       "application": {
+        "__typename": "UrlApplication",
+        "applyUrl": "https://www.jobware.de/job/java-developer-m-w-d-konstanz-berlin-oder-remote.2050660375.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+       },
+       "summary": null
+      }
+     },
+     {
+      "position": 2,
+      "job": {
+       "__typename": "VisibleJob",
+       "id": "158521781.958b0d",
+       "slug": "berlin-full-stack-developer-80-100-158521781",
+       "url": "https://www.xing.com/jobs/berlin-full-stack-developer-80-100-158521781",
+       "title": "Full Stack Developer (80-100%)",
+       "activatedAt": "2026-10-13T01:33:32Z",
+       "refreshedAt": "2026-10-13T01:33:32Z",
+       "activeUntil": "2027-10-13T01:33:57Z",
+       "paid": true,
+       "topJob": false,
+       "prioritized": false,
+       "redirectsToThirdPartyUrl": true,
+       "language": "de",
+       "jobCode": "7944149833777946310",
+       "remoteOptions": [
+        "NON_REMOTE"
+       ],
+       "employmentType": {
+        "id": "FULL_TIME.ef2fe9",
+        "localizationValue": "Full-time"
+       },
+       "careerLevel": {
+        "id": "3.2ebf16",
+        "localizationValue": "Professional/Experienced"
+       },
+       "discipline": {
+        "id": "1011.6cf3f7",
+        "localizationValue": "IT and software development"
+       },
+       "industry": {
+        "id": "90000.597414",
+        "localizationValue": "Internet and IT"
+       },
+       "location": {
+        "city": "Berlin",
+        "cityId": 2950159,
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       "locations": [
+        {
+         "city": "Berlin",
+         "region": "Land Berlin",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        }
+       ],
+       "companyInfo": {
+        "companyNameOverride": "Gebana",
+        "company": null
+       },
+       "salary": {
+        "currency": "EUR",
+        "minimum": 50000,
+        "maximum": 65000,
+        "median": 57000
+       },
+       "application": {
+        "__typename": "UrlApplication",
+        "applyUrl": "https://apply.j-vers.com/job/AAAAAAAAAAAAAAAAAAAAAD7X8xUVfbZltDI06RD9aJr7WU1jNONRDL-aEAuD18hbw3-PThxDitSS4enwv3qVP1jv1e4iFuwdEsrAkUe0Xa6t7z-a4FX0pchQ17c3Y9rAXmnvJ-WLzrSHMUz2DbblNmTV6qqfbYQiQ-iatPG62JchabYcEqe5JQwyiHaA1j-wM0Ir5xP9TLzwuXk8Y9M0NEfj5W9cLdvlCA4tss1V8HJ1lCtcYJGR83bGKoJfsly6kyNV81-8Ln2XTPkdG0kivzECGCbdaY4KZ8SywFS97b3aUxaQp-_WkVz7WdByxldOQsqU7SLsoNt3hBJ6-KhLPMTtUisj-mHlT3NPnFjY0QRfevgq4Gk9-TMtbNxvhdSEr4XlTy2Z58BhXg8zfCfF1A==?utm_source=xing.com"
+       },
+       "summary": null
+      }
+     },
+     {
+      "position": 3,
+      "job": {
+       "__typename": "VisibleJob",
+       "id": "158653036.189b5d",
+       "slug": "berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+       "url": "https://www.xing.com/jobs/berlin-fullstack-developer-konstanz-berlin-remote-158653036",
+       "title": "Fullstack Developer (m/w/d) - Konstanz, Berlin oder remote",
+       "activatedAt": "2026-10-19T08:13:19Z",
+       "refreshedAt": "2026-10-19T08:13:19Z",
+       "activeUntil": "2027-10-19T08:19:27Z",
+       "paid": true,
+       "topJob": false,
+       "prioritized": false,
+       "redirectsToThirdPartyUrl": true,
+       "language": "de",
+       "jobCode": "0.35",
+       "remoteOptions": [
+        "FULL_REMOTE"
+       ],
+       "employmentType": {
+        "id": "FULL_TIME.ef2fe9",
+        "localizationValue": "Full-time"
+       },
+       "careerLevel": {
+        "id": "3.2ebf16",
+        "localizationValue": "Professional/Experienced"
+       },
+       "discipline": {
+        "id": "1011.6cf3f7",
+        "localizationValue": "IT and software development"
+       },
+       "industry": {
+        "id": "90100.a8b7b7",
+        "localizationValue": "Software"
+       },
+       "location": {
+        "city": "Berlin",
+        "cityId": 2950159,
+        "region": "Land Berlin",
+        "zipCode": "78467",
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       "locations": [
+        {
+         "city": "Berlin",
+         "region": "Land Berlin",
+         "zipCode": "78467",
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        }
+       ],
+       "companyInfo": {
+        "companyNameOverride": "SEITENBAU GmbH",
+        "company": {
+         "id": "26786.f16f15",
+         "companyName": "SEITENBAU GmbH",
+         "companySize": "51-200 employees",
+         "industry": {
+          "id": "90100.a8b7b7",
+          "localizationValue": "Software"
+         },
+         "links": {
+          "public": "https://www.xing.com/pages/seitenbaugmbh"
+         },
+         "logos": {
+          "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYzlmOTQzMTAtOGRkNi00MDQyLTllMmUtNmEzZDgwMTA1MDVlIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e6e3371894cf352a609512fb0c71247ab6e1a2ded62d42bb73479e0f78f48c62"
+         },
+         "kununuData": null
+        }
+       },
+       "salary": {
+        "currency": "EUR",
+        "minimum": 52000,
+        "maximum": 70000,
+        "median": 59000
+       },
+       "application": {
+        "__typename": "UrlApplication",
+        "applyUrl": "https://www.jobware.de/job/fullstack-developer-m-w-d-konstanz-berlin-oder-remote.2066354345.html?jw_chl_seg=kt_nwse&utm_source=nwse&utm_medium=feed&utm_campaign=all"
+       },
+       "summary": null
+      }
+     },
+     {
+      "position": 4,
+      "job": {
+       "__typename": "VisibleJob",
+       "id": "158652270.0a301f",
+       "slug": "berlin-java-entwickler-158652270",
+       "url": "https://www.xing.com/jobs/berlin-java-entwickler-158652270",
+       "title": "Java-Entwickler (m/w/d)",
+       "activatedAt": "2026-10-19T07:26:44Z",
+       "refreshedAt": "2026-10-19T07:26:44Z",
+       "activeUntil": "2026-11-18T07:26:48Z",
+       "paid": true,
+       "topJob": false,
+       "prioritized": true,
+       "redirectsToThirdPartyUrl": false,
+       "language": "de",
+       "jobCode": "z5m4s7db",
+       "remoteOptions": [
+        "NON_REMOTE"
+       ],
+       "employmentType": {
+        "id": "FULL_TIME.ef2fe9",
+        "localizationValue": "Full-time"
+       },
+       "careerLevel": {
+        "id": "3.2ebf16",
+        "localizationValue": "Professional/Experienced"
+       },
+       "discipline": {
+        "id": "1011.6cf3f7",
+        "localizationValue": "IT and software development"
+       },
+       "industry": {
+        "id": "180100.d608b8",
+        "localizationValue": "HR services and consulting"
+       },
+       "location": {
+        "city": "Berlin",
+        "cityId": 2950159,
+        "region": "Land Berlin",
+        "zipCode": null,
+        "country": {
+         "countryCode": "DE",
+         "localizationValue": "Germany"
+        }
+       },
+       "locations": [
+        {
+         "city": "Berlin",
+         "region": "Land Berlin",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        {
+         "city": "Hamburg",
+         "region": "Freie und Hansestadt Hamburg",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        {
+         "city": "München",
+         "region": "Bayern",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        },
+        {
+         "city": "Dortmund",
+         "region": "Nordrhein-Westfalen",
+         "zipCode": null,
+         "country": {
+          "countryCode": "DE",
+          "localizationValue": "Germany"
+         }
+        }
+       ],
+       "companyInfo": {
+        "companyNameOverride": "FindYou Consulting GmbH",
+        "company": {
+         "id": "2203894.058872",
+         "companyName": "FindYou Consulting GmbH",
+         "companySize": "1-10 employees",
+         "industry": {
+          "id": "180100.d608b8",
+          "localizationValue": "HR services and consulting"
+         },
+         "links": {
+          "public": "https://www.xing.com/pages/findyou-consulting-gmbh"
+         },
+         "logos": {
+          "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZDg0OTM0YjItN2Y0My00MzYzLTk0NzctNzc5YmU3NjNjYzFmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=e38163ff5cda2d64901cde2baa4c82d8efcaba7fa1e11eb4faee67c39fb12c0c"
+         },
+         "kununuData": null
+        }
+       },
+       "salary": {
+        "currency": "EUR",
+        "minimum": 65000,
+        "maximum": 85000
+       },
+       "application": {
+        "__typename": "JobXingApplication"
+       },
+       "summary": null
+      }
+     }
+    ]
+   }
+  }
+ },
+ "errors": []
+}

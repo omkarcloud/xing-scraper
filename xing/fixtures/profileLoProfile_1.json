@@ -1,0 +1,22 @@
+{
+ "operationName": "profileLoProfile",
+ "variables": {
+  "id": "No_Such_Person_XyZ999",
+  "idAsString": "No_Such_Person_XyZ999"
+ },
+ "data": {
+  "profilePageMeta": null,
+  "profileStructuredData": null,
+  "xingIdWithError": {
+   "__typename": "ResponseError",
+   "errorCode": 404,
+   "errorMessage": "NOT_FOUND"
+  },
+  "profileWorkExperience": null,
+  "profileEducation": null,
+  "profileLanguageSkills": null,
+  "profileSkills": null,
+  "similarProfiles": null
+ },
+ "errors": []
+}

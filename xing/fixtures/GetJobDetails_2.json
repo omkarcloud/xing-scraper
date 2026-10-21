@@ -1,0 +1,131 @@
+{
+ "operationName": "GetJobDetails",
+ "variables": {
+  "slug": "156019027"
+ },
+ "data": {
+  "job": {
+   "__typename": "VisibleJob",
+   "id": "156019027.79093f",
+   "slug": "muenchen-workday-advanced-compensation-benefits-consultant-156019027",
+   "url": "https://www.xing.com/jobs/muenchen-workday-advanced-compensation-benefits-consultant-156019027",
+   "title": "Workday Advanced Compensation and Benefits Consultant",
+   "activatedAt": "2026-10-16T22:57:02Z",
+   "refreshedAt": "2026-10-16T22:57:02Z",
+   "activeUntil": "2027-01-02T12:13:39Z",
+   "paid": false,
+   "topJob": false,
+   "prioritized": false,
+   "redirectsToThirdPartyUrl": false,
+   "language": "en",
+   "jobCode": null,
+   "remoteOptions": [
+    "NON_REMOTE"
+   ],
+   "employmentType": {
+    "id": "FULL_TIME.ef2fe9",
+    "localizationValue": "Full-time"
+   },
+   "careerLevel": {
+    "id": "3.2ebf16",
+    "localizationValue": "Professional/Experienced"
+   },
+   "discipline": {
+    "id": "1014.6261b0",
+    "localizationValue": "HR"
+   },
+   "industry": {
+    "id": "160000.909d04",
+    "localizationValue": "Consulting"
+   },
+   "location": {
+    "city": "München",
+    "cityId": 2867714,
+    "region": "Bayern",
+    "zipCode": null,
+    "country": {
+     "countryCode": "DE",
+     "localizationValue": "Germany"
+    },
+    "street": null
+   },
+   "locations": [
+    {
+     "city": "München",
+     "region": "Bayern",
+     "zipCode": null,
+     "country": {
+      "countryCode": "DE",
+      "localizationValue": "Germany"
+     },
+     "street": null
+    }
+   ],
+   "companyInfo": {
+    "companyNameOverride": "Accenture Dienstleistungen GmbH",
+    "company": {
+     "id": "25948.0e87ae",
+     "companyName": "Accenture",
+     "companySize": "10,001 or more employees",
+     "industry": {
+      "id": "160000.909d04",
+      "localizationValue": "Consulting"
+     },
+     "links": {
+      "public": "https://www.xing.com/pages/accenture"
+     },
+     "logos": {
+      "logo128px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjEyOCwibWF4X2hlaWdodCI6MTI4fQ?signature=64b5c96b28c3be885760b1bb8414be4aad940df62f14546612bf48e3f599a6b8",
+      "logo256px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYjUyNmJkZDUtN2E4My00ZWUzLWE1YzEtNjhiMDVjNjY1MzdmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjI1NiwibWF4X2hlaWdodCI6MjU2fQ?signature=03a7fcd51efbccf16da6257596834aafd8f37e8d8cdf6ef14ba17d09d259a780"
+     },
+     "kununuData": null,
+     "companySizeRange": {
+      "min": 10001,
+      "max": null
+     },
+     "employeesCount": null,
+     "address": {
+      "street": "Campus Kronberg 1",
+      "city": "Kronberg im Taunus",
+      "country": {
+       "countryCode": "DE",
+       "localizationValue": "Germany"
+      }
+     }
+    }
+   },
+   "salary": {
+    "currency": "EUR",
+    "minimum": 82500,
+    "maximum": 126000,
+    "median": 97000
+   },
+   "application": {
+    "__typename": "UrlApplication",
+    "applyUrl": "https://www.accenture.com/de-de/careers/jobdetails?id=R00323780_de&title=Workday+Advanced+Compensation+and+Benefits+Consultant&utm_source=xing.com"
+   },
+   "summary": null,
+   "keywords": [
+    "consultant",
+    "f",
+    "r",
+    "learning",
+    "englischkenntnisse",
+    "bachelor",
+    "client",
+    "partner",
+    "health",
+    "compensation"
+   ],
+   "screenOutCriteria": {
+    "euWorkEligibility": null,
+    "languageSkillsGerman": null
+   },
+   "description": {
+    "__typename": "HtmlDescription",
+    "content": "<DIV><DIV><DIV><DIV><P><B>INTRODUCTION </B></P><P>Do you get excited when guiding organizations on the transformation of their HR processes based on the next generation of technology? Put your expertise to work as part of the world’s largest independent technology services provider and own the way as a trendsetter in Workday. We’re ready if you are. </P><P><B>DEPARTMENT INTRODUCTION</B></P><P>The Accenture Workday Business Group is a leading partner to Workday worldwide and has a track record of implementing many of the most significant Workday projects. In addition, we take pride in advising and collaborating closely with our clients from early strategy discussions, through technology implementations and transformation programs, to support and operations. Learn more about our practice at www.accenture.com/workday. </P><P><B>ARE YOU INTERESTED?</B></P><P>Do you want to work with global talent at the forefront of technological services and seek meaningful projects for top international businesses? At Accenture you have access to specifics trainings for your functional lead role. You will start with training -together with colleagues - and you will join seminars at various international locations. You will be primed, equipped and well-networked to tackle exciting projects. </P><P>We believe in inclusion and diversity and supporting the whole person. Our core values comprise of Stewardship, Best People, Client Value Creation, One Global Network, Respect for the Individual and Integrity. </P><P>\"Across the globe, one thing is universally true of the people of Accenture: We care deeply about what we do and the impact we have with our clients and with the communities in which we work and live. It is personal to all of us.” –<B> Julie Sweet, Accenture CEO</B> </P><P><B>What We Offer:</B></P><UL><LI><P>Innovative large scale Workday projects</P></LI><LI><P>A global network of talented and passionate colleagues</P></LI><LI><P>Challenging work for some of the world's largest companies</P></LI><LI><P>Extensive education programs and development opportunities</P></LI><LI><P>Volunteering and career opportunities around the world</P></LI><LI><P>A diverse and socially active workforce</P></LI><LI><P>Flexible working hours and opportunity to work from home</P></LI><LI><P>Friendly and social work environment</P></LI><LI><P>Ability to craft your career based on your own aspirations.</P></LI></UL><P><B>As a Workday Advanced Compensation and Benefits Consultant:</B></P><P>You'll be part of a team of advisory professionals who deliver more than just technology. From rapid deployments to complete transformations, you'll provide integrated, cloud-based HR solutions that put organizations on the fast track to a better way to work.</P><P>In this role, you will help our clients get the most out of their Workday investment by:</P><UL><LI><P>Collaborate with clients on industry standards and leading practices in both HCM, Compensation, Advanced Compensation and Benefits domains, contributing to functional solutions that meet client needs and objective and applying Workday and Accenture methodologies.</P></LI><LI><P>Hosting workshops and leading discussions on topics in line with your area(s) of expertise, covering both HCM, Compensation, Advanced Compensation and Benefits functionalities.</P></LI><LI><P>Independently leading your workstream and reporting on progress</P></LI><LI><P>Ability to lead diverse and disparate teams and lead them through the implementation. Liaising closely with client counterparts, Accenture colleagues, and Workday to exceed client expectations</P></LI><LI><P>Actively supporting innovation through the creation of new industry-leading methods and assets</P></LI></UL></DIV></DIV></DIV><DIV><DIV><DIV><P>We are looking for experience in the following skills: </P><UL><LI><P>Prior experience implementing Workday HCM / Compensation / Advanced Compensation / Benefits or relevant on-premise or cloud-based platforms</P></LI><LI><P>Ability to meet client travel requirements as needed and efficiently manage a team(s) and client interactions</P></LI><LI><P>Thrive in a diverse, dynamic environment, meet deadlines despite conflicting demands, analytical thinking and problem solving skills</P></LI><LI><P>Excellent communication skills in English and German, both verbal and written, and can clearly articulate complex messages and requirements</P></LI><LI><P>Bachelor's degree or equivalent, Fluency in English and German</P></LI></UL><P> Set yourself apart:</P><UL><LI><P>Strong HR background with experience working in the Workday platform, either as a consultant or in a client role owning and driving the Workday HCM and (Advanced) Compensation and Benefits workstreams</P></LI><LI><P>Experience with Workdays Data Migration tools and Security framework</P></LI><LI><P>Up to date Workday certifications</P></LI><LI><P>Mid-level Workday experience</P></LI><LI><P>Additional Workday certifications, especially Benefits</P></LI><LI><P>Fluency in another language.</P></LI></UL><P>#LI-EU</P></DIV></DIV></DIV><DIV><DIV><DIV><P>Munich</P></DIV></DIV></DIV><DIV><DIV><DIV><H3>Statement zur Chancengleichheit</H3><H3> </H3><P>Wir suchen Menschen mit eigenem Lebensentwurf und ungewöhnlichem Lebenslauf. Individuell statt uniform. Vielfalt statt Norm. Diversität ist unsere Stärke und eine wesentliche Komponente der Unternehmenskultur von Accenture. Wir fördern ein integratives und offenes Arbeitsumfeld, in dem sich jeder so zeigen kann, wie er ist. Bei Accenture sind alle Bewerber:innen willkommen: unabhängig von Herkunft, Nationalität, Glaube, Behinderung, Alter, Familienstand, Partnerschaftsstatus, sexueller Orientierung, Geschlecht und anderen gesetzlich geschützten Gründen.</P></DIV></DIV></DIV><DIV><DIV><DIV><P>We work with one shared purpose: to deliver on the promise of technology and human ingenuity. Every day, more than 775,000 of us help our stakeholders continuously reinvent. Together, we drive positive change and deliver value to our clients, partners, shareholders, communities, and each other.</P><P>We believe that delivering value requires innovation, and innovation thrives in an inclusive and diverse environment. We actively foster a workplace free from bias, where everyone feels a sense of belonging and is respected and empowered to do their best work.</P><P>At Accenture, we see well-being holistically, supporting our people’s physical, mental, and financial health. We also provide opportunities to keep skills relevant through certifications, learning, and diverse work experiences. We’re proud to be consistently recognized as one of the World’s Best Workplaces™.</P><P>Join Accenture to work at the heart of change. Visit us at www.accenture.com.</P></DIV></DIV></DIV></DIV>\n<span data-version=\"1.2.0-x106\" />"
+   }
+  }
+ },
+ "errors": []
+}
