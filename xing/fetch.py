@@ -19,9 +19,12 @@ Two things the API wants from a logged-out client:
     {reason: GEO_FENCED}, while DE / AT / CH / US residential exits see
     all of them.
 
-Egress (2026-10-21): every call rides a proxy exit (config.xing_proxy(): a
-sticky residential exit in config.XING_PROXY_COUNTRY, de); a
-failed or geo-fenced call is retried on a fresh exit. XING never sees the
+Egress (2026-10-21): every call rides the exit config.xing_proxy() names: in
+production the Frankfurt gateway exit (knob XING_EXIT = "gateway:de", 2026-11-11;
+a fresh gateway address per request, every job visible through it), with
+XING_EXIT = None a sticky residential exit in config.XING_PROXY_COUNTRY, de;
+a failed or geo-fenced call is retried on a fresh exit (a geo-fenced or
+timed-out gateway call, and a call's last retry, on the residential one). XING never sees the
 server's own IP: with no proxy the call fails, unless the config opts in
 to direct egress (config.XING_ALLOW_DIRECT — the open-source kit, which
 runs from the user's own machine, sets it).
@@ -40,6 +43,7 @@ Failure taxonomy (scraper_errors, mapped to HTTP by route_glue):
 Smoke test:  python xing/fetch.py [keywords]
 """
 import json
+import fastjson
 import os
 import sys
 import threading
@@ -51,15 +55,16 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
+import egress
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
 from xing import gql
 from xing import refdata as R
+from scraper_utils import debug, memo, sessions
 
 IMPERSONATE = "chrome"
 TIMEOUT = (10, 60)
 HEADERS = {
     "accept": "application/json",
-    "accept-language": "en-US,en;q=0.9",
     "content-type": "application/json",
     "origin": R.BASE,
     "referer": R.BASE + "/jobs/search",
@@ -94,14 +99,7 @@ class XingNotFound(NotFound):
 
 def dump_debug(name, text):
     """Write a raw response to $XING_DEBUG_DIR/<name>.txt for post-mortems."""
-    dbg = os.environ.get("XING_DEBUG_DIR", "")
-    if dbg and text:
-        try:
-            os.makedirs(dbg, exist_ok=True)
-            with open(os.path.join(dbg, name + ".txt"), "w") as f:
-                f.write(text if isinstance(text, str) else json.dumps(text, ensure_ascii=False))
-        except OSError:
-            pass
+    debug.dump("XING_DEBUG_DIR", name, text, render=lambda body: json.dumps(body, ensure_ascii=False))
 
 
 # ---- curl sessions (per thread, keyed by exit) ---------------------------------------------------
@@ -110,21 +108,16 @@ _local = threading.local()
 
 
 def _sessions():
-    store = getattr(_local, "sessions", None)
-    if store is None:
-        store = _local.sessions = OrderedDict()
-    return store
+    return sessions.thread_store(_local)
 
 
 def _session(key, proxy):
-    from curl_cffi import requests as curl_requests
     store = _sessions()
     sess = store.get(key)
     if sess is None:
-        sess = curl_requests.Session(impersonate=IMPERSONATE)
+        sess = egress.new_session(proxy, impersonate=IMPERSONATE)     # a proxy URL, None, or the gateway exit ("gateway:de")
         sess.headers.update({**HEADERS, "new-work-logged-out-visitor-id": str(uuid.uuid4())})
-        if proxy:
-            sess.proxies = {"http": proxy, "https": proxy}
+        sess.headers["accept-language"] = egress.accept_language(proxy)
         store[key] = sess
         while len(store) > 4:
             _, old = store.popitem(last=False)
@@ -138,12 +131,7 @@ def _session(key, proxy):
 
 
 def _drop_session(key):
-    sess = _sessions().pop(key, None)
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions.drop_keyed(_sessions(), key)
 
 
 def _proxy(fallback=False):
@@ -173,17 +161,31 @@ def _note_geo_fence():
         _fenced_until = time.monotonic() + float(config.XING_GEO_FENCE_HOLD_SECONDS)
 
 
+def _gateway_timed_out(error):
+    """the gateway's own 29 s limit (exit_gateway.GatewayError, 504): the API
+    was still answering, so only an exit that can wait (TIMEOUT) will do."""
+    return type(error).__name__ == "GatewayError" and " 504 " in str(error)
+
+
 def _attempts(label, send):
     """Run send(session) under the retry policy: XingUpstreamError (incl.
-    Blocked / GeoFenced) retries on a fresh residential exit up to
+    Blocked / GeoFenced) retries on a fresh exit up to
     config.XING_MAX_ATTEMPTS times; BadRequest / NotFound / QueryError
-    surface at once. A geo-fenced direct answer puts every later call on
-    the fallback exit for config.XING_GEO_FENCE_HOLD_SECONDS."""
+    surface at once. With the gateway exit as the exit (config.XING_EXIT) a
+    retry stays on the gateway, except the LAST one and every retry after a
+    geo-fenced answer or a gateway timeout: those ride the residential exit
+    (config.xing_proxy(fallback=True)), so a gateway problem degrades to the
+    residential path instead of an error. A geo-fenced direct answer puts
+    every later call on the fallback exit for
+    config.XING_GEO_FENCE_HOLD_SECONDS."""
     attempts = max(1, int(config.XING_MAX_ATTEMPTS))
     last = None
     fenced = None           # the last geo-fenced answer: served when no exit sees more
+    residential = False     # the gateway hid jobs or timed out: the rest of this call rides the residential exit
+    on_gateway = False      # the previous attempt rode the gateway: a middle retry stays on it (a fresh gateway address)
     for attempt in range(1, attempts + 1):
-        proxy = _proxy(fallback=attempt > 1 or _hold_fallback())
+        proxy = _proxy(fallback=_hold_fallback() or (attempt > 1 and (residential or attempt == attempts or not on_gateway)))
+        on_gateway = bool(egress.gateway_country(proxy))
         key = f"{attempt if proxy else 0}:{proxy or 'direct'}"
         sess = _session(key, proxy)
         try:
@@ -196,10 +198,12 @@ def _attempts(label, send):
                 fenced = e.data
             if not proxy:
                 _note_geo_fence()
+            residential = True      # the fence follows the exit's country: another gateway address sees the same
         except XingUpstreamError as e:
             last = e
         except Exception as e:
             last = XingUpstreamError(f"request failed on {label}: {type(e).__name__}: {e}")
+            residential = residential or _gateway_timed_out(e)
         _drop_session(key)
         print(f"xing: attempt {attempt}/{attempts} on {label} failed: {last}")
         if attempt < attempts:
@@ -248,7 +252,7 @@ def _classify(resp, label):
     if status in (401, 403, 429):
         raise XingBlocked(f"HTTP {status} on {label}")
     try:
-        body = json.loads(text) if text.strip() else None
+        body = fastjson.loads(text) if text.strip() else None
     except ValueError:
         body = None
     if not isinstance(body, dict):
@@ -312,19 +316,7 @@ MEMO_MAX = 512
 
 def memoized(key, fn, ttl=MEMO_TTL):
     """In-process memo for lookups that never change (slug -> company id)."""
-    now = time.monotonic()
-    with _memo_lock:
-        hit = _memo.get(key)
-        if hit and now - hit[0] < ttl:
-            _memo.move_to_end(key)
-            return hit[1]
-    value = fn()
-    with _memo_lock:
-        _memo[key] = (now, value)
-        _memo.move_to_end(key)
-        while len(_memo) > MEMO_MAX:
-            _memo.popitem(last=False)
-    return value
+    return memo.memoized(_memo, _memo_lock, MEMO_MAX, key, fn, ttl)
 
 
 def run_parallel(fns, workers=None):

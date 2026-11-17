@@ -14,6 +14,7 @@ from schema_fields import load_query
 from xing import parsers as P
 from xing import refs, schemas
 from xing.jobs import build_query
+from scraper_utils.testing import hosted_only
 
 FIXTURES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures")
 
@@ -297,3 +298,55 @@ def test_never_direct_without_opt_in(monkeypatch):
     assert fetch._proxy() is None
     monkeypatch.setattr(config, "xing_proxy", lambda fallback=False: "http://u:p@exit:1")
     assert fetch._proxy() == "http://u:p@exit:1"
+
+
+@hosted_only
+def test_gateway_first_residential_exit_after_a_fence_and_on_the_last_retry(monkeypatch):
+    """XING_EXIT = "gateway:de": the gateway carries a call; its LAST retry and
+    every retry after a geo-fenced answer or a gateway timeout ride the
+    proxy exit. XING_EXIT = None keeps every session on that exit, and
+    a direct first attempt (the kit) still retries on the fallback at once."""
+    import config
+    from xing import fetch
+    di = "http://u__cr.de:p@exit:1"
+    monkeypatch.setattr(config, "XING_PROXY_COUNTRY", "de")
+    monkeypatch.setattr(config, "residential_proxy", lambda country, states=None: f"http://u__cr.{country}:p@exit:1")
+    monkeypatch.setattr(config, "XING_EXIT", None)
+    assert config.xing_proxy() == di
+    monkeypatch.setattr(config, "XING_EXIT", "gateway:de")
+    assert config.xing_proxy() == "gateway:de" and config.xing_proxy(fallback=True) == di
+
+    monkeypatch.setattr(config, "XING_MAX_ATTEMPTS", 3)
+    monkeypatch.setattr(fetch, "_fenced_until", 0.0)
+    monkeypatch.setattr(fetch, "_drop_session", lambda key: None)
+    monkeypatch.setattr(fetch.time, "sleep", lambda s: None)
+    exits = []
+    monkeypatch.setattr(fetch, "_session", lambda key, proxy: exits.append(proxy))
+
+    def run(error):
+        del exits[:]
+
+        def send(sess):
+            raise error
+        with pytest.raises(fetch.XingUpstreamError):
+            fetch._attempts("x", send)
+        return list(exits)
+
+    class GatewayError(Exception):
+        pass
+    assert run(fetch.XingBlocked("403")) == ["gateway:de", "gateway:de", di]
+    assert run(fetch.XingGeoFenced("hidden")) == ["gateway:de", di, di]
+    assert run(GatewayError("gateway 504 InternalServerErrorException for https://www.xing.com/xing-one/api")) == ["gateway:de", di, di]
+
+    # the open-source kit: direct first, the fallback proxy on every retry (unchanged)
+    monkeypatch.setattr(config, "XING_ALLOW_DIRECT", True, raising=False)
+    monkeypatch.setattr(config, "xing_proxy", lambda fallback=False: "http://fallback:1" if fallback else None)
+    assert run(fetch.XingBlocked("403")) == [None, "http://fallback:1", "http://fallback:1"]
+    monkeypatch.setattr(fetch, "_fenced_until", 0.0)
+
+    monkeypatch.undo()                                 # the real _session: a gateway session, Germany's language list
+    sess = fetch._session("gateway-test", "gateway:de")
+    fetch._sessions().pop("gateway-test", None)
+    assert getattr(sess, "via_exit_gateway", False) and sess.country == "de"
+    assert sess.headers["accept-language"].startswith("de") and sess.headers["new-work-logged-out-visitor-id"]
+    sess.close()
